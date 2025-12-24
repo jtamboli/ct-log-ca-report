@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.gstatic.com)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(tee:*)"
+    ]
+  }
+}

@@ -1,0 +1,1035 @@
+CT Log CA Report Tool
+================================================================================
+
+Fetching CT log list...
+Loading cached log list from /Volumes/Burpleson/Source/ct-log-ca-report/data/log_list.json
+
+Extracting static logs...
+Found 26 static logs
+
+[1/26]
+
+================================================================================
+Processing: Let's Encrypt 'Sycamore2025h2d' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.sycamore.ct.letsencrypt.org/2025h2d/
+  Tree size: 154,621,164
+  Target: 1,000 certificates
+  Fetching tile 603988 (path: x000/x603/988) [0/1,000 certs]
+  Fetching tile 603987 (path: x000/x603/987) [0/1,000 certs]
+  Fetching tile 603986 (path: x000/x603/986) [0/1,000 certs]
+  Fetching tile 603985 (path: x000/x603/985) [0/1,000 certs]
+  Fetching tile 603984 (path: x000/x603/984) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Sycamore2025h2d'
+
+[2/26]
+
+================================================================================
+Processing: Let's Encrypt 'Sycamore2026h1' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.sycamore.ct.letsencrypt.org/2026h1/
+  Tree size: 750,092,289
+  Target: 1,000 certificates
+  Fetching tile 2930048 (path: x002/x930/048) [0/1,000 certs]
+  Fetching tile 2930047 (path: x002/x930/047) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 2930046 (path: x002/x930/046) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 2930045 (path: x002/x930/045) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 2930044 (path: x002/x930/044) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 9 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/pcl4kl1XRheChw3YiWYLXFVki30AQPLsB2hR0YhpGfc=.json
+
+[3/26]
+
+================================================================================
+Processing: Let's Encrypt 'Sycamore2026h2' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.sycamore.ct.letsencrypt.org/2026h2/
+  Tree size: 30,246,555
+  Target: 1,000 certificates
+  Fetching tile 118150 (path: x000/x118/150) [0/1,000 certs]
+  Fetching tile 118149 (path: x000/x118/149) [0/1,000 certs]
+  Fetching tile 118148 (path: x000/x118/148) [0/1,000 certs]
+  Fetching tile 118147 (path: x000/x118/147) [0/1,000 certs]
+  Fetching tile 118146 (path: x000/x118/146) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Sycamore2026h2'
+
+[4/26]
+
+================================================================================
+Processing: Let's Encrypt 'Sycamore2027h1' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.sycamore.ct.letsencrypt.org/2027h1/
+  Tree size: 12,235,867
+  Target: 1,000 certificates
+  Fetching tile 47796 (path: x000/x047/796) [0/1,000 certs]
+  Fetching tile 47795 (path: x000/x047/795) [0/1,000 certs]
+  Fetching tile 47794 (path: x000/x047/794) [0/1,000 certs]
+  Fetching tile 47793 (path: x000/x047/793) [0/1,000 certs]
+  Fetching tile 47792 (path: x000/x047/792) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Sycamore2027h1'
+
+[5/26]
+
+================================================================================
+Processing: Let's Encrypt 'Sycamore2027h2' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.sycamore.ct.letsencrypt.org/2027h2/
+  Tree size: 2,998
+  Target: 1,000 certificates
+  Fetching tile 11 (path: x000/x000/011) [0/1,000 certs]
+  Fetching tile 10 (path: x000/x000/010) [0/1,000 certs]
+  Fetching tile 9 (path: x000/x000/009) [0/1,000 certs]
+  Fetching tile 8 (path: x000/x000/008) [0/1,000 certs]
+  Fetching tile 7 (path: x000/x000/007) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Sycamore2027h2'
+
+[6/26]
+
+================================================================================
+Processing: Let's Encrypt 'Willow2025h2d' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.willow.ct.letsencrypt.org/2025h2d/
+  Tree size: 144,650,662
+  Target: 1,000 certificates
+  Fetching tile 565041 (path: x000/x565/041) [0/1,000 certs]
+  Fetching tile 565040 (path: x000/x565/040) [0/1,000 certs]
+  Fetching tile 565039 (path: x000/x565/039) [0/1,000 certs]
+  Fetching tile 565038 (path: x000/x565/038) [0/1,000 certs]
+  Fetching tile 565037 (path: x000/x565/037) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Willow2025h2d'
+
+[7/26]
+
+================================================================================
+Processing: Let's Encrypt 'Willow2026h1' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.willow.ct.letsencrypt.org/2026h1/
+  Tree size: 757,584,235
+  Target: 1,000 certificates
+  Fetching tile 2959313 (path: x002/x959/313) [0/1,000 certs]
+  Fetching tile 2959312 (path: x002/x959/312) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 2959311 (path: x002/x959/311) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 2959310 (path: x002/x959/310) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 2959309 (path: x002/x959/309) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 10 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/4yON8o2iiOCq4Kzw+pDJhfC2v_XSpSewAfwcRFjEtug=.json
+
+[8/26]
+
+================================================================================
+Processing: Let's Encrypt 'Willow2026h2' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.willow.ct.letsencrypt.org/2026h2/
+  Tree size: 30,117,040
+  Target: 1,000 certificates
+  Fetching tile 117644 (path: x000/x117/644) [0/1,000 certs]
+  Fetching tile 117643 (path: x000/x117/643) [0/1,000 certs]
+  Fetching tile 117642 (path: x000/x117/642) [0/1,000 certs]
+  Fetching tile 117641 (path: x000/x117/641) [0/1,000 certs]
+  Fetching tile 117640 (path: x000/x117/640) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Willow2026h2'
+
+[9/26]
+
+================================================================================
+Processing: Let's Encrypt 'Willow2027h1' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.willow.ct.letsencrypt.org/2027h1/
+  Tree size: 12,096,384
+  Target: 1,000 certificates
+  Fetching tile 47251 (path: x000/x047/251) [0/1,000 certs]
+  Fetching tile 47250 (path: x000/x047/250) [0/1,000 certs]
+  Fetching tile 47249 (path: x000/x047/249) [0/1,000 certs]
+  Fetching tile 47248 (path: x000/x047/248) [0/1,000 certs]
+  Fetching tile 47247 (path: x000/x047/247) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Willow2027h1'
+
+[10/26]
+
+================================================================================
+Processing: Let's Encrypt 'Willow2027h2' (Let's Encrypt)
+================================================================================
+Fetching checkpoint from https://mon.willow.ct.letsencrypt.org/2027h2/
+  Tree size: 3,000
+  Target: 1,000 certificates
+  Fetching tile 11 (path: x000/x000/011) [0/1,000 certs]
+  Fetching tile 10 (path: x000/x000/010) [0/1,000 certs]
+  Fetching tile 9 (path: x000/x000/009) [0/1,000 certs]
+  Fetching tile 8 (path: x000/x000/008) [0/1,000 certs]
+  Fetching tile 7 (path: x000/x000/007) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Let's Encrypt 'Willow2027h2'
+
+[11/26]
+
+================================================================================
+Processing: TrustAsia Luoshu2027 (TrustAsia)
+================================================================================
+Fetching checkpoint from https://luoshu2027.trustasia.com/luoshu2027/
+  Tree size: 3,511,652
+  Target: 1,000 certificates
+  Fetching tile 13717 (path: x000/x013/717) [0/1,000 certs]
+  Fetching tile 13716 (path: x000/x013/716) [0/1,000 certs]
+  Fetching tile 13715 (path: x000/x013/715) [0/1,000 certs]
+  Fetching tile 13714 (path: x000/x013/714) [0/1,000 certs]
+  Fetching tile 13713 (path: x000/x013/713) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from TrustAsia Luoshu2027
+
+[12/26]
+
+================================================================================
+Processing: Geomys 'Tuscolo2025h2' (Geomys)
+================================================================================
+Fetching checkpoint from https://tuscolo2025h2.skylight.geomys.org/
+  Tree size: 2,030,003,782
+  Target: 1,000 certificates
+  Fetching tile 7929702 (path: x007/x929/702) [0/1,000 certs]
+  Fetching tile 7929701 (path: x007/x929/701) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 7929700 (path: x007/x929/700) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 7929699 (path: x007/x929/699) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 7929698 (path: x007/x929/698) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 24 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/750EQi4gtDIQJ1TfUtJRRgJ_hEwH_YZeySLub86fe7w=.json
+
+[13/26]
+
+================================================================================
+Processing: Geomys 'Tuscolo2026h1' (Geomys)
+================================================================================
+Fetching checkpoint from https://tuscolo2026h1.skylight.geomys.org/
+  Tree size: 85,401,130
+  Target: 1,000 certificates
+  Fetching tile 333598 (path: x000/x333/598) [0/1,000 certs]
+  Error fetching tile 333598: Client error '400 Bad Request' for url 'https://tuscolo2026h1.skylight.geomys.org/tile/data/x000/x333/598'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 333597 (path: x000/x333/597) [0/1,000 certs]
+  Error fetching tile 333597: Client error '400 Bad Request' for url 'https://tuscolo2026h1.skylight.geomys.org/tile/data/x000/x333/597'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 333596 (path: x000/x333/596) [0/1,000 certs]
+  Error fetching tile 333596: Client error '400 Bad Request' for url 'https://tuscolo2026h1.skylight.geomys.org/tile/data/x000/x333/596'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 333595 (path: x000/x333/595) [0/1,000 certs]
+  Error fetching tile 333595: Client error '400 Bad Request' for url 'https://tuscolo2026h1.skylight.geomys.org/tile/data/x000/x333/595'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 333594 (path: x000/x333/594) [0/1,000 certs]
+  Error fetching tile 333594: Client error '400 Bad Request' for url 'https://tuscolo2026h1.skylight.geomys.org/tile/data/x000/x333/594'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Geomys 'Tuscolo2026h1'
+
+[14/26]
+
+================================================================================
+Processing: Geomys 'Tuscolo2026h2' (Geomys)
+================================================================================
+Fetching checkpoint from https://tuscolo2026h2.skylight.geomys.org/
+  Tree size: 36,110,440
+  Target: 1,000 certificates
+  Fetching tile 141056 (path: x000/x141/056) [0/1,000 certs]
+  Error fetching tile 141056: Client error '400 Bad Request' for url 'https://tuscolo2026h2.skylight.geomys.org/tile/data/x000/x141/056'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 141055 (path: x000/x141/055) [0/1,000 certs]
+  Error fetching tile 141055: Client error '400 Bad Request' for url 'https://tuscolo2026h2.skylight.geomys.org/tile/data/x000/x141/055'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 141054 (path: x000/x141/054) [0/1,000 certs]
+  Error fetching tile 141054: Client error '400 Bad Request' for url 'https://tuscolo2026h2.skylight.geomys.org/tile/data/x000/x141/054'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 141053 (path: x000/x141/053) [0/1,000 certs]
+  Error fetching tile 141053: Client error '400 Bad Request' for url 'https://tuscolo2026h2.skylight.geomys.org/tile/data/x000/x141/053'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 141052 (path: x000/x141/052) [0/1,000 certs]
+  Error fetching tile 141052: Client error '400 Bad Request' for url 'https://tuscolo2026h2.skylight.geomys.org/tile/data/x000/x141/052'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Geomys 'Tuscolo2026h2'
+
+[15/26]
+
+================================================================================
+Processing: Geomys 'Tuscolo2027h1' (Geomys)
+================================================================================
+Fetching checkpoint from https://tuscolo2027h1.skylight.geomys.org/
+  429 error, retrying in 1.0s... (attempt 1/3)
+  Tree size: 257,060
+  Target: 1,000 certificates
+  Fetching tile 1004 (path: x000/x001/004) [0/1,000 certs]
+  Error fetching tile 1004: Client error '400 Bad Request' for url 'https://tuscolo2027h1.skylight.geomys.org/tile/data/x000/x001/004'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 1003 (path: x000/x001/003) [0/1,000 certs]
+  Error fetching tile 1003: Client error '400 Bad Request' for url 'https://tuscolo2027h1.skylight.geomys.org/tile/data/x000/x001/003'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 1002 (path: x000/x001/002) [0/1,000 certs]
+  Error fetching tile 1002: Client error '400 Bad Request' for url 'https://tuscolo2027h1.skylight.geomys.org/tile/data/x000/x001/002'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 1001 (path: x000/x001/001) [0/1,000 certs]
+  Error fetching tile 1001: Client error '400 Bad Request' for url 'https://tuscolo2027h1.skylight.geomys.org/tile/data/x000/x001/001'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 1000 (path: x000/x001/000) [0/1,000 certs]
+  Error fetching tile 1000: Client error '400 Bad Request' for url 'https://tuscolo2027h1.skylight.geomys.org/tile/data/x000/x001/000'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Geomys 'Tuscolo2027h1'
+
+[16/26]
+
+================================================================================
+Processing: Geomys 'Tuscolo2027h2' (Geomys)
+================================================================================
+Fetching checkpoint from https://tuscolo2027h2.skylight.geomys.org/
+  429 error, retrying in 1.0s... (attempt 1/3)
+  Tree size: 8,803
+  Target: 1,000 certificates
+  Fetching tile 34 (path: x000/x000/034) [0/1,000 certs]
+  Error fetching tile 34: Client error '400 Bad Request' for url 'https://tuscolo2027h2.skylight.geomys.org/tile/data/x000/x000/034'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 33 (path: x000/x000/033) [0/1,000 certs]
+  Error fetching tile 33: Client error '400 Bad Request' for url 'https://tuscolo2027h2.skylight.geomys.org/tile/data/x000/x000/033'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 32 (path: x000/x000/032) [0/1,000 certs]
+  Error fetching tile 32: Client error '400 Bad Request' for url 'https://tuscolo2027h2.skylight.geomys.org/tile/data/x000/x000/032'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 31 (path: x000/x000/031) [0/1,000 certs]
+  Error fetching tile 31: Client error '400 Bad Request' for url 'https://tuscolo2027h2.skylight.geomys.org/tile/data/x000/x000/031'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 30 (path: x000/x000/030) [0/1,000 certs]
+  Error fetching tile 30: Client error '400 Bad Request' for url 'https://tuscolo2027h2.skylight.geomys.org/tile/data/x000/x000/030'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from Geomys 'Tuscolo2027h2'
+
+[17/26]
+
+================================================================================
+Processing: IPng Networks 'Halloumi2025h2' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://halloumi2025h2.mon.ct.ipng.ch/
+  Tree size: 360,720,422
+  Target: 1,000 certificates
+  Fetching tile 1409064 (path: x001/x409/064) [0/1,000 certs]
+  Fetching tile 1409063 (path: x001/x409/063) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 1409062 (path: x001/x409/062) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 1409061 (path: x001/x409/061) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 1409060 (path: x001/x409/060) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 13 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/+3xjpo0eBq3Qg4ibuNQyHLJFROv2_mlyKRkuOD5ebiM=.json
+
+[18/26]
+
+================================================================================
+Processing: IPng Networks 'Halloumi2026h1' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://halloumi2026h1.mon.ct.ipng.ch/
+  Tree size: 684,677,394
+  Target: 1,000 certificates
+  Fetching tile 2674521 (path: x002/x674/521) [0/1,000 certs]
+  Fetching tile 2674520 (path: x002/x674/520) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 2674519 (path: x002/x674/519) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 2674518 (path: x002/x674/518) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 2674517 (path: x002/x674/517) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 8 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/fz035_iSPY5xZb6w0+q+5yoivkbAy4TEFtTkuYJky8I=.json
+
+[19/26]
+
+================================================================================
+Processing: IPng Networks 'Halloumi2026h2a' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://halloumi2026h2a.mon.ct.ipng.ch/
+  Tree size: 26,515,581
+  Target: 1,000 certificates
+  Fetching tile 103576 (path: x000/x103/576) [0/1,000 certs]
+  Fetching tile 103575 (path: x000/x103/575) [0/1,000 certs]
+  Fetching tile 103574 (path: x000/x103/574) [0/1,000 certs]
+  Fetching tile 103573 (path: x000/x103/573) [0/1,000 certs]
+  Fetching tile 103572 (path: x000/x103/572) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from IPng Networks 'Halloumi2026h2a'
+
+[20/26]
+
+================================================================================
+Processing: IPng Networks 'Halloumi2027h1' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://halloumi2027h1.mon.ct.ipng.ch/
+  Tree size: 5,207,942
+  Target: 1,000 certificates
+  Fetching tile 20343 (path: x000/x020/343) [0/1,000 certs]
+  Fetching tile 20342 (path: x000/x020/342) [0/1,000 certs]
+  Fetching tile 20341 (path: x000/x020/341) [0/1,000 certs]
+  Fetching tile 20340 (path: x000/x020/340) [0/1,000 certs]
+  Fetching tile 20339 (path: x000/x020/339) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from IPng Networks 'Halloumi2027h1'
+
+[21/26]
+
+================================================================================
+Processing: IPng Networks 'Halloumi2027h2' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://halloumi2027h2.mon.ct.ipng.ch/
+  Tree size: 2,831
+  Target: 1,000 certificates
+  Fetching tile 11 (path: x000/x000/011) [0/1,000 certs]
+  Fetching tile 10 (path: x000/x000/010) [0/1,000 certs]
+  Fetching tile 9 (path: x000/x000/009) [0/1,000 certs]
+  Fetching tile 8 (path: x000/x000/008) [0/1,000 certs]
+  Fetching tile 7 (path: x000/x000/007) [0/1,000 certs]
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from IPng Networks 'Halloumi2027h2'
+
+[22/26]
+
+================================================================================
+Processing: IPng Networks 'Gouda2025h2' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://gouda2025h2.mon.ct.ipng.ch/
+  Tree size: 643,566,145
+  Target: 1,000 certificates
+  Fetching tile 2513930 (path: x002/x513/930) [0/1,000 certs]
+  Fetching tile 2513929 (path: x002/x513/929) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 2513928 (path: x002/x513/928) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 2513927 (path: x002/x513/927) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 2513926 (path: x002/x513/926) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 12 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/GoudanQ8ze1gH3O9MJcIHbyuxKYTnJKwtUDDE3sg7AU=.json
+
+[23/26]
+
+================================================================================
+Processing: IPng Networks 'Gouda2026h1' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://gouda2026h1.mon.ct.ipng.ch/
+  Tree size: 717,346,269
+  Target: 1,000 certificates
+  Fetching tile 2802133 (path: x002/x802/133) [0/1,000 certs]
+  Fetching tile 2802132 (path: x002/x802/132) [0/1,000 certs]
+    Parsed 256 certificates (total: 256)
+  Fetching tile 2802131 (path: x002/x802/131) [256/1,000 certs]
+    Parsed 256 certificates (total: 512)
+  Fetching tile 2802130 (path: x002/x802/130) [512/1,000 certs]
+    Parsed 256 certificates (total: 768)
+  Fetching tile 2802129 (path: x002/x802/129) [768/1,000 certs]
+    Parsed 256 certificates (total: 1,024)
+  Reached target of 1,000 certificates!
+  Total certificates fetched: 1,024 (from 4 tiles)
+
+Processed 1024 certificates
+Found 7 unique CAs
+Saved sample data to /Volumes/Burpleson/Source/ct-log-ca-report/data/samples/GoudaUpXmMiZoMqIvfSPwLRWYMzDYA0fcfRp_8fRrKM=.json
+
+[24/26]
+
+================================================================================
+Processing: IPng Networks 'Gouda2026h2' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://gouda2026h2.mon.ct.ipng.ch/
+  Tree size: 60,648,499
+  Target: 1,000 certificates
+  Fetching tile 236908 (path: x000/x236/908) [0/1,000 certs]
+  Error fetching tile 236908: Client error '400 Bad Request' for url 'https://gouda2026h2.mon.ct.ipng.ch/tile/data/x000/x236/908'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 236907 (path: x000/x236/907) [0/1,000 certs]
+  Error fetching tile 236907: Client error '400 Bad Request' for url 'https://gouda2026h2.mon.ct.ipng.ch/tile/data/x000/x236/907'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 236906 (path: x000/x236/906) [0/1,000 certs]
+  Error fetching tile 236906: Client error '400 Bad Request' for url 'https://gouda2026h2.mon.ct.ipng.ch/tile/data/x000/x236/906'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 236905 (path: x000/x236/905) [0/1,000 certs]
+  Error fetching tile 236905: Client error '400 Bad Request' for url 'https://gouda2026h2.mon.ct.ipng.ch/tile/data/x000/x236/905'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 236904 (path: x000/x236/904) [0/1,000 certs]
+  Error fetching tile 236904: Client error '400 Bad Request' for url 'https://gouda2026h2.mon.ct.ipng.ch/tile/data/x000/x236/904'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from IPng Networks 'Gouda2026h2'
+
+[25/26]
+
+================================================================================
+Processing: IPng Networks 'Gouda2027h1' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://gouda2027h1.mon.ct.ipng.ch/
+  Tree size: 5,204,568
+  Target: 1,000 certificates
+  Fetching tile 20330 (path: x000/x020/330) [0/1,000 certs]
+  Error fetching tile 20330: Client error '400 Bad Request' for url 'https://gouda2027h1.mon.ct.ipng.ch/tile/data/x000/x020/330'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 20329 (path: x000/x020/329) [0/1,000 certs]
+  Error fetching tile 20329: Client error '400 Bad Request' for url 'https://gouda2027h1.mon.ct.ipng.ch/tile/data/x000/x020/329'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 20328 (path: x000/x020/328) [0/1,000 certs]
+  Error fetching tile 20328: Client error '400 Bad Request' for url 'https://gouda2027h1.mon.ct.ipng.ch/tile/data/x000/x020/328'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 20327 (path: x000/x020/327) [0/1,000 certs]
+  Error fetching tile 20327: Client error '400 Bad Request' for url 'https://gouda2027h1.mon.ct.ipng.ch/tile/data/x000/x020/327'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 20326 (path: x000/x020/326) [0/1,000 certs]
+  Error fetching tile 20326: Client error '400 Bad Request' for url 'https://gouda2027h1.mon.ct.ipng.ch/tile/data/x000/x020/326'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from IPng Networks 'Gouda2027h1'
+
+[26/26]
+
+================================================================================
+Processing: IPng Networks 'Gouda2027h2' (IPng Networks)
+================================================================================
+Fetching checkpoint from https://gouda2027h2.mon.ct.ipng.ch/
+  Tree size: 3,068
+  Target: 1,000 certificates
+  Fetching tile 11 (path: x000/x000/011) [0/1,000 certs]
+  Error fetching tile 11: Client error '400 Bad Request' for url 'https://gouda2027h2.mon.ct.ipng.ch/tile/data/x000/x000/011'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 10 (path: x000/x000/010) [0/1,000 certs]
+  Error fetching tile 10: Client error '400 Bad Request' for url 'https://gouda2027h2.mon.ct.ipng.ch/tile/data/x000/x000/010'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 9 (path: x000/x000/009) [0/1,000 certs]
+  Error fetching tile 9: Client error '400 Bad Request' for url 'https://gouda2027h2.mon.ct.ipng.ch/tile/data/x000/x000/009'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 8 (path: x000/x000/008) [0/1,000 certs]
+  Error fetching tile 8: Client error '400 Bad Request' for url 'https://gouda2027h2.mon.ct.ipng.ch/tile/data/x000/x000/008'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Fetching tile 7 (path: x000/x000/007) [0/1,000 certs]
+  Error fetching tile 7: Client error '400 Bad Request' for url 'https://gouda2027h2.mon.ct.ipng.ch/tile/data/x000/x000/007'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+  Stopping after 5 consecutive errors
+  Total certificates fetched: 0 (from 0 tiles)
+No certificates fetched from IPng Networks 'Gouda2027h2'
+
+================================================================================
+GENERATING REPORT
+================================================================================
+
+# Certificate Transparency Log CA Report
+
+
+## Let's Encrypt 'Sycamore2025h2d' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Sycamore2026h1' (Let's Encrypt)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Let's Encrypt (US) | 621 | 60.6% |
+| ZeroSSL (AT) | 191 | 18.7% |
+| Google Trust Services (US) | 131 | 12.8% |
+| GoDaddy.com, Inc. (US) | 41 | 4.0% |
+| DigiCert Inc (US) | 19 | 1.9% |
+| Sectigo Limited (GB) | 9 | 0.9% |
+| Microsoft Corporation (US) | 8 | 0.8% |
+| SSL Corporation (US) | 3 | 0.3% |
+| TrustAsia Technologies, Inc. (CN) | 1 | 0.1% |
+
+
+## Let's Encrypt 'Sycamore2026h2' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Sycamore2027h1' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Sycamore2027h2' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Willow2025h2d' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Willow2026h1' (Let's Encrypt)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Let's Encrypt (US) | 625 | 61.0% |
+| Google Trust Services (US) | 230 | 22.5% |
+| ZeroSSL (AT) | 109 | 10.6% |
+| DigiCert Inc (US) | 23 | 2.2% |
+| Sectigo Limited (GB) | 18 | 1.8% |
+| GoDaddy.com, Inc. (US) | 12 | 1.2% |
+| SSL Corporation (US) | 3 | 0.3% |
+| Microsoft Corporation (US) | 2 | 0.2% |
+| TrustAsia Technologies, Inc. (CN) | 1 | 0.1% |
+| Amazon (DE) | 1 | 0.1% |
+
+
+## Let's Encrypt 'Willow2026h2' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Willow2027h1' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Let's Encrypt 'Willow2027h2' (Let's Encrypt)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## TrustAsia Luoshu2027 (TrustAsia)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Geomys 'Tuscolo2025h2' (Geomys)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Let's Encrypt (US) | 374 | 36.5% |
+| Google Trust Services (US) | 297 | 29.0% |
+| GoDaddy.com, Inc. (US) | 74 | 7.2% |
+| ZeroSSL (AT) | 71 | 6.9% |
+| Sectigo Limited (GB) | 48 | 4.7% |
+| GlobalSign nv-sa (BE) | 43 | 4.2% |
+| TrustAsia Technologies, Inc. (CN) | 35 | 3.4% |
+| DigiCert Inc (US) | 30 | 2.9% |
+| Amazon (US) | 9 | 0.9% |
+| Google UK Ltd. (GB) | 8 | 0.8% |
+| GoGetSSL (LV) | 8 | 0.8% |
+| Unizeto Technologies S.A. (PL) | 6 | 0.6% |
+| sslTrus (CN) | 4 | 0.4% |
+| Starfield Technologies, Inc. (US) | 3 | 0.3% |
+| Microsoft Corporation (US) | 2 | 0.2% |
+| Isimtescil Bilisim A.S. (TR) | 2 | 0.2% |
+| Internet2 (US) | 2 | 0.2% |
+| Cybertrust Japan Co., Ltd. (JP) | 2 | 0.2% |
+| SSL Corporation (US) | 1 | 0.1% |
+| DigiCert, Inc. (US) | 1 | 0.1% |
+| Network Solutions L.L.C. (US) | 1 | 0.1% |
+| TAIWAN-CA (TW) | 1 | 0.1% |
+| CentralNic Luxembourg Sàrl (LU) | 1 | 0.1% |
+| GEANT Vereniging (NL) | 1 | 0.1% |
+
+
+## Geomys 'Tuscolo2026h1' (Geomys)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Geomys 'Tuscolo2026h2' (Geomys)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Geomys 'Tuscolo2027h1' (Geomys)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## Geomys 'Tuscolo2027h2' (Geomys)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## IPng Networks 'Halloumi2025h2' (IPng Networks)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Google Trust Services (US) | 836 | 81.6% |
+| ZeroSSL (AT) | 78 | 7.6% |
+| Let's Encrypt (US) | 54 | 5.3% |
+| GoDaddy.com, Inc. (US) | 17 | 1.7% |
+| GlobalSign nv-sa (BE) | 14 | 1.4% |
+| Sectigo Limited (GB) | 10 | 1.0% |
+| Shoper S.A. (PL) | 9 | 0.9% |
+| Starfield Technologies, Inc. (US) | 1 | 0.1% |
+| Alpiro s.r.o. (CZ) | 1 | 0.1% |
+| GoGetSSL (LV) | 1 | 0.1% |
+| Google UK Ltd. (GB) | 1 | 0.1% |
+| Unizeto Technologies S.A. (PL) | 1 | 0.1% |
+| DigiCert Inc (US) | 1 | 0.1% |
+
+
+## IPng Networks 'Halloumi2026h1' (IPng Networks)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Let's Encrypt (US) | 523 | 51.1% |
+| ZeroSSL (AT) | 237 | 23.1% |
+| Google Trust Services (US) | 196 | 19.1% |
+| GoDaddy.com, Inc. (US) | 36 | 3.5% |
+| DigiCert Inc (US) | 15 | 1.5% |
+| Microsoft Corporation (US) | 15 | 1.5% |
+| GlobalSign nv-sa (BE) | 1 | 0.1% |
+| SSL Corporation (US) | 1 | 0.1% |
+
+
+## IPng Networks 'Halloumi2026h2a' (IPng Networks)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## IPng Networks 'Halloumi2027h1' (IPng Networks)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## IPng Networks 'Halloumi2027h2' (IPng Networks)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## IPng Networks 'Gouda2025h2' (IPng Networks)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Google Trust Services (US) | 833 | 81.3% |
+| ZeroSSL (AT) | 73 | 7.1% |
+| Let's Encrypt (US) | 65 | 6.3% |
+| GoDaddy.com, Inc. (US) | 17 | 1.7% |
+| GlobalSign nv-sa (BE) | 14 | 1.4% |
+| Sectigo Limited (GB) | 10 | 1.0% |
+| Shoper S.A. (PL) | 7 | 0.7% |
+| Starfield Technologies, Inc. (US) | 1 | 0.1% |
+| Alpiro s.r.o. (CZ) | 1 | 0.1% |
+| GoGetSSL (LV) | 1 | 0.1% |
+| Unizeto Technologies S.A. (PL) | 1 | 0.1% |
+| DigiCert Inc (US) | 1 | 0.1% |
+
+
+## IPng Networks 'Gouda2026h1' (IPng Networks)
+
+Total certificates sampled: 1,024
+
+
+| Certificate Authority | Count | Percentage |
+|----------------------|-------|------------|
+| Let's Encrypt (US) | 744 | 72.7% |
+| Google Trust Services (US) | 215 | 21.0% |
+| ZeroSSL (AT) | 42 | 4.1% |
+| GoDaddy.com, Inc. (US) | 13 | 1.3% |
+| DigiCert Inc (US) | 8 | 0.8% |
+| DigiCert, Inc. (US) | 1 | 0.1% |
+| GlobalSign nv-sa (BE) | 1 | 0.1% |
+
+
+## IPng Networks 'Gouda2026h2' (IPng Networks)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## IPng Networks 'Gouda2027h1' (IPng Networks)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+## IPng Networks 'Gouda2027h2' (IPng Networks)
+
+Total certificates sampled: 0
+
+No certificates analyzed.
+
+
+================================================================================
+GENERATING REVERSE REPORT (Top 10 CAs)
+================================================================================
+
+# Top 10 Certificate Authorities by CT Log Usage
+
+_Note: Time frames may not match across CT logs, so this analysis may have bias._
+
+
+## 1. Let's Encrypt (US)
+
+**Total certificates**: 3,006
+
+**Appears in 7 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| IPng Networks 'Gouda2026h1' | 744 | 24.8% |
+| Let's Encrypt 'Willow2026h1' | 625 | 20.8% |
+| Let's Encrypt 'Sycamore2026h1' | 621 | 20.7% |
+| IPng Networks 'Halloumi2026h1' | 523 | 17.4% |
+| Geomys 'Tuscolo2025h2' | 374 | 12.4% |
+| IPng Networks 'Gouda2025h2' | 65 | 2.2% |
+| IPng Networks 'Halloumi2025h2' | 54 | 1.8% |
+
+
+## 2. Google Trust Services (US)
+
+**Total certificates**: 2,738
+
+**Appears in 7 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| IPng Networks 'Halloumi2025h2' | 836 | 30.5% |
+| IPng Networks 'Gouda2025h2' | 833 | 30.4% |
+| Geomys 'Tuscolo2025h2' | 297 | 10.8% |
+| Let's Encrypt 'Willow2026h1' | 230 | 8.4% |
+| IPng Networks 'Gouda2026h1' | 215 | 7.9% |
+| IPng Networks 'Halloumi2026h1' | 196 | 7.2% |
+| Let's Encrypt 'Sycamore2026h1' | 131 | 4.8% |
+
+
+## 3. ZeroSSL (AT)
+
+**Total certificates**: 801
+
+**Appears in 7 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| IPng Networks 'Halloumi2026h1' | 237 | 29.6% |
+| Let's Encrypt 'Sycamore2026h1' | 191 | 23.8% |
+| Let's Encrypt 'Willow2026h1' | 109 | 13.6% |
+| IPng Networks 'Halloumi2025h2' | 78 | 9.7% |
+| IPng Networks 'Gouda2025h2' | 73 | 9.1% |
+| Geomys 'Tuscolo2025h2' | 71 | 8.9% |
+| IPng Networks 'Gouda2026h1' | 42 | 5.2% |
+
+
+## 4. GoDaddy.com, Inc. (US)
+
+**Total certificates**: 210
+
+**Appears in 7 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| Geomys 'Tuscolo2025h2' | 74 | 35.2% |
+| Let's Encrypt 'Sycamore2026h1' | 41 | 19.5% |
+| IPng Networks 'Halloumi2026h1' | 36 | 17.1% |
+| IPng Networks 'Halloumi2025h2' | 17 | 8.1% |
+| IPng Networks 'Gouda2025h2' | 17 | 8.1% |
+| IPng Networks 'Gouda2026h1' | 13 | 6.2% |
+| Let's Encrypt 'Willow2026h1' | 12 | 5.7% |
+
+
+## 5. DigiCert Inc (US)
+
+**Total certificates**: 97
+
+**Appears in 7 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| Geomys 'Tuscolo2025h2' | 30 | 30.9% |
+| Let's Encrypt 'Willow2026h1' | 23 | 23.7% |
+| Let's Encrypt 'Sycamore2026h1' | 19 | 19.6% |
+| IPng Networks 'Halloumi2026h1' | 15 | 15.5% |
+| IPng Networks 'Gouda2026h1' | 8 | 8.2% |
+| IPng Networks 'Halloumi2025h2' | 1 | 1.0% |
+| IPng Networks 'Gouda2025h2' | 1 | 1.0% |
+
+
+## 6. Sectigo Limited (GB)
+
+**Total certificates**: 95
+
+**Appears in 5 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| Geomys 'Tuscolo2025h2' | 48 | 50.5% |
+| Let's Encrypt 'Willow2026h1' | 18 | 18.9% |
+| IPng Networks 'Halloumi2025h2' | 10 | 10.5% |
+| IPng Networks 'Gouda2025h2' | 10 | 10.5% |
+| Let's Encrypt 'Sycamore2026h1' | 9 | 9.5% |
+
+
+## 7. GlobalSign nv-sa (BE)
+
+**Total certificates**: 73
+
+**Appears in 5 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| Geomys 'Tuscolo2025h2' | 43 | 58.9% |
+| IPng Networks 'Halloumi2025h2' | 14 | 19.2% |
+| IPng Networks 'Gouda2025h2' | 14 | 19.2% |
+| IPng Networks 'Halloumi2026h1' | 1 | 1.4% |
+| IPng Networks 'Gouda2026h1' | 1 | 1.4% |
+
+
+## 8. TrustAsia Technologies, Inc. (CN)
+
+**Total certificates**: 37
+
+**Appears in 3 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| Geomys 'Tuscolo2025h2' | 35 | 94.6% |
+| Let's Encrypt 'Sycamore2026h1' | 1 | 2.7% |
+| Let's Encrypt 'Willow2026h1' | 1 | 2.7% |
+
+
+## 9. Microsoft Corporation (US)
+
+**Total certificates**: 27
+
+**Appears in 4 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| IPng Networks 'Halloumi2026h1' | 15 | 55.6% |
+| Let's Encrypt 'Sycamore2026h1' | 8 | 29.6% |
+| Let's Encrypt 'Willow2026h1' | 2 | 7.4% |
+| Geomys 'Tuscolo2025h2' | 2 | 7.4% |
+
+
+## 10. Shoper S.A. (PL)
+
+**Total certificates**: 16
+
+**Appears in 2 log(s)**
+
+
+| CT Log | Certificates | Percentage |
+|--------|-------------|------------|
+| IPng Networks 'Halloumi2025h2' | 9 | 56.2% |
+| IPng Networks 'Gouda2025h2' | 7 | 43.8% |
+
+
+Saved report data to /Volumes/Burpleson/Source/ct-log-ca-report/data/report.json
+
+Saved markdown report to /Volumes/Burpleson/Source/ct-log-ca-report/data/report.md
+Saved reverse report to /Volumes/Burpleson/Source/ct-log-ca-report/data/reverse_report.md
