@@ -1,0 +1,1851 @@
+{
+  "log_name": "Let's Encrypt 'Oak2025h2'",
+  "operator": "Let's Encrypt",
+  "log_id": "DeHyMCvTDcFAYhIJ6lUu/Ed0fLHX6TDvDkIetH5OqjQ=",
+  "log_type": "rfc6962",
+  "sample_count": 138,
+  "ca_counts": {
+    "Google Trust Services (US)": 51,
+    "GlobalSign nv-sa (BE)": 1,
+    "DigiCert Inc (US)": 10,
+    "Let's Encrypt (US)": 25,
+    "CLOUDFLARE, INC. (US)": 1,
+    "GoDaddy.com, Inc. (US)": 24,
+    "Amazon (DE)": 5,
+    "ZeroSSL (AT)": 3,
+    "Amazon (US)": 4,
+    "Apple Inc. (US)": 1,
+    "Certainly (US)": 10,
+    "Sectigo Limited (GB)": 1,
+    "Certigna (FR)": 1,
+    "sslTrus (CN)": 1
+  },
+  "certificates": [
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "min15hsu.pages.dev"
+      },
+      "not_before": "2025-10-10T19:25:55+00:00",
+      "not_after": "2026-01-08T20:24:29+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "suvas-roy2024.workers.dev"
+      },
+      "not_before": "2025-10-12T20:20:39+00:00",
+      "not_after": "2026-01-10T21:19:13+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 AlphaSSL CA 2024 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.chat-hinatama.com"
+      },
+      "not_before": "2025-01-07T18:50:39+00:00",
+      "not_after": "2026-01-07T18:50:39+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sheilyxtvanzantz.workers.dev"
+      },
+      "not_before": "2025-10-11T15:14:40+00:00",
+      "not_after": "2026-01-09T16:09:50+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert SHA2 Secure Server CA",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ac43b7b617ad7380.intcloudTest.azurecertificateservice.azure.us",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-08T00:00:00+00:00",
+      "not_after": "2026-01-07T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "readervault101.shop"
+      },
+      "not_before": "2025-10-19T12:21:41+00:00",
+      "not_after": "2026-01-17T13:12:33+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "winpkrapks.com"
+      },
+      "not_before": "2025-10-10T18:28:50+00:00",
+      "not_after": "2026-01-08T19:26:18+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:07:31+00:00",
+      "not_after": "2025-12-15T11:07:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:08:18+00:00",
+      "not_after": "2025-12-15T11:08:17+00:00"
+    },
+    {
+      "ca": "CLOUDFLARE, INC. (US)",
+      "issuer": {
+        "cn": "Cloudflare TLS Issuing ECC CA 1",
+        "o": "CLOUDFLARE, INC.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "5goyqr.xyz"
+      },
+      "not_before": "2025-10-10T20:12:19+00:00",
+      "not_after": "2026-01-08T20:19:41+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "4ee7b52f4611f2fde0b9.intcloud.azurecertificateservice.azure.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-12-08T00:00:00+00:00",
+      "not_after": "2026-01-07T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "demo.v3.middletec.de"
+      },
+      "not_before": "2025-10-15T23:15:08+00:00",
+      "not_after": "2026-01-14T00:02:17+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jdacorps.com"
+      },
+      "not_before": "2025-10-09T14:35:23+00:00",
+      "not_after": "2026-01-07T14:35:23+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.dubokastore.com"
+      },
+      "not_before": "2025-10-12T17:57:08+00:00",
+      "not_after": "2026-01-10T18:47:00+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "w.cottagesov.org"
+      },
+      "not_before": "2025-10-14T15:38:58+00:00",
+      "not_after": "2026-01-12T16:22:04+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "builder--feature-467-previewexpand.cloudrun.selfstudy.ai"
+      },
+      "not_before": "2025-10-13T18:43:16+00:00",
+      "not_after": "2026-01-11T19:34:26+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.3passages.fr"
+      },
+      "not_before": "2025-10-11T10:38:51+00:00",
+      "not_after": "2026-01-09T11:26:00+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3061912804.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-08T18:27:56+00:00",
+      "not_after": "2025-12-09T19:23:53+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-as-e1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-08T19:07:05+00:00",
+      "not_after": "2025-12-09T20:03:00+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-as-e1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-08T19:07:05+00:00",
+      "not_after": "2025-12-09T20:03:00+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "myt-ai.mytsoftware.co.uk"
+      },
+      "not_before": "2025-10-12T17:06:23+00:00",
+      "not_after": "2026-01-10T17:56:14+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:09:09+00:00",
+      "not_after": "2025-12-15T11:09:08+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mcpa-forney.com"
+      },
+      "not_before": "2025-09-29T00:51:44+00:00",
+      "not_after": "2025-12-28T00:51:43+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sweetkawaiiart.shop"
+      },
+      "not_before": "2025-10-10T00:27:29+00:00",
+      "not_after": "2026-01-08T00:27:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "grandvison.com"
+      },
+      "not_before": "2025-10-09T09:17:47+00:00",
+      "not_after": "2026-01-07T09:17:47+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:08:33+00:00",
+      "not_after": "2025-12-15T11:08:32+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S01",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "zmlymzspnpcrlbbyaitxj.ffs.thf.loadtest.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-08T19:08:34+00:00",
+      "not_after": "2025-12-15T20:08:34+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:04:58+00:00",
+      "not_after": "2025-12-09T19:04:57+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-08T19:06:18+00:00",
+      "not_after": "2025-12-09T19:06:17+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tikvatlibenu.co.il"
+      },
+      "not_before": "2025-10-14T08:26:38+00:00",
+      "not_after": "2026-01-12T08:26:37+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T20:06:49+00:00",
+      "not_after": "2025-12-10T08:06:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-08T19:06:25+00:00",
+      "not_after": "2025-12-09T19:06:24+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-08T19:06:36+00:00",
+      "not_after": "2025-12-09T19:06:35+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:06:27+00:00",
+      "not_after": "2025-12-09T19:06:26+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.leahzlikes.com"
+      },
+      "not_before": "2024-12-06T20:19:33+00:00",
+      "not_after": "2026-01-06T04:10:36+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "aguqinin.pages.dev"
+      },
+      "not_before": "2025-10-11T10:19:20+00:00",
+      "not_after": "2026-01-09T11:18:02+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.ichibanhibachisteakhouserobinson.com"
+      },
+      "not_before": "2025-10-08T19:31:17+00:00",
+      "not_after": "2026-01-06T19:31:17+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mybdsmhookups.com"
+      },
+      "not_before": "2025-10-12T06:45:46+00:00",
+      "not_after": "2026-01-10T07:43:33+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn----vb6en0b35voulolcetmngy18b5yn7gd.kr"
+      },
+      "not_before": "2025-10-10T18:39:26+00:00",
+      "not_after": "2026-01-08T18:39:25+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "du9zkau.workers.dev"
+      },
+      "not_before": "2025-10-10T17:25:46+00:00",
+      "not_after": "2026-01-08T18:24:12+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kathy-169.workers.dev"
+      },
+      "not_before": "2025-10-11T15:06:30+00:00",
+      "not_after": "2026-01-09T16:02:55+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.sortyourlifesf.com"
+      },
+      "not_before": "2025-10-10T20:04:13+00:00",
+      "not_after": "2026-01-08T20:04:13+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mohamedkaram.org"
+      },
+      "not_before": "2025-10-12T08:35:44+00:00",
+      "not_after": "2026-01-10T09:35:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "teaandprayer.org"
+      },
+      "not_before": "2025-10-09T18:46:50+00:00",
+      "not_after": "2026-01-07T18:46:50+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "linkke1market.xyz"
+      },
+      "not_before": "2025-10-11T13:39:26+00:00",
+      "not_after": "2026-01-09T14:37:07+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-as-se1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-08T19:06:07+00:00",
+      "not_after": "2025-12-09T20:02:02+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "edwardhugh.net"
+      },
+      "not_before": "2025-10-10T17:32:18+00:00",
+      "not_after": "2026-01-08T18:29:53+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "6p3p3.com"
+      },
+      "not_before": "2025-10-13T00:00:00+00:00",
+      "not_after": "2026-01-11T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "7a9f1808619.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "1fgph3jz.workers.dev"
+      },
+      "not_before": "2025-10-11T20:57:29+00:00",
+      "not_after": "2026-01-09T21:56:07+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "taoyingke6.com"
+      },
+      "not_before": "2025-10-14T11:51:02+00:00",
+      "not_after": "2026-01-12T11:51:01+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "revlyt.com"
+      },
+      "not_before": "2025-10-18T16:35:40+00:00",
+      "not_after": "2026-01-16T17:35:21+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "obsidianclubnyc.com"
+      },
+      "not_before": "2025-10-09T21:14:11+00:00",
+      "not_after": "2026-01-07T21:14:11+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S01",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "qwbwoppsmoobxqykzhddajksq.fis.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-08T19:08:00+00:00",
+      "not_after": "2025-12-15T20:08:00+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "v88qqxjzch.workers.dev"
+      },
+      "not_before": "2025-10-11T21:19:02+00:00",
+      "not_after": "2026-01-09T22:15:40+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "therubyslippersguide.com"
+      },
+      "not_before": "2025-10-09T18:31:21+00:00",
+      "not_after": "2026-01-07T18:31:21+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "milescapital.net"
+      },
+      "not_before": "2025-10-09T09:53:32+00:00",
+      "not_after": "2026-01-07T09:53:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "waveriderpress.com"
+      },
+      "not_before": "2025-09-24T20:05:13+00:00",
+      "not_after": "2025-12-23T20:05:13+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-08T19:06:00+00:00",
+      "not_after": "2025-12-09T19:05:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f2a02fbb-2052-4.prow.ing.gke.certsbridge.com"
+      },
+      "not_before": "2025-12-08T19:07:16+00:00",
+      "not_after": "2025-12-09T20:00:49+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M05",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "szqqfssfdayuufmobpeyyflbvgii.fis.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-08T19:09:24+00:00",
+      "not_after": "2025-12-15T20:09:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.casacameo.com"
+      },
+      "not_before": "2025-10-17T12:53:44+00:00",
+      "not_after": "2026-01-15T12:53:43+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-eu-n2.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-08T19:06:17+00:00",
+      "not_after": "2025-12-09T20:02:13+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "backoffice.imscarlet.ai"
+      },
+      "not_before": "2025-10-14T18:34:35+00:00",
+      "not_after": "2026-01-12T19:28:48+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S01",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "kdkkgopjdhslwjbkbjoegseid.ffs.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-08T19:09:33+00:00",
+      "not_after": "2025-12-15T20:09:33+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "66fa52619d554215f8a.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "91d68d1f99e.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cd6b5cbd8f828d9633f.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "6a88cfd58f159cbeead.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "baa889f6036cc37de4b.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "7624ab3f93b.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "687de564633.dcer.azurecertificateservice.azure-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-05T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.austinpoolanddeckrenovations.com"
+      },
+      "not_before": "2025-10-10T20:04:32+00:00",
+      "not_after": "2026-01-08T20:04:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "seanryandesigns.com"
+      },
+      "not_before": "2025-10-10T00:04:46+00:00",
+      "not_after": "2026-01-08T00:04:46+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M05",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ggajnwnjtjceyzyozvmwhjabyfjh.ffs.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-08T19:09:39+00:00",
+      "not_after": "2025-12-15T20:09:39+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "buenoservers.nl"
+      },
+      "not_before": "2025-10-16T01:26:00+00:00",
+      "not_after": "2026-01-14T02:25:58+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M06",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mumdrhewunegcoqqhfxbmveyjgbh.fis.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-08T19:09:41+00:00",
+      "not_after": "2025-12-15T20:09:41+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "neothinker.co"
+      },
+      "not_before": "2025-10-10T18:29:08+00:00",
+      "not_after": "2026-01-08T18:29:07+00:00"
+    },
+    {
+      "ca": "Apple Inc. (US)",
+      "issuer": {
+        "cn": "Apple Public Server ECC CA 11 - G1",
+        "o": "Apple Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "probe.siri.apple.com",
+        "o": "Apple Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-08T19:59:53+00:00",
+      "not_after": "2025-12-08T20:19:49+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lehaimcoctails.co.il"
+      },
+      "not_before": "2025-10-17T05:21:48+00:00",
+      "not_after": "2026-01-15T05:21:47+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "theresourcecompany.com"
+      },
+      "not_before": "2025-10-14T05:06:34+00:00",
+      "not_after": "2026-01-12T05:06:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "moonagebooks.co.uk"
+      },
+      "not_before": "2025-10-09T11:30:15+00:00",
+      "not_after": "2026-01-07T11:30:15+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "golam.workers.dev"
+      },
+      "not_before": "2025-10-13T04:05:28+00:00",
+      "not_after": "2026-01-11T05:03:58+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.kopursoft.it"
+      },
+      "not_before": "2025-10-18T05:15:05+00:00",
+      "not_after": "2026-01-16T05:15:04+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.420marijuana.org"
+      },
+      "not_before": "2025-10-08T19:34:32+00:00",
+      "not_after": "2026-01-06T19:34:32+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mvdis-acocuntn.shop"
+      },
+      "not_before": "2025-10-10T18:05:13+00:00",
+      "not_after": "2026-01-08T19:02:35+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "side-job.uno"
+      },
+      "not_before": "2025-10-12T11:42:16+00:00",
+      "not_after": "2026-01-10T12:40:50+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "darah80807.com"
+      },
+      "not_before": "2025-10-11T10:58:36+00:00",
+      "not_after": "2026-01-09T11:58:24+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lexqu.site"
+      },
+      "not_before": "2025-10-10T20:03:49+00:00",
+      "not_after": "2026-01-08T21:02:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xhnc.xyz"
+      },
+      "not_before": "2025-10-09T19:05:21+00:00",
+      "not_after": "2026-01-07T19:05:20+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL ECC Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "g3d37p.com"
+      },
+      "not_before": "2025-10-12T00:00:00+00:00",
+      "not_after": "2026-01-10T23:59:59+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mivihu.com"
+      },
+      "not_before": "2025-12-08T19:11:50+00:00",
+      "not_after": "2026-01-07T19:11:49+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mesconseilsante.com"
+      },
+      "not_before": "2025-12-08T19:11:50+00:00",
+      "not_after": "2026-01-07T19:11:49+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mivihu.com"
+      },
+      "not_before": "2025-12-08T19:11:50+00:00",
+      "not_after": "2026-01-07T19:11:49+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev.kiabi.com"
+      },
+      "not_before": "2025-12-08T19:11:50+00:00",
+      "not_after": "2026-01-07T19:11:49+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev.kiabi.com"
+      },
+      "not_before": "2025-12-08T19:11:50+00:00",
+      "not_after": "2026-01-07T19:11:49+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fst.nobatow.space"
+      },
+      "not_before": "2025-12-08T19:11:51+00:00",
+      "not_after": "2026-01-07T19:11:50+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.stghouzz.dk"
+      },
+      "not_before": "2025-12-08T19:11:51+00:00",
+      "not_after": "2026-01-07T19:11:50+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.buildyourowninternet.dev"
+      },
+      "not_before": "2025-12-08T19:11:51+00:00",
+      "not_after": "2026-01-07T19:11:50+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev-app.bi-buzz.com"
+      },
+      "not_before": "2025-12-08T19:11:53+00:00",
+      "not_after": "2026-01-07T19:11:52+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "iitctelaviv.it"
+      },
+      "not_before": "2025-10-10T11:43:50+00:00",
+      "not_after": "2026-01-08T11:43:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "AE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "aotocn.com"
+      },
+      "not_before": "2025-11-20T13:55:51+00:00",
+      "not_after": "2026-01-04T14:55:43+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "alaricpetz.com"
+      },
+      "not_before": "2025-10-18T19:43:28+00:00",
+      "not_after": "2026-01-16T19:43:27+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "alphaemarkets.co.uk"
+      },
+      "not_before": "2025-10-13T01:38:16+00:00",
+      "not_after": "2026-01-11T02:38:09+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "paytonmoreland.com"
+      },
+      "not_before": "2025-10-17T20:04:18+00:00",
+      "not_after": "2026-01-15T20:04:17+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "negociosylocuras.com"
+      },
+      "not_before": "2025-10-10T00:27:29+00:00",
+      "not_after": "2026-01-08T00:27:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "autonovaia.site"
+      },
+      "not_before": "2025-10-11T09:51:45+00:00",
+      "not_after": "2026-01-09T09:51:44+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "alphagroover.com"
+      },
+      "not_before": "2025-10-17T08:19:02+00:00",
+      "not_after": "2026-01-15T09:18:55+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.queenofcalm.com"
+      },
+      "not_before": "2025-10-05T14:31:14+00:00",
+      "not_after": "2026-01-03T14:31:14+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lusm.xyz"
+      },
+      "not_before": "2025-10-08T06:25:16+00:00",
+      "not_after": "2026-01-06T06:25:15+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M05",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lqdpyyqjdoiwfnzoxxwjwqcmqbyt.fis.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-08T19:10:06+00:00",
+      "not_after": "2025-12-15T20:10:06+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yourdogschoice.com"
+      },
+      "not_before": "2025-10-09T07:02:39+00:00",
+      "not_after": "2026-01-07T07:02:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "osbornej.com"
+      },
+      "not_before": "2025-10-09T12:59:37+00:00",
+      "not_after": "2026-01-07T12:59:37+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "*.csme-scgm.ca"
+      },
+      "not_before": "2025-12-06T00:00:00+00:00",
+      "not_after": "2026-01-10T23:59:59+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "694tr.top"
+      },
+      "not_before": "2025-10-11T09:25:26+00:00",
+      "not_after": "2026-01-09T09:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "popconceptevent.co.il"
+      },
+      "not_before": "2025-10-14T08:25:21+00:00",
+      "not_after": "2026-01-12T08:25:20+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "azufane.top"
+      },
+      "not_before": "2025-10-10T18:53:42+00:00",
+      "not_after": "2026-01-08T19:51:12+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.custompromo.ai"
+      },
+      "not_before": "2025-10-08T19:34:39+00:00",
+      "not_after": "2026-01-06T19:34:39+00:00"
+    },
+    {
+      "ca": "Certigna (FR)",
+      "issuer": {
+        "cn": "Certigna Server Authentication OVCP EU CA G1",
+        "o": "Certigna",
+        "c": "FR"
+      },
+      "subject": {
+        "cn": "visite.elysee.fr",
+        "o": "REPUBLIQUE FRANCAISE PRESIDENCE",
+        "c": "FR"
+      },
+      "not_before": "2025-10-07T07:49:31+00:00",
+      "not_after": "2026-01-05T07:49:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "15ae5141e2.nxcli.io"
+      },
+      "not_before": "2025-10-10T06:02:43+00:00",
+      "not_after": "2026-01-08T06:02:42+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pointanddump.com"
+      },
+      "not_before": "2025-10-10T06:46:56+00:00",
+      "not_after": "2026-01-08T06:46:56+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2308029731.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-08T19:08:37+00:00",
+      "not_after": "2025-12-09T20:04:34+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "livinggym.co"
+      },
+      "not_before": "2025-10-09T09:17:48+00:00",
+      "not_after": "2026-01-07T09:17:48+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.beautyonabudgetsalon.com"
+      },
+      "not_before": "2025-10-10T20:07:20+00:00",
+      "not_after": "2026-01-08T20:07:20+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.montroselaundromat.com"
+      },
+      "not_before": "2025-10-11T16:02:10+00:00",
+      "not_after": "2026-01-09T16:51:21+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "assets.blocket.se"
+      },
+      "not_before": "2025-12-08T19:12:57+00:00",
+      "not_after": "2026-01-07T19:12:56+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-08T19:12:05+00:00",
+      "not_after": "2025-12-15T11:12:04+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.efn.pl"
+      },
+      "not_before": "2025-10-15T02:28:50+00:00",
+      "not_after": "2026-01-13T02:28:49+00:00"
+    },
+    {
+      "ca": "sslTrus (CN)",
+      "issuer": {
+        "cn": "sslTrus (RSA) DV CA",
+        "o": "sslTrus",
+        "c": "CN"
+      },
+      "subject": {
+        "cn": "www.meric.cn"
+      },
+      "not_before": "2024-12-13T00:00:00+00:00",
+      "not_after": "2025-12-13T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ecovisionempresarial.com"
+      },
+      "not_before": "2025-10-09T13:25:18+00:00",
+      "not_after": "2026-01-07T13:25:18+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S00",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "oiqsudjtetajmcybkrslnyncn.fis.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-08T19:11:29+00:00",
+      "not_after": "2025-12-15T20:11:29+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dt-rp.com"
+      },
+      "not_before": "2025-10-10T19:02:47+00:00",
+      "not_after": "2026-01-08T20:02:45+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.gamevolo.com"
+      },
+      "not_before": "2025-10-14T13:27:47+00:00",
+      "not_after": "2026-01-12T14:16:38+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "defnilay.xyz"
+      },
+      "not_before": "2025-10-10T15:13:01+00:00",
+      "not_after": "2026-01-08T16:05:54+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.puricareasia.com"
+      },
+      "not_before": "2025-10-11T07:12:06+00:00",
+      "not_after": "2026-01-09T08:03:18+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "investislandsfoundation.org"
+      },
+      "not_before": "2025-10-03T15:27:03+00:00",
+      "not_after": "2026-01-01T15:27:02+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "jiejie51-l1083.vip"
+      },
+      "not_before": "2025-10-19T00:00:00+00:00",
+      "not_after": "2026-01-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S01",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "ifclynrokpxndfwzsnlwxanmi.fis.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-08T19:11:59+00:00",
+      "not_after": "2025-12-15T20:11:59+00:00"
+    }
+  ]
+}

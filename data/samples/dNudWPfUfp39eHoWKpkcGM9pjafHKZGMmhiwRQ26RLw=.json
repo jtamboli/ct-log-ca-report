@@ -1,0 +1,51 @@
+{
+  "log_name": "TrustAsia 'log2026a'",
+  "operator": "TrustAsia",
+  "log_id": "dNudWPfUfp39eHoWKpkcGM9pjafHKZGMmhiwRQ26RLw=",
+  "log_type": "rfc6962",
+  "sample_count": 3,
+  "ca_counts": {
+    "Let's Encrypt (US)": 3
+  },
+  "certificates": [
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "7881e406.sni.cloudflaressl.com"
+      },
+      "not_before": "2025-12-25T04:11:51+00:00",
+      "not_after": "2026-03-25T04:11:50+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.deliverygital.news"
+      },
+      "not_before": "2025-12-24T18:57:12+00:00",
+      "not_after": "2026-03-24T18:57:11+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cpanel.fycshowcase.com"
+      },
+      "not_before": "2025-12-25T04:13:08+00:00",
+      "not_after": "2026-03-25T04:13:07+00:00"
+    }
+  ]
+}

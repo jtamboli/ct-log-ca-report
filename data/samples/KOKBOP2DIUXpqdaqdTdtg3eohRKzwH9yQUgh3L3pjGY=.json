@@ -1,0 +1,51 @@
+{
+  "log_name": "TrustAsia Log2025a",
+  "operator": "TrustAsia",
+  "log_id": "KOKBOP2DIUXpqdaqdTdtg3eohRKzwH9yQUgh3L3pjGY=",
+  "log_type": "rfc6962",
+  "sample_count": 3,
+  "ca_counts": {
+    "Google Trust Services (US)": 3
+  },
+  "certificates": [
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-25T03:33:19+00:00",
+      "not_after": "2025-12-26T03:33:18+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--s28h.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-25T03:33:19+00:00",
+      "not_after": "2025-12-26T03:33:18+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2579918459.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-25T03:33:44+00:00",
+      "not_after": "2025-12-26T04:29:40+00:00"
+    }
+  ]
+}

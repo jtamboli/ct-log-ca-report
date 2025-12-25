@@ -5,9 +5,12 @@ Main entry point for CT Log CA Report tool.
 
 import argparse
 import json
-import time
+import signal
+import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import List, Dict, Set
+from threading import Lock, Event
+from typing import Dict, Set
 
 import log_list
 import static_log
@@ -45,13 +48,14 @@ def get_processed_log_ids() -> Set[str]:
     return processed
 
 
-def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
+def process_log(log_info: Dict, target_certs: int = 1000, quiet: bool = False) -> Dict:
     """
     Process a single CT log to extract CA information.
 
     Args:
         log_info: Dict with log metadata (operator, description, url/monitoring_url, etc.)
         target_certs: Target number of certificates to fetch (default: 1000)
+        quiet: If True, suppress verbose output (for parallel execution)
 
     Returns:
         Dict with log sample data including CA counts
@@ -62,14 +66,16 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
     log_type = log_info.get("log_type", "static")
     temporal_interval = log_info.get("temporal_interval")
 
-    print(f"\n{'='*80}")
-    print(f"Processing: {log_name} ({operator}) [{log_type.upper()}]")
-    print(f"{'='*80}")
+    if not quiet:
+        print(f"\n{'='*80}")
+        print(f"Processing: {log_name} ({operator}) [{log_type.upper()}]")
+        print(f"{'='*80}")
 
     # Check if log can have any certificates based on temporal interval
     can_have_certs, reason = log_list.log_can_have_certificates(temporal_interval)
     if not can_have_certs:
-        print(f"Skipping: {reason}")
+        if not quiet:
+            print(f"Skipping: {reason}")
         return {
             "log_name": log_name,
             "operator": operator,
@@ -87,13 +93,14 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
         # Route to appropriate client based on log type
         if log_type == "rfc6962" or "url" in log_info:
             log_url = log_info.get("url")
-            cert_bytes_list = rfc6962_log.fetch_certificates(log_url, target_count=target_certs)
+            cert_bytes_list = rfc6962_log.fetch_certificates(log_url, target_count=target_certs, quiet=quiet)
         else:  # static
             monitoring_url = log_info.get("monitoring_url")
-            cert_bytes_list = static_log.fetch_certificates(monitoring_url, target_count=target_certs)
+            cert_bytes_list = static_log.fetch_certificates(monitoring_url, target_count=target_certs, quiet=quiet)
 
         if not cert_bytes_list:
-            print(f"No certificates fetched from {log_name}")
+            if not quiet:
+                print(f"No certificates fetched from {log_name}")
             return {
                 "log_name": log_name,
                 "operator": operator,
@@ -123,8 +130,9 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
         # Aggregate CA counts
         ca_counts = report.aggregate_ca_counts(certificates_info)
 
-        print(f"\nProcessed {len(certificates_info)} certificates")
-        print(f"Found {len(ca_counts)} unique CAs")
+        if not quiet:
+            print(f"\nProcessed {len(certificates_info)} certificates")
+            print(f"Found {len(ca_counts)} unique CAs")
 
         # Save per-log sample data
         sample_data = {
@@ -142,14 +150,16 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
         sample_file.parent.mkdir(parents=True, exist_ok=True)
         with open(sample_file, 'w') as f:
             json.dump(sample_data, f, indent=2)
-        print(f"Saved sample data to {sample_file}")
+        if not quiet:
+            print(f"Saved sample data to {sample_file}")
 
         return sample_data
 
     except Exception as e:
-        print(f"Error processing {log_name}: {e}")
-        import traceback
-        traceback.print_exc()
+        if not quiet:
+            print(f"Error processing {log_name}: {e}")
+            import traceback
+            traceback.print_exc()
         return {
             "log_name": log_name,
             "operator": operator,
@@ -191,6 +201,12 @@ def main():
         type=int,
         default=1000,
         help="Target number of certificates per log (default: 1000)"
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=4,
+        help="Number of parallel workers for fetching logs (default: 4)"
     )
     args = parser.parse_args()
 
@@ -249,14 +265,96 @@ def main():
         print("No logs to process!")
         return
 
-    # Process each log
+    # Process logs
     log_samples = []
-    for i, log_info in enumerate(all_logs, 1):
-        print(f"\n[{i}/{len(all_logs)}]")
-        sample_data = process_log(log_info, target_certs=args.target_certs)
-        log_samples.append(sample_data)
-        # Rate limiting between logs to avoid 429 errors
-        time.sleep(2)
+    total_logs = len(all_logs)
+    parallel = args.workers > 1
+
+    if parallel:
+        # Parallel execution with clean status display
+        completed_count = 0
+        in_progress = set()
+        status_lock = Lock()
+        shutdown_event = Event()
+
+        def signal_handler(signum, frame):
+            shutdown_event.set()
+            sys.stdout.write("\r\nInterrupted! Shutting down...\n")
+            sys.stdout.flush()
+
+        # Install signal handler for Ctrl-C
+        original_handler = signal.signal(signal.SIGINT, signal_handler)
+
+        def update_status():
+            """Update the status line showing progress."""
+            active = ", ".join(sorted(in_progress)[:3])
+            if len(in_progress) > 3:
+                active += f", +{len(in_progress) - 3} more"
+            status = f"\r[{completed_count}/{total_logs}] Active: {active}"
+            # Pad to clear previous longer lines
+            sys.stdout.write(f"{status:<100}")
+            sys.stdout.flush()
+
+        def process_with_status(log_info):
+            nonlocal completed_count
+            if shutdown_event.is_set():
+                return None
+
+            log_name = log_info.get("description", "Unknown")
+            short_name = log_name[:30] + "..." if len(log_name) > 30 else log_name
+
+            with status_lock:
+                in_progress.add(short_name)
+                update_status()
+
+            result = process_log(log_info, target_certs=args.target_certs, quiet=True)
+
+            with status_lock:
+                in_progress.discard(short_name)
+                completed_count += 1
+                # Print completion on new line, then update status
+                cert_count = result.get("sample_count", 0)
+                status_icon = "✓" if cert_count > 0 else ("⊘" if result.get("skipped") else "✗")
+                sys.stdout.write(f"\r{status_icon} {log_name}: {cert_count} certs\n")
+                update_status()
+
+            return result
+
+        print(f"\nProcessing {total_logs} logs with {args.workers} parallel workers...\n")
+        try:
+            with ThreadPoolExecutor(max_workers=args.workers) as executor:
+                futures = {executor.submit(process_with_status, log_info): log_info for log_info in all_logs}
+                for future in as_completed(futures):
+                    if shutdown_event.is_set():
+                        executor.shutdown(wait=False, cancel_futures=True)
+                        break
+                    try:
+                        sample_data = future.result()
+                        if sample_data is not None:
+                            log_samples.append(sample_data)
+                    except Exception as e:
+                        log_info = futures[future]
+                        with status_lock:
+                            sys.stdout.write(f"\r✗ {log_info.get('description', 'Unknown')}: {e}\n")
+                            update_status()
+        finally:
+            # Restore original signal handler
+            signal.signal(signal.SIGINT, original_handler)
+
+        # Clear status line
+        sys.stdout.write("\r" + " " * 100 + "\r")
+        sys.stdout.flush()
+
+        if shutdown_event.is_set():
+            print(f"\nInterrupted after processing {len(log_samples)} logs.")
+            if not log_samples:
+                return
+    else:
+        # Sequential execution with verbose output
+        for i, log_info in enumerate(all_logs, 1):
+            print(f"\n[{i}/{total_logs}]")
+            sample_data = process_log(log_info, target_certs=args.target_certs, quiet=False)
+            log_samples.append(sample_data)
 
     # Generate and display report
     print("\n" + "=" * 80)

@@ -1,0 +1,3231 @@
+{
+  "log_name": "Sectigo 'Sabre2026h1'",
+  "operator": "Sectigo",
+  "log_id": "VmzVo3a+g9/jQrZ1xJwjJJinabrDgsurSaOHfZqzLQE=",
+  "log_type": "rfc6962",
+  "sample_count": 219,
+  "ca_counts": {
+    "Microsoft Corporation (US)": 174,
+    "DigiCert, Inc. (US)": 26,
+    "DigiCert Inc (US)": 7,
+    "Sectigo Limited (GB)": 4,
+    "Starfield Technologies, Inc. (US)": 1,
+    "GoDaddy.com, Inc. (US)": 2,
+    "Amazon (US)": 1,
+    "GlobalSign nv-sa (BE)": 4
+  },
+  "certificates": [
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzkqesf25lrigo.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:37+00:00",
+      "not_after": "2026-03-17T15:02:37+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f8a1a62f2399.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:37+00:00",
+      "not_after": "2026-03-17T15:02:37+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzv8lzpqbfmltm.germanynorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:34+00:00",
+      "not_after": "2026-03-17T15:02:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzkwvgqjnory2a.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:37+00:00",
+      "not_after": "2026-03-17T15:02:37+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d92605035c0a.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:42+00:00",
+      "not_after": "2026-03-17T15:02:42+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b69fc3f26569.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:43+00:00",
+      "not_after": "2026-03-17T15:02:43+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-hb21-v40-neurope-09181541.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:43+00:00",
+      "not_after": "2026-03-17T15:02:43+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "token-based-dogfood-ncu.slmtest.xyz"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzdnh4hu4r3nfc.uaecentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:44+00:00",
+      "not_after": "2026-03-17T15:02:44+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev-ci10-eu-static1.platform.eu.ci10.external.bigdata.wtf"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "token-based-ecc-dogfood-ncu.slmtest.xyz"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dns-text-token-multipleSans-dogfood-ncu.slmtest.xyz"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzkqrawrhsvtxt.chinanorth3.atlas.seabreeze.chinacloudapi.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "app-intelligenthive.kizaninnovations.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "brimborg-test1622b9ed2e5860740aos.cloudax.eu.dynamics.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T12:14:38+00:00",
+      "not_after": "2026-03-17T12:14:38+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:45+00:00",
+      "not_after": "2026-03-17T15:02:45+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz3tmrqpeq15pp.israelcentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:46+00:00",
+      "not_after": "2026-03-17T15:02:46+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:47+00:00",
+      "not_after": "2026-03-17T15:02:47+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "86349238781716.westeurope.airflow.svc.datafactory.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:48+00:00",
+      "not_after": "2026-03-17T15:02:48+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dummyonecertv2publicca.analysis.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:45+00:00",
+      "not_after": "2026-03-17T15:02:45+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bba6482cc090.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:51+00:00",
+      "not_after": "2026-03-17T15:02:51+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fb27967bc84b.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:54+00:00",
+      "not_after": "2026-03-17T15:02:54+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbznls8urgnzls2.usgovarizona.cluster.atlas.usgovcloudapi.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:56+00:00",
+      "not_after": "2026-03-17T15:02:56+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzaiynhfqjxsdw.qatarcentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:58+00:00",
+      "not_after": "2026-03-17T15:02:58+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz8782popb6rcg.westus2.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:58+00:00",
+      "not_after": "2026-03-17T15:02:58+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-ka21-v40-seasia-09181542.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:58+00:00",
+      "not_after": "2026-03-17T15:02:58+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzwa7ve4funiuu.brazilsoutheast.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:58+00:00",
+      "not_after": "2026-03-17T15:02:58+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzfti9h78s7z5y.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:58+00:00",
+      "not_after": "2026-03-17T15:02:58+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert SHA2 Secure Server CA",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "txfludg5u4jz.asadataplane.azure.us",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bdb1a3796dc0.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:59+00:00",
+      "not_after": "2026-03-17T15:02:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "test-af453ba5c3e74eeb8d6f6cbdf5b3d723.slmtest.xyz"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.guldborgsundkajakklub.dk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "ifacom.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-06-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d3d17c54ce5e.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:02:59+00:00",
+      "not_after": "2026-03-17T15:02:59+00:00"
+    },
+    {
+      "ca": "Starfield Technologies, Inc. (US)",
+      "issuer": {
+        "cn": "Starfield Secure Certificate Authority - G2",
+        "o": "Starfield Technologies, Inc.",
+        "ou": "http://certs.starfieldtech.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.sudokoo.com"
+      },
+      "not_before": "2025-02-19T08:54:20+00:00",
+      "not_after": "2026-03-23T08:54:20+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzg4lwti7orp7p.westus2.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:00+00:00",
+      "not_after": "2026-03-17T15:03:00+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 07",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cfaas-dev.azure-api.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-08-06T04:26:57+00:00",
+      "not_after": "2026-02-02T04:26:57+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo RSA Domain Validation Secure Server CA",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "juls.art"
+      },
+      "not_before": "2025-05-18T00:00:00+00:00",
+      "not_after": "2026-05-31T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzbsyilaf1fttn.uksouth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:15+00:00",
+      "not_after": "2026-03-17T15:03:15+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbztto3qj0a6pzp.spaincentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:14+00:00",
+      "not_after": "2026-03-17T15:03:14+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nwaliveevents.com"
+      },
+      "not_before": "2025-05-03T12:49:08+00:00",
+      "not_after": "2026-05-03T12:49:08+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "af62e5564645.database.test.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:18+00:00",
+      "not_after": "2026-03-17T15:03:18+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e7d51238351728.uksouth.airflow.svc.datafactory.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:18+00:00",
+      "not_after": "2026-03-17T15:03:18+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbziqebr0dst0pn.taiwannorthwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:18+00:00",
+      "not_after": "2026-03-17T15:03:18+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzdbxlm0cy2uss.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:19+00:00",
+      "not_after": "2026-03-17T15:03:19+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzt9y6fga1dmyi.uaecentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:22+00:00",
+      "not_after": "2026-03-17T15:03:22+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bst-0f1244e9-b049-416f-8cbd-c13c50828f71.bastion.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:23+00:00",
+      "not_after": "2026-03-17T15:03:23+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo RSA Domain Validation Secure Server CA",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "alendei.com"
+      },
+      "not_before": "2025-05-01T00:00:00+00:00",
+      "not_after": "2026-06-01T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzqtjqfdx6gnim.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:28+00:00",
+      "not_after": "2026-03-17T15:03:28+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzq3ttce0xxypc.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:28+00:00",
+      "not_after": "2026-03-17T15:03:28+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a729899dd44a.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:28+00:00",
+      "not_after": "2026-03-17T15:03:28+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bst-7fb4e4ba-4366-426a-b83c-b4cba79dbed3.bastion.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:29+00:00",
+      "not_after": "2026-03-17T15:03:29+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz0amtthobg4nd.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:30+00:00",
+      "not_after": "2026-03-17T15:03:30+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzxvzeetlh1xvj.germanynorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:30+00:00",
+      "not_after": "2026-03-17T15:03:30+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzty0yo8hkthoh.uaecentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:31+00:00",
+      "not_after": "2026-03-17T15:03:31+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e351dc3729aa.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:31+00:00",
+      "not_after": "2026-03-17T15:03:31+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a367a6b1b9b3.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:31+00:00",
+      "not_after": "2026-03-17T15:03:31+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cbdf8f6c573c.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:32+00:00",
+      "not_after": "2026-03-17T15:03:32+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:32+00:00",
+      "not_after": "2026-03-17T15:03:32+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "aurorabapenvb8b6a.operations.int.dynamics.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:33+00:00",
+      "not_after": "2026-03-17T15:03:33+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fd76461a3ea7.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:34+00:00",
+      "not_after": "2026-03-17T15:03:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbznz3cup6a1zx5.swedensouth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:34+00:00",
+      "not_after": "2026-03-17T15:03:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b9ec760f8fbe.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:34+00:00",
+      "not_after": "2026-03-17T15:03:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzak0jfwh1l8wr.uaecentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:35+00:00",
+      "not_after": "2026-03-17T15:03:35+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e31f5e8e0463.database.stage.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:35+00:00",
+      "not_after": "2026-03-17T15:03:35+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ce33daaa44f2.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:36+00:00",
+      "not_after": "2026-03-17T15:03:36+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-ha33-v51-uks-09181542.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:36+00:00",
+      "not_after": "2026-03-17T15:03:36+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c1a5a6d8545b.database.onebox.mysql.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:37+00:00",
+      "not_after": "2026-03-17T15:03:37+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.deainc.com.mcas-gov.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:37+00:00",
+      "not_after": "2026-03-17T15:03:37+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cosmicwebapi.trafficmanager.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-08-06T09:37:30+00:00",
+      "not_after": "2026-02-02T09:37:30+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzyunomm7gt4bt.newzealandnorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:38+00:00",
+      "not_after": "2026-03-17T15:03:38+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f6547e82198a.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:36+00:00",
+      "not_after": "2026-03-17T15:03:36+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d233d48703dd.mongocluster.cosmos.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:39+00:00",
+      "not_after": "2026-03-17T15:03:39+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dae3918aee88.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:39+00:00",
+      "not_after": "2026-03-17T15:03:39+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "df9804a90c28.database.test.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:40+00:00",
+      "not_after": "2026-03-17T15:03:40+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a69ea4c89115.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:40+00:00",
+      "not_after": "2026-03-17T15:03:40+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f64fb992cb5d.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:42+00:00",
+      "not_after": "2026-03-17T15:03:42+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "afaa0475dce7.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:42+00:00",
+      "not_after": "2026-03-17T15:03:42+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f8fe6e1692f7.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:42+00:00",
+      "not_after": "2026-03-17T15:03:42+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert SHA2 Secure Server CA",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.taskservice.cosmic-gcch.office365.us",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ac4a59303b71.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:43+00:00",
+      "not_after": "2026-03-17T15:03:43+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f7735040f7d0.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:43+00:00",
+      "not_after": "2026-03-17T15:03:43+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.leedsbiblekalotsavam.co.uk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzl8gkoto6o0k1.usgovarizona.cluster.atlas.usgovcloudapi.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:46+00:00",
+      "not_after": "2026-03-17T15:03:46+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c5324be00748.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:46+00:00",
+      "not_after": "2026-03-17T15:03:46+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mns-crp-d365-dev19173ecce73567f7bdevaos.axcloud.dynamics.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T12:16:01+00:00",
+      "not_after": "2026-03-17T12:16:01+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "click.academy.cta.nj.gov",
+        "o": "Salesforce, Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-04-09T00:00:00+00:00",
+      "not_after": "2026-05-10T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ambitiousbush-2375cb39.westeurope.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-08-31T10:26:54+00:00",
+      "not_after": "2026-02-27T10:26:54+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "qa.multi-lang-chinese.cru-marketing.dev.remarkable.global"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a68ceff8b5a9.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:52+00:00",
+      "not_after": "2026-03-17T15:03:52+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.ase-automation-prod-uks-01.appserviceenvironment.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:51+00:00",
+      "not_after": "2026-03-17T15:03:51+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.z40.w.api.fabric.microsoft-int.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:53+00:00",
+      "not_after": "2026-03-17T15:03:53+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "ltdm1.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-05-29T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "da4f56ab190e.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:54+00:00",
+      "not_after": "2026-03-17T15:03:54+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.ze0.w.api.fabric.microsoft-int.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:55+00:00",
+      "not_after": "2026-03-17T15:03:55+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ol-dev-tr-6c7634364.sandbox.operations.test.dynamics.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:56+00:00",
+      "not_after": "2026-03-17T15:03:56+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzmjrnnmudnrw4.usgovarizona.cluster.atlas.usgovcloudapi.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:56+00:00",
+      "not_after": "2026-03-17T15:03:56+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-ha33-v51-weurope-09181542.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:56+00:00",
+      "not_after": "2026-03-17T15:03:56+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e2dbcec7e6fb.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:57+00:00",
+      "not_after": "2026-03-17T15:03:57+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.z80.w.api.fabric.microsoft-int.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:03:54+00:00",
+      "not_after": "2026-03-17T15:03:54+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "asmcsitecert-38ot3q85.antares-test.windows-int.net"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "safe.laerdal.io"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cp-mhsm-cnn3-synthetics.managedhsm.azure.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-04-14T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.microsoft.a966c696-c241-4aa7-937e-e580b5508bac.com.mcas.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:01+00:00",
+      "not_after": "2026-03-17T15:04:01+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzjqorrj7wpaa9.qatarcentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:02+00:00",
+      "not_after": "2026-03-17T15:04:02+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ea15a045d5e2.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:03+00:00",
+      "not_after": "2026-03-17T15:04:03+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "grayglacier-3421a502.eastasia.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T10:50:10+00:00",
+      "not_after": "2026-03-17T10:50:10+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "po10030stgskumd.staging.mixitcloud.online"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "unilink.nevotek.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "data.dnaspaces.io"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-04-14T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzmxrzhejfbmdg.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:05+00:00",
+      "not_after": "2026-03-17T15:04:05+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cp-mhsm-cnn3-synthetics.managedhsm.azure.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-04-14T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzatljyqwve4gx.germanynorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:04+00:00",
+      "not_after": "2026-03-17T15:04:04+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzqcpdiqufqvey.uaecentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:08+00:00",
+      "not_after": "2026-03-17T15:04:08+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f53bfdd54bbc.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:11+00:00",
+      "not_after": "2026-03-17T15:04:11+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzzp6gzraitwty.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:12+00:00",
+      "not_after": "2026-03-17T15:04:12+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzibnsn7mict3k.usgovarizona.cluster.atlas.usgovcloudapi.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:12+00:00",
+      "not_after": "2026-03-17T15:04:12+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzp4dokwuzhdfw.australiacentral2.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:12+00:00",
+      "not_after": "2026-03-17T15:04:12+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bdb575b6440a.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:13+00:00",
+      "not_after": "2026-03-17T15:04:13+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b0dd09c58897.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:13+00:00",
+      "not_after": "2026-03-17T15:04:13+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz5hubfljo0xbg.francesouth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:13+00:00",
+      "not_after": "2026-03-17T15:04:13+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz9iecf9uwxzpm.germanynorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:14+00:00",
+      "not_after": "2026-03-17T15:04:14+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-sp31-v50-jioindiaw-09181543.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:16+00:00",
+      "not_after": "2026-03-17T15:04:16+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzvwypvxghkok0.brazilsoutheast.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:17+00:00",
+      "not_after": "2026-03-17T15:04:17+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzkpgqgkh31v6p.mexicocentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:19+00:00",
+      "not_after": "2026-03-17T15:04:19+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzhxvpmtvupff9.mexicocentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:19+00:00",
+      "not_after": "2026-03-17T15:04:19+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bbc8c36d5d33.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:20+00:00",
+      "not_after": "2026-03-17T15:04:20+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.medintechsociety.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e68bde53dfd0.mongocluster.cosmos.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:22+00:00",
+      "not_after": "2026-03-17T15:04:22+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "studiolegalepanozzovolpiana.it"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "apim-dev-we-plmapim.azure-api.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:22+00:00",
+      "not_after": "2026-03-17T15:04:22+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.powerflex.com.mcas.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:23+00:00",
+      "not_after": "2026-03-17T15:04:23+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.predifit.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:27+00:00",
+      "not_after": "2026-03-17T15:04:27+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M02",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "idm.uat.aevi-test.com"
+      },
+      "not_before": "2025-02-10T00:00:00+00:00",
+      "not_after": "2026-03-11T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzu4ttw2cexdky.westus2.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:25+00:00",
+      "not_after": "2026-03-17T15:04:25+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jwt.sbzgsjwbveeslaa.southcentralus.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:29+00:00",
+      "not_after": "2026-03-17T15:04:29+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzy918nppcgudl.germanynorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:29+00:00",
+      "not_after": "2026-03-17T15:04:29+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.tgng.ru"
+      },
+      "not_before": "2025-09-18T15:14:28+00:00",
+      "not_after": "2026-04-20T15:14:28+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-sp31-v50-swedenc-09181543.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:26+00:00",
+      "not_after": "2026-03-17T15:04:26+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c12fc441bfca.database.test.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:30+00:00",
+      "not_after": "2026-03-17T15:04:30+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzyzsih7ovlue0.spaincentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:31+00:00",
+      "not_after": "2026-03-17T15:04:31+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b5433366c5ab.mongocluster.cosmos.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:21+00:00",
+      "not_after": "2026-03-17T15:04:21+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "inplace-us-allapi-uat2.inplacesoftware.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev06.assessment-service-cdn.sta.education.gov.uk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev06.develop-assessment.sta.education.gov.uk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev06.maintenance.sta.education.gov.uk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev06.manage-assessment.sta.education.gov.uk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "preview.souom.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dev06.start-assessment.sta.education.gov.uk"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:33+00:00",
+      "not_after": "2026-03-17T15:04:33+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz38fa06ul1jjf.germanynorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:34+00:00",
+      "not_after": "2026-03-17T15:04:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzldubaul4e2gs.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:34+00:00",
+      "not_after": "2026-03-17T15:04:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.app.carnow.com.mcas.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:34+00:00",
+      "not_after": "2026-03-17T15:04:34+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.sppk-pkz.shop"
+      },
+      "not_before": "2025-09-18T13:30:52+00:00",
+      "not_after": "2026-04-20T13:30:52+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.healthandfitness.org.mcas.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:34+00:00",
+      "not_after": "2026-03-17T15:04:34+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.mygovwatch.com.mcas.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:39+00:00",
+      "not_after": "2026-03-17T15:04:39+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "07150101561717.westeurope.airflow.svc.datafactory.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:39+00:00",
+      "not_after": "2026-03-17T15:04:39+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-hb21-v40-germanyn-09181543.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:39+00:00",
+      "not_after": "2026-03-17T15:04:39+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bst-5529c707-9543-4996-ba0c-f0392c9cf45e.bastion.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:39+00:00",
+      "not_after": "2026-03-17T15:04:39+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzcx3ibnegnmzm.switzerlandwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:42+00:00",
+      "not_after": "2026-03-17T15:04:42+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.openjs.com.mcas-gov.ms",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:45+00:00",
+      "not_after": "2026-03-17T15:04:45+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz3kmz4qgxwfyq.spaincentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:45+00:00",
+      "not_after": "2026-03-17T15:04:45+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzgu48xtj7rwqg.spaincentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:45+00:00",
+      "not_after": "2026-03-17T15:04:45+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.voltcamping.ru"
+      },
+      "not_before": "2025-09-18T13:24:35+00:00",
+      "not_after": "2026-04-20T13:24:35+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-in31-v50-qatarc-09181543.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:46+00:00",
+      "not_after": "2026-03-17T15:04:46+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:47+00:00",
+      "not_after": "2026-03-17T15:04:47+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzh1afnazl0t0q.mexicocentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:48+00:00",
+      "not_after": "2026-03-17T15:04:48+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e93a9ba9bcff.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:50+00:00",
+      "not_after": "2026-03-17T15:04:50+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dcd2681245ce.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:50+00:00",
+      "not_after": "2026-03-17T15:04:50+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hdiprod-ka32-v51-austriae-09181544.azurehdinsight.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:50+00:00",
+      "not_after": "2026-03-17T15:04:50+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nsx.c8c5428105f047b2a6d.westcentralus.avslab.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:47+00:00",
+      "not_after": "2026-03-17T15:04:47+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nsx.a875da15f7c94f399e3.westcentralus.avslab.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:51+00:00",
+      "not_after": "2026-03-17T15:04:51+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cc-apim-nprd-uks-001.azure-api.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:51+00:00",
+      "not_after": "2026-03-17T15:04:51+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz6arr0wyf8oes.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:51+00:00",
+      "not_after": "2026-03-17T15:04:51+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzfsiqdvqnlni0.jioindiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:52+00:00",
+      "not_after": "2026-03-17T15:04:52+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:52+00:00",
+      "not_after": "2026-03-17T15:04:52+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "americantextile.com"
+      },
+      "not_before": "2025-05-29T10:11:18+00:00",
+      "not_after": "2026-05-29T10:11:18+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.aoossz.ru"
+      },
+      "not_before": "2025-09-18T13:31:54+00:00",
+      "not_after": "2026-04-20T13:31:54+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.z61.w.api.fabric.microsoft-int.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:58+00:00",
+      "not_after": "2026-03-17T15:04:58+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.zc1.w.api.fabric.microsoft-int.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:59+00:00",
+      "not_after": "2026-03-17T15:04:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.za1.w.api.fabric.microsoft-int.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:59+00:00",
+      "not_after": "2026-03-17T15:04:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzerim94z8yvrs.qatarcentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:04:59+00:00",
+      "not_after": "2026-03-17T15:04:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz3ce7ii5nzk1o.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:00+00:00",
+      "not_after": "2026-03-17T15:05:00+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.getingegroup.se"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzdzdwveqsc9tg.mexicocentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:03+00:00",
+      "not_after": "2026-03-17T15:05:03+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz53wrczzerp31.mexicocentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:05+00:00",
+      "not_after": "2026-03-17T15:05:05+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbz9cjo7waqiwdx.newzealandnorth.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:07+00:00",
+      "not_after": "2026-03-17T15:05:07+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e75e3a8079c4.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:08+00:00",
+      "not_after": "2026-03-17T15:05:08+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "blackwater-ff336108.swedencentral.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:08+00:00",
+      "not_after": "2026-03-17T15:05:08+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "orangeground-3562fe6c.westeurope.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:08+00:00",
+      "not_after": "2026-03-17T15:05:08+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "greenflower-da3d273f.northeurope.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:08+00:00",
+      "not_after": "2026-03-17T15:05:08+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bluewave-cadd5261.canadacentral.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:09+00:00",
+      "not_after": "2026-03-17T15:05:09+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "orangemushroom-96590d84.uksouth.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:09+00:00",
+      "not_after": "2026-03-17T15:05:09+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "delightfultree-db603bcf.westeurope.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:09+00:00",
+      "not_after": "2026-03-17T15:05:09+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzz8r58ro39xgh.australiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:10+00:00",
+      "not_after": "2026-03-17T15:05:10+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bdf405e2f3b2.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:10+00:00",
+      "not_after": "2026-03-17T15:05:10+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e6e8a67871e9.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:07+00:00",
+      "not_after": "2026-03-17T15:05:07+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ashystone-0e8b60ca.canadaeast.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:11+00:00",
+      "not_after": "2026-03-17T15:05:11+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzpvrqcgdraayh.australiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:11+00:00",
+      "not_after": "2026-03-17T15:05:11+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a5d02008b427.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:11+00:00",
+      "not_after": "2026-03-17T15:05:11+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbztmjbai7wxcdf.australiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:12+00:00",
+      "not_after": "2026-03-17T15:05:12+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzvfvdr713tb54.chinanorth3.atlas.seabreeze.chinacloudapi.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzew5yhvrbndbv.australiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:12+00:00",
+      "not_after": "2026-03-17T15:05:12+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzc9qdtlp9pgz2.australiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:12+00:00",
+      "not_after": "2026-03-17T15:05:12+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "blacksmoke-db8c98c3.westus3.azurecontainerapps.io",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:09+00:00",
+      "not_after": "2026-03-17T15:05:09+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzs74c2fb4ufmn.australiacentral.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:13+00:00",
+      "not_after": "2026-03-17T15:05:13+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzqendxv19rnhw.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:14+00:00",
+      "not_after": "2026-03-17T15:05:14+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b4b7f81b5218.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:15+00:00",
+      "not_after": "2026-03-17T15:05:15+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c62e6b96f612.onebox.orcasbreadth-test.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:15+00:00",
+      "not_after": "2026-03-17T15:05:15+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sbzykvmk997nrpj.japanwest.atlas.cloudapp.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:15+00:00",
+      "not_after": "2026-03-17T15:05:15+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fe347297b245.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:15+00:00",
+      "not_after": "2026-03-17T15:05:15+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c9aa851890a5.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:16+00:00",
+      "not_after": "2026-03-17T15:05:16+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f03b9f403ee9.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:16+00:00",
+      "not_after": "2026-03-17T15:05:16+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a393031dcc36.flex.pgmongo-dev.cosmos.windows-int.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:16+00:00",
+      "not_after": "2026-03-17T15:05:16+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f2ae3565ab63.mongocluster.cosmos.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:16+00:00",
+      "not_after": "2026-03-17T15:05:16+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.redis.cache.windows.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:16+00:00",
+      "not_after": "2026-03-17T15:05:16+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 03",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c668e442f02a.database.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:05:17+00:00",
+      "not_after": "2026-03-17T15:05:17+00:00"
+    },
+    {
+      "ca": "DigiCert, Inc. (US)",
+      "issuer": {
+        "cn": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
+        "o": "DigiCert, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.orpheos.ai"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-03-18T23:59:59+00:00"
+    }
+  ]
+}

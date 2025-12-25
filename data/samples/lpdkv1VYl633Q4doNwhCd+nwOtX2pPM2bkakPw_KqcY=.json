@@ -1,0 +1,223 @@
+{
+  "log_name": "Google 'Xenon2026h1' log",
+  "operator": "Google",
+  "log_id": "lpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcY=",
+  "log_type": "rfc6962",
+  "sample_count": 16,
+  "ca_counts": {
+    "Let's Encrypt (US)": 10,
+    "ZeroSSL (AT)": 3,
+    "Google Trust Services (US)": 2,
+    "Microsoft Corporation (US)": 1
+  },
+  "certificates": [
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sitemaps.suvcrossover2018.com"
+      },
+      "not_before": "2025-12-25T04:13:36+00:00",
+      "not_after": "2026-03-25T04:13:35+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "n.cgsv.com"
+      },
+      "not_before": "2025-12-25T04:13:25+00:00",
+      "not_after": "2026-03-25T04:13:24+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL ECC Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "downloadpdf274824.bbasia.org"
+      },
+      "not_before": "2025-12-23T00:00:00+00:00",
+      "not_after": "2026-03-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "graziera.com"
+      },
+      "not_before": "2025-12-25T04:13:36+00:00",
+      "not_after": "2026-03-25T04:13:35+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tcc-opensource.blueplanet.com.tw"
+      },
+      "not_before": "2025-12-25T04:13:30+00:00",
+      "not_after": "2026-03-25T04:13:29+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hengguanjiye.com"
+      },
+      "not_before": "2025-12-25T04:12:03+00:00",
+      "not_after": "2026-03-25T05:10:52+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.petlink.ai"
+      },
+      "not_before": "2025-12-25T04:13:36+00:00",
+      "not_after": "2026-03-25T04:13:35+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cashmay.com"
+      },
+      "not_before": "2025-12-25T04:13:35+00:00",
+      "not_after": "2026-03-25T04:13:34+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "irozuki-aun.com"
+      },
+      "not_before": "2025-12-25T04:13:37+00:00",
+      "not_after": "2026-03-25T04:13:36+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wei714363723.direct.quickconnect.cn"
+      },
+      "not_before": "2025-12-25T04:13:29+00:00",
+      "not_after": "2026-03-25T04:13:28+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 08",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ab16abf3ac7b.database.test.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T05:01:59+00:00",
+      "not_after": "2026-06-23T05:01:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL ECC Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "bj-xyha.com"
+      },
+      "not_before": "2025-12-23T00:00:00+00:00",
+      "not_after": "2026-03-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "analytic.unwindnailbar.com"
+      },
+      "not_before": "2025-12-25T04:13:36+00:00",
+      "not_after": "2026-03-25T04:13:35+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL ECC Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "ontes4him.com"
+      },
+      "not_before": "2025-12-24T00:00:00+00:00",
+      "not_after": "2026-03-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-25T04:11:58+00:00",
+      "not_after": "2026-03-25T04:11:57+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rpn.daga.cn"
+      },
+      "not_before": "2025-12-25T04:13:34+00:00",
+      "not_after": "2026-03-25T04:13:33+00:00"
+    }
+  ]
+}

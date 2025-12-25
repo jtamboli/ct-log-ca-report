@@ -1,0 +1,548 @@
+{
+  "log_name": "DigiCert 'Wyvern2026h2'",
+  "operator": "DigiCert",
+  "log_id": "wjF+V0UZo0XufzjespBB68fCIVoiv3/Vta12mtkOUs0=",
+  "log_type": "rfc6962",
+  "sample_count": 38,
+  "ca_counts": {
+    "GoDaddy.com, Inc. (US)": 35,
+    "DigiCert Inc (US)": 1,
+    "Microsoft Corporation (US)": 2
+  },
+  "certificates": [
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.pop-casso.com"
+      },
+      "not_before": "2025-12-25T05:10:30+00:00",
+      "not_after": "2026-07-11T05:10:30+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.laloungeltechdrivers.au"
+      },
+      "not_before": "2025-12-25T05:10:35+00:00",
+      "not_after": "2026-07-11T05:10:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "trustedhomewatchers.com"
+      },
+      "not_before": "2025-12-25T05:10:35+00:00",
+      "not_after": "2026-07-11T05:10:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.turbinesocial.com"
+      },
+      "not_before": "2025-12-25T05:10:34+00:00",
+      "not_after": "2026-07-11T05:10:34+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "008822.today"
+      },
+      "not_before": "2025-12-25T05:10:26+00:00",
+      "not_after": "2026-07-11T05:10:26+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "digitaltwinprotocol.com"
+      },
+      "not_before": "2025-12-25T05:10:35+00:00",
+      "not_after": "2026-07-11T05:10:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nfringed.market"
+      },
+      "not_before": "2025-12-25T05:10:33+00:00",
+      "not_after": "2026-07-11T05:10:33+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "poqvnluk.hsf-klassen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.hammerspace.net"
+      },
+      "not_before": "2025-12-25T05:10:46+00:00",
+      "not_after": "2026-07-11T05:10:46+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "luckyvip77.me"
+      },
+      "not_before": "2025-12-25T05:10:39+00:00",
+      "not_after": "2026-07-11T05:10:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "italiagranturismo.com"
+      },
+      "not_before": "2025-12-25T05:10:39+00:00",
+      "not_after": "2026-07-11T05:10:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dcdefenders.co"
+      },
+      "not_before": "2025-12-25T05:10:37+00:00",
+      "not_after": "2026-07-11T05:10:37+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.gotthn.com"
+      },
+      "not_before": "2025-12-25T05:10:38+00:00",
+      "not_after": "2026-07-11T05:10:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.govopps-ny.us"
+      },
+      "not_before": "2025-12-25T05:10:37+00:00",
+      "not_after": "2026-07-11T05:10:37+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fastball.uk"
+      },
+      "not_before": "2025-12-25T05:10:38+00:00",
+      "not_after": "2026-07-11T05:10:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "youthastronomy.info"
+      },
+      "not_before": "2025-12-25T05:10:38+00:00",
+      "not_after": "2026-07-11T05:10:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "thingxchange.com"
+      },
+      "not_before": "2025-12-25T05:10:36+00:00",
+      "not_after": "2026-07-11T05:10:36+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.partypokerteams.com"
+      },
+      "not_before": "2025-12-25T05:10:47+00:00",
+      "not_after": "2026-07-11T05:10:47+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.pettailsofjoy.net"
+      },
+      "not_before": "2025-12-25T05:10:42+00:00",
+      "not_after": "2026-07-11T05:10:42+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d3.ltd"
+      },
+      "not_before": "2025-12-25T05:10:42+00:00",
+      "not_after": "2026-07-11T05:10:42+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "used-trailers-8166891.zone"
+      },
+      "not_before": "2025-12-25T05:10:44+00:00",
+      "not_after": "2026-07-11T05:10:44+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "arbet55.xyz"
+      },
+      "not_before": "2025-12-25T05:10:44+00:00",
+      "not_after": "2026-07-11T05:10:44+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.jaronvarsano.net"
+      },
+      "not_before": "2025-12-25T05:10:43+00:00",
+      "not_after": "2026-07-11T05:10:43+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.cfgentleman.com"
+      },
+      "not_before": "2025-12-25T05:10:39+00:00",
+      "not_after": "2026-07-11T05:10:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.migsunprojects.site"
+      },
+      "not_before": "2025-12-25T05:10:41+00:00",
+      "not_after": "2026-07-11T05:10:41+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "blood-sugar-levels-my-city1016.today"
+      },
+      "not_before": "2025-12-25T05:10:48+00:00",
+      "not_after": "2026-07-11T05:10:48+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 07",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e2620075-d476-41ae-b5b9-ccfd55bade1f.vpn.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T05:00:42+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "goldengirls.au"
+      },
+      "not_before": "2025-12-25T05:10:48+00:00",
+      "not_after": "2026-07-11T05:10:48+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "woodsidegeorgetown.com"
+      },
+      "not_before": "2025-12-25T05:10:49+00:00",
+      "not_after": "2026-07-11T05:10:49+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vanhorn.ai"
+      },
+      "not_before": "2025-12-25T05:10:24+00:00",
+      "not_after": "2026-07-11T05:10:24+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lg-storage.com"
+      },
+      "not_before": "2025-12-25T05:10:25+00:00",
+      "not_after": "2026-07-11T05:10:25+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "investelsalvador.us"
+      },
+      "not_before": "2025-12-25T05:10:26+00:00",
+      "not_after": "2026-07-11T05:10:26+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.gulfcoastelopementphotographer.com"
+      },
+      "not_before": "2025-12-25T05:10:49+00:00",
+      "not_after": "2026-07-11T05:10:49+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "perumineralworks.com"
+      },
+      "not_before": "2025-12-25T05:10:23+00:00",
+      "not_after": "2026-07-11T05:10:23+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "coffeeshoppro.online"
+      },
+      "not_before": "2025-12-25T05:10:49+00:00",
+      "not_after": "2026-07-11T05:10:49+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 07",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mhsm-sww-synthetics.managedhsm.azure.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:00:41+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newmountainentertainment.com"
+      },
+      "not_before": "2025-12-25T05:10:43+00:00",
+      "not_after": "2026-07-11T05:10:43+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.venetianvegas.ai"
+      },
+      "not_before": "2025-12-25T05:10:38+00:00",
+      "not_after": "2026-07-11T05:10:38+00:00"
+    }
+  ]
+}

@@ -1,0 +1,2709 @@
+{
+  "log_name": "Sectigo 'Mammoth2026h2'",
+  "operator": "Sectigo",
+  "log_id": "lLHBirDQV8R74KwEDh8svI3DdXJ7yVHyClJhJoY7pzw=",
+  "log_type": "rfc6962",
+  "sample_count": 196,
+  "ca_counts": {
+    "GoDaddy.com, Inc. (US)": 128,
+    "Amazon (US)": 56,
+    "Actalis S.p.A. (IT)": 1,
+    "Sectigo Limited (GB)": 4,
+    "IdenTrust (US)": 3,
+    "GlobalSign nv-sa (BE)": 1,
+    "TrustAsia Technologies, Inc. (CN)": 1,
+    "Starfield Technologies, Inc. (US)": 1,
+    "DigiCert Inc (US)": 1
+  },
+  "certificates": [
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "coramanda.org"
+      },
+      "not_before": "2025-09-18T13:45:17+00:00",
+      "not_after": "2026-09-18T13:45:17+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryba18d93d691.pmcm83.c3.kafka-beta.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "graciousdove.com"
+      },
+      "not_before": "2025-09-18T13:45:09+00:00",
+      "not_after": "2026-09-18T13:45:09+00:00"
+    },
+    {
+      "ca": "Actalis S.p.A. (IT)",
+      "issuer": {
+        "cn": "Actalis Domain Validation Server CA G3",
+        "o": "Actalis S.p.A.",
+        "c": "IT"
+      },
+      "subject": {
+        "cn": "*.studioamb.it"
+      },
+      "not_before": "2025-07-16T03:00:49+00:00",
+      "not_after": "2026-08-16T03:00:48+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "atozseotools.tempo-mail.pro"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-09-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "happygowild.com"
+      },
+      "not_before": "2025-09-18T13:45:31+00:00",
+      "not_after": "2026-09-18T13:45:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.jmcleanings.com"
+      },
+      "not_before": "2025-09-18T12:27:33+00:00",
+      "not_after": "2026-09-18T12:27:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mobilecallads.com"
+      },
+      "not_before": "2025-09-18T12:27:28+00:00",
+      "not_after": "2026-09-18T12:27:28+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "freneticmc.net"
+      },
+      "not_before": "2025-09-18T12:27:30+00:00",
+      "not_after": "2026-09-18T12:27:30+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "onholdrecording.com"
+      },
+      "not_before": "2025-09-18T12:27:31+00:00",
+      "not_after": "2026-09-18T12:27:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "police-impounded-cars-us-8838812.zone"
+      },
+      "not_before": "2025-09-18T12:27:29+00:00",
+      "not_after": "2026-09-18T12:27:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "thepiercingpoint.com"
+      },
+      "not_before": "2025-09-18T12:27:28+00:00",
+      "not_after": "2026-09-18T12:27:28+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cardiovasculartx.com"
+      },
+      "not_before": "2025-09-18T12:27:24+00:00",
+      "not_after": "2026-09-18T12:27:24+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hospitalspatientlifts.com"
+      },
+      "not_before": "2025-09-18T12:27:32+00:00",
+      "not_after": "2026-09-18T12:27:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "foodisfreedom.biz"
+      },
+      "not_before": "2025-09-18T12:27:31+00:00",
+      "not_after": "2026-09-18T12:27:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.nvivolongevity.com"
+      },
+      "not_before": "2025-09-18T12:27:33+00:00",
+      "not_after": "2026-09-18T12:27:32+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "9be1df.inxt-qa-cp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "members.plrfairy.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fortiworx.com"
+      },
+      "not_before": "2025-09-18T12:27:35+00:00",
+      "not_after": "2026-09-18T12:27:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "resure-consult.com"
+      },
+      "not_before": "2025-09-18T12:27:30+00:00",
+      "not_after": "2026-09-18T12:27:30+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2uxaqyg7pm6pklob5hfbmskn4u.eu-north-1.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "8043ky.com"
+      },
+      "not_before": "2025-09-18T12:27:38+00:00",
+      "not_after": "2026-09-18T12:27:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.dmvbuzzbuilders.com"
+      },
+      "not_before": "2025-09-18T12:27:29+00:00",
+      "not_after": "2026-09-18T12:27:29+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "63afe8cf.ap-northeast-2.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newtonrunningpa.com"
+      },
+      "not_before": "2025-09-18T12:27:36+00:00",
+      "not_after": "2026-09-18T12:27:36+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "moviemanministries.com"
+      },
+      "not_before": "2025-09-18T13:45:08+00:00",
+      "not_after": "2026-09-18T13:45:08+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.af-south-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.il-central-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "573646002536341716.94003.radius.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:15:28+00:00",
+      "not_after": "2026-09-23T15:14:28+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "scep.114598837484778.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:15:28+00:00",
+      "not_after": "2026-09-23T15:14:28+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "extranet.cms.vertrieb-plattform-dev.de"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "huh4rdxz4tw7ujv5xbctjhenom.us-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ntcbpotawgywuszu35fuayvpci.eu-central-1.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.eu-west-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dpapi-learningstoat-api.aws6.mark.mark.appvia.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "unlcasino.net"
+      },
+      "not_before": "2025-09-18T13:26:36+00:00",
+      "not_after": "2026-09-18T13:26:36+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "clv-338.com"
+      },
+      "not_before": "2025-09-18T12:27:35+00:00",
+      "not_after": "2026-09-18T12:27:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kneadkosher.xyz"
+      },
+      "not_before": "2025-09-18T13:49:13+00:00",
+      "not_after": "2026-09-18T13:49:13+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lxjvzkwwc52qwgqwl4xlov5qmy.us-east-2.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "worlddemocracyalliance.org"
+      },
+      "not_before": "2025-09-18T12:27:38+00:00",
+      "not_after": "2026-09-18T12:27:38+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ironedgevc.net"
+      },
+      "not_before": "2025-09-18T15:15:03+00:00",
+      "not_after": "2026-09-18T15:15:03+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "isomorphicalgorithms.com"
+      },
+      "not_before": "2025-09-18T13:51:09+00:00",
+      "not_after": "2026-09-18T13:51:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tapburg.com"
+      },
+      "not_before": "2025-09-18T12:27:34+00:00",
+      "not_after": "2026-09-18T12:27:34+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "easybusiness.tech"
+      },
+      "not_before": "2025-09-18T13:45:33+00:00",
+      "not_after": "2026-09-18T13:45:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vivetulibertadfinanciera.com"
+      },
+      "not_before": "2025-09-18T13:45:33+00:00",
+      "not_after": "2026-09-18T13:45:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sipoz.com"
+      },
+      "not_before": "2025-09-18T12:27:33+00:00",
+      "not_after": "2026-09-18T12:27:33+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e162a753.eu-west-3.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "zepmart.com"
+      },
+      "not_before": "2025-09-18T12:27:38+00:00",
+      "not_after": "2026-09-18T12:27:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cladfox.com"
+      },
+      "not_before": "2025-09-18T12:27:33+00:00",
+      "not_after": "2026-09-18T12:27:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.qinematics.com"
+      },
+      "not_before": "2025-09-18T13:45:16+00:00",
+      "not_after": "2026-09-18T13:45:16+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hitmangarage.com"
+      },
+      "not_before": "2025-09-18T12:26:29+00:00",
+      "not_after": "2026-09-18T12:26:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "electunderwood.org"
+      },
+      "not_before": "2025-09-18T12:26:28+00:00",
+      "not_after": "2026-09-18T12:26:28+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.flighthelp.support"
+      },
+      "not_before": "2025-09-18T12:26:34+00:00",
+      "not_after": "2026-10-17T17:19:08+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.majikderm.com"
+      },
+      "not_before": "2025-09-18T12:26:34+00:00",
+      "not_after": "2026-09-18T12:26:34+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.yolandajavier.com"
+      },
+      "not_before": "2025-09-18T12:26:31+00:00",
+      "not_after": "2026-09-18T12:26:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "unmanned-aero.io"
+      },
+      "not_before": "2025-09-18T13:52:56+00:00",
+      "not_after": "2026-09-18T13:52:56+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R6 AlphaSSL CA 2025",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.jornalocomunitario.com.br"
+      },
+      "not_before": "2025-09-18T15:15:27+00:00",
+      "not_after": "2026-10-20T15:15:26+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "energieberatung-ruediger.de"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-09-18T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "qeeengineers.com"
+      },
+      "not_before": "2025-09-18T12:26:32+00:00",
+      "not_after": "2026-09-18T12:26:32+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "430.console.fus.aws.intellij.net"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "himalayangourmet.com"
+      },
+      "not_before": "2025-09-18T12:26:37+00:00",
+      "not_after": "2026-09-18T12:26:37+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.munu24.com"
+      },
+      "not_before": "2025-09-18T12:26:35+00:00",
+      "not_after": "2026-09-18T12:26:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "givebigpgh.org"
+      },
+      "not_before": "2025-09-18T13:51:52+00:00",
+      "not_after": "2026-09-18T13:51:52+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bnbhostingacademy.com"
+      },
+      "not_before": "2025-09-18T13:45:16+00:00",
+      "not_after": "2026-09-18T13:45:16+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "19070791.af-south-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fmxfactoring.com"
+      },
+      "not_before": "2025-09-18T12:26:32+00:00",
+      "not_after": "2026-09-18T12:26:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "redefy.org"
+      },
+      "not_before": "2025-09-18T13:53:24+00:00",
+      "not_after": "2026-09-18T13:53:24+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "*.infra.outpost24.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-09-18T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.adcoreperformance.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.digitalpositivity.com"
+      },
+      "not_before": "2025-09-18T13:53:32+00:00",
+      "not_after": "2026-09-18T13:53:32+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wiki.kafdigitalbank.com.my"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "packspan.com"
+      },
+      "not_before": "2025-09-18T12:26:29+00:00",
+      "not_after": "2026-09-18T12:26:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "whitbyhomeprices.com"
+      },
+      "not_before": "2025-09-18T13:52:56+00:00",
+      "not_after": "2026-09-18T13:52:56+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e2e-87b536f8.taktile-org.testing-4.dp.tktl.io"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "headaware.net"
+      },
+      "not_before": "2025-09-18T13:51:44+00:00",
+      "not_after": "2026-09-18T13:51:44+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "saltypetscompany.com"
+      },
+      "not_before": "2025-09-18T13:43:23+00:00",
+      "not_after": "2026-09-18T13:43:23+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.pier57rental.com"
+      },
+      "not_before": "2025-09-18T13:43:22+00:00",
+      "not_after": "2026-09-18T13:43:22+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.groupescapehouses.co.uk"
+      },
+      "not_before": "2025-09-18T13:45:13+00:00",
+      "not_after": "2026-09-18T13:45:13+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.digitalbonanza.co.kr"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.federalemployeedisabilityaflac.com"
+      },
+      "not_before": "2025-09-18T13:45:12+00:00",
+      "not_after": "2026-09-18T13:45:12+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2stageadiabaticcooling.com"
+      },
+      "not_before": "2025-09-18T13:43:14+00:00",
+      "not_after": "2026-09-18T13:43:14+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "plants4free.life"
+      },
+      "not_before": "2025-09-18T13:43:17+00:00",
+      "not_after": "2026-09-18T13:43:17+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wi35ufndfc735gmlsww4wwgg7a.ap-south-1.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA OV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "vmsouraccweeu02.iam.shd.gl-int-aholddelhaize.com",
+        "o": "Ahold Delhaize Licensing S\u00e0rl",
+        "c": "CH"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-09-18T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.jfk-hotels.com"
+      },
+      "not_before": "2025-09-18T13:54:20+00:00",
+      "not_after": "2026-09-18T13:54:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "n8r5f.shop"
+      },
+      "not_before": "2025-09-18T13:43:09+00:00",
+      "not_after": "2026-09-18T13:43:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "michelreed.com"
+      },
+      "not_before": "2025-09-18T13:43:13+00:00",
+      "not_after": "2026-09-18T13:43:13+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d5w053t7dfont.amplifyapp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d3bbstbzo82lni.amplifyapp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "getpapapa.tech"
+      },
+      "not_before": "2025-09-18T13:53:42+00:00",
+      "not_after": "2026-09-18T13:53:42+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "movienauts.com"
+      },
+      "not_before": "2025-09-18T13:43:24+00:00",
+      "not_after": "2026-09-18T13:43:24+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "formaneon.com"
+      },
+      "not_before": "2025-09-18T13:43:20+00:00",
+      "not_after": "2026-09-18T13:43:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ez-planting.net"
+      },
+      "not_before": "2025-09-18T13:43:18+00:00",
+      "not_after": "2026-09-18T13:43:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "investorsedge.org"
+      },
+      "not_before": "2025-09-18T15:15:08+00:00",
+      "not_after": "2026-09-18T15:15:08+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "milholi.com"
+      },
+      "not_before": "2025-09-18T13:43:31+00:00",
+      "not_after": "2026-09-18T13:43:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sanctuaryat331living.com"
+      },
+      "not_before": "2025-09-18T13:43:31+00:00",
+      "not_after": "2026-09-18T13:43:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cjplawsf.com"
+      },
+      "not_before": "2025-09-18T13:43:20+00:00",
+      "not_after": "2026-09-18T13:43:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cuttheshitprodutions.com"
+      },
+      "not_before": "2025-09-18T13:43:33+00:00",
+      "not_after": "2026-09-18T13:43:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "guide4dev.com"
+      },
+      "not_before": "2025-09-18T13:43:17+00:00",
+      "not_after": "2026-09-18T13:43:17+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "polarismtg.co.nz"
+      },
+      "not_before": "2025-09-18T13:43:21+00:00",
+      "not_after": "2026-09-18T13:43:21+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "idealstoress.com"
+      },
+      "not_before": "2025-09-18T13:43:34+00:00",
+      "not_after": "2026-09-18T13:43:34+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "torgisl.com"
+      },
+      "not_before": "2025-09-18T13:43:26+00:00",
+      "not_after": "2026-09-18T13:43:26+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yutobodemo.net"
+      },
+      "not_before": "2025-09-18T13:43:19+00:00",
+      "not_after": "2026-09-18T13:43:19+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.ddaqhvkvhpifx.amplifyapp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "millwahl.com"
+      },
+      "not_before": "2025-09-18T13:43:29+00:00",
+      "not_after": "2026-09-18T13:43:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.themedimart.ca"
+      },
+      "not_before": "2025-09-18T13:43:18+00:00",
+      "not_after": "2026-09-18T13:43:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nadobeach.com"
+      },
+      "not_before": "2025-09-18T13:45:35+00:00",
+      "not_after": "2026-09-18T13:45:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ponchomama.com"
+      },
+      "not_before": "2025-09-18T13:52:24+00:00",
+      "not_after": "2026-09-18T13:52:24+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d1tcndbhzxeloi.amplifyapp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mdwaterheating.com"
+      },
+      "not_before": "2025-09-18T13:40:47+00:00",
+      "not_after": "2026-09-18T13:40:47+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.emjayhealthcare.com"
+      },
+      "not_before": "2025-09-18T15:15:03+00:00",
+      "not_after": "2026-09-18T15:15:03+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "copertino.co"
+      },
+      "not_before": "2025-09-18T13:56:19+00:00",
+      "not_after": "2026-09-18T13:56:19+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "precisionpaymentsolutions.com"
+      },
+      "not_before": "2025-09-18T13:56:18+00:00",
+      "not_after": "2026-09-18T13:56:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cbdreviewsite.com"
+      },
+      "not_before": "2025-09-18T13:52:25+00:00",
+      "not_after": "2026-09-18T13:52:25+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "stisidoreslounge.com"
+      },
+      "not_before": "2025-09-18T15:15:09+00:00",
+      "not_after": "2026-09-18T15:15:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "doctorzafra.com"
+      },
+      "not_before": "2025-09-18T13:46:46+00:00",
+      "not_after": "2026-09-18T13:46:46+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "growwithbizstory.info"
+      },
+      "not_before": "2025-09-18T13:45:15+00:00",
+      "not_after": "2026-09-18T13:45:15+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "carmenpintado.com"
+      },
+      "not_before": "2025-09-18T15:14:43+00:00",
+      "not_after": "2026-09-18T15:14:43+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.russmoorehomes.com"
+      },
+      "not_before": "2025-09-18T15:14:44+00:00",
+      "not_after": "2026-09-18T15:14:44+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "calibrebank.com"
+      },
+      "not_before": "2025-09-18T12:26:43+00:00",
+      "not_after": "2026-09-18T12:26:43+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cindybigelow.net"
+      },
+      "not_before": "2025-09-18T12:26:41+00:00",
+      "not_after": "2026-09-18T12:26:41+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rd-verify-delete.4d29aefb.gamma.forgeinternaldnsapps.ec2.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "anime-shinyoru.club"
+      },
+      "not_before": "2025-09-18T15:14:47+00:00",
+      "not_after": "2026-09-18T15:14:47+00:00"
+    },
+    {
+      "ca": "TrustAsia Technologies, Inc. (CN)",
+      "issuer": {
+        "cn": "TrustAsia DV TLS RSA CA 2025",
+        "o": "TrustAsia Technologies, Inc.",
+        "c": "CN"
+      },
+      "subject": {
+        "cn": "www.kanyy.org"
+      },
+      "not_before": "2025-07-16T00:00:00+00:00",
+      "not_after": "2026-07-15T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.testclusterforpat.fhvtul.c1.kafka-beta.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "corbatamart.com"
+      },
+      "not_before": "2025-09-18T13:52:31+00:00",
+      "not_after": "2026-09-18T13:52:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "restorationsolutionsaustralia.com.au"
+      },
+      "not_before": "2025-09-18T13:43:16+00:00",
+      "not_after": "2026-09-18T13:43:16+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.aceitsport.co.nz"
+      },
+      "not_before": "2025-09-18T13:43:29+00:00",
+      "not_after": "2026-09-18T13:43:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "luxury-car-deals-us-6003896.world"
+      },
+      "not_before": "2025-09-18T15:15:02+00:00",
+      "not_after": "2026-09-18T15:15:02+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "currencyofgivingmovement.com"
+      },
+      "not_before": "2025-09-18T13:51:44+00:00",
+      "not_after": "2026-09-18T13:51:44+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haralefoods.com"
+      },
+      "not_before": "2025-09-18T13:52:25+00:00",
+      "not_after": "2026-09-18T13:52:25+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ac17c8603f05.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-09-18T15:15:44+00:00",
+      "not_after": "2026-09-23T15:14:44+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "seat.financeapplication.dev.pcp.uk.vwfs.io"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "19070791.af-south-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "z7vuodhv23fqqq4qojynobpglm.us-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "grupochinalink.com"
+      },
+      "not_before": "2025-09-18T13:57:58+00:00",
+      "not_after": "2026-09-18T13:57:58+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "md891ghtueazm.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d7e92d83.ca-central-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rkvassociate.com"
+      },
+      "not_before": "2025-09-18T15:14:47+00:00",
+      "not_after": "2026-09-18T15:14:47+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.ap-northeast-2.vpce.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3f15af20.ap-east-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "7a645af7.ap-northeast-3.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.dh6jl1mrd3951.amplifyapp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "veroken.com"
+      },
+      "not_before": "2025-09-18T12:26:42+00:00",
+      "not_after": "2026-09-18T12:26:42+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "v3az5usvysn2zmmstldtvjn2ou.eu-west-1.es-staging.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.disfrutatuamerica.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lazosdeagua.net"
+      },
+      "not_before": "2025-09-18T12:27:45+00:00",
+      "not_after": "2026-09-18T12:27:45+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fucksaudiarabia.com"
+      },
+      "not_before": "2025-09-18T12:27:41+00:00",
+      "not_after": "2026-09-18T12:27:41+00:00"
+    },
+    {
+      "ca": "Starfield Technologies, Inc. (US)",
+      "issuer": {
+        "cn": "Starfield Secure Certificate Authority - G2",
+        "o": "Starfield Technologies, Inc.",
+        "ou": "http://certs.starfieldtech.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "elementsfirstaid.co.uk"
+      },
+      "not_before": "2025-09-18T12:26:35+00:00",
+      "not_after": "2026-09-16T14:51:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ihsorg.com"
+      },
+      "not_before": "2025-09-18T12:27:43+00:00",
+      "not_after": "2026-09-18T12:27:43+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "insight-15131386.test.ringgo-private.cloud"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3dbd6bf2.sa-east-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "abutair.me"
+      },
+      "not_before": "2025-09-18T12:27:45+00:00",
+      "not_after": "2026-09-18T12:27:45+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "demo.ainternetanbieter.de"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-09-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ha5ur2vhb2vjailceyqbmp6lji.us-east-2.es.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "modserve.com"
+      },
+      "not_before": "2025-09-18T12:27:41+00:00",
+      "not_after": "2026-09-18T12:27:41+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d3bvhrh7h0vf21.amplifyapp.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "infocusphotobysteve.com"
+      },
+      "not_before": "2025-09-18T12:27:44+00:00",
+      "not_after": "2026-09-18T12:27:44+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e168e8c1.us-west-2.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "thestylesgroup.us"
+      },
+      "not_before": "2025-09-18T12:27:49+00:00",
+      "not_after": "2026-09-18T12:27:49+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "regalsuper.com"
+      },
+      "not_before": "2025-09-18T12:27:42+00:00",
+      "not_after": "2026-09-18T12:27:42+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "scrockford.com"
+      },
+      "not_before": "2025-09-18T12:27:52+00:00",
+      "not_after": "2026-09-18T12:27:52+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "goldenrulelogisticsoftexas.com"
+      },
+      "not_before": "2025-09-18T12:27:46+00:00",
+      "not_after": "2026-09-18T12:27:46+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "huntersforguncontrol.com"
+      },
+      "not_before": "2025-09-18T12:27:52+00:00",
+      "not_after": "2026-09-18T12:27:52+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mindpoolasia.com"
+      },
+      "not_before": "2025-09-18T13:58:00+00:00",
+      "not_after": "2026-09-18T13:58:00+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "carousellabs.co"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.dairyrp.com"
+      },
+      "not_before": "2025-09-18T12:27:46+00:00",
+      "not_after": "2026-09-18T12:27:46+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "axolbio.co.uk"
+      },
+      "not_before": "2025-09-18T15:15:10+00:00",
+      "not_after": "2026-09-18T15:15:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "phantom-bikerepair.co.uk"
+      },
+      "not_before": "2025-09-18T15:15:08+00:00",
+      "not_after": "2026-09-18T15:15:08+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sharkey.us"
+      },
+      "not_before": "2025-09-18T15:14:44+00:00",
+      "not_after": "2026-09-18T15:14:44+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.gcsr1758197802cell1.jagtky.c1.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.commit-710a33a5.sandbox.cxnpl.io"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.furniturestagingrentals.com"
+      },
+      "not_before": "2025-09-18T13:56:20+00:00",
+      "not_after": "2026-09-18T13:56:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.quickhouserentalspot.info"
+      },
+      "not_before": "2025-09-18T13:45:09+00:00",
+      "not_after": "2026-09-18T13:45:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "myinnertrip.com"
+      },
+      "not_before": "2025-09-18T13:45:04+00:00",
+      "not_after": "2026-09-18T13:45:04+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "harambeefarms.com"
+      },
+      "not_before": "2025-09-18T13:45:04+00:00",
+      "not_after": "2026-09-18T13:45:04+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "emjayhealthcare.com"
+      },
+      "not_before": "2025-09-18T15:14:59+00:00",
+      "not_after": "2026-09-18T15:14:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.castingcallsorlando.com"
+      },
+      "not_before": "2025-09-18T15:14:12+00:00",
+      "not_after": "2026-09-18T15:14:12+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.qmty91.com"
+      },
+      "not_before": "2025-09-18T13:51:46+00:00",
+      "not_after": "2026-09-18T13:51:46+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "delgex.com"
+      },
+      "not_before": "2025-09-18T12:27:47+00:00",
+      "not_after": "2026-09-18T12:27:47+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "handmadecrate.com"
+      },
+      "not_before": "2025-09-18T13:45:10+00:00",
+      "not_after": "2026-09-18T13:45:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "harmonicdynamics.com"
+      },
+      "not_before": "2025-09-18T13:45:12+00:00",
+      "not_after": "2026-09-18T13:45:12+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "voterrollcleanup.org"
+      },
+      "not_before": "2025-09-18T13:45:23+00:00",
+      "not_after": "2026-09-18T13:45:23+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "22yards.org"
+      },
+      "not_before": "2025-09-18T13:45:27+00:00",
+      "not_after": "2026-09-18T13:45:27+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "harvardcamlab.org"
+      },
+      "not_before": "2025-09-18T13:45:31+00:00",
+      "not_after": "2026-09-18T13:45:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "399726.com"
+      },
+      "not_before": "2025-09-18T13:45:15+00:00",
+      "not_after": "2026-09-18T13:45:15+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mwgigs.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "unification-qa.apps.ambientesbc.com"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2026-10-17T23:59:59+00:00"
+    }
+  ]
+}

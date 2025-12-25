@@ -1,0 +1,3347 @@
+{
+  "log_name": "Sectigo 'Tiger2026h2'",
+  "operator": "Sectigo",
+  "log_id": "yKPEf8ezrbk1awE/anoSbeM6TkOlxkb5l605dZkdz5o=",
+  "log_type": "rfc6962",
+  "sample_count": 237,
+  "ca_counts": {
+    "DigiCert Inc (US)": 94,
+    "GoDaddy.com, Inc. (US)": 129,
+    "Cisco Systems, Inc. (US)": 6,
+    "Microsoft Corporation (US)": 4,
+    "COMODO CA Limited (GB)": 1,
+    "Sectigo Limited (GB)": 2,
+    "Amazon (DE)": 1
+  },
+  "certificates": [
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jwqyztnl.daenemarkangelhaus-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "babsstore.co"
+      },
+      "not_before": "2025-12-25T05:08:10+00:00",
+      "not_after": "2026-07-11T05:08:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.sxq9a-9oetb4-agsldp.work"
+      },
+      "not_before": "2025-12-25T05:08:12+00:00",
+      "not_after": "2026-07-11T05:08:12+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.foreverendeavor.co"
+      },
+      "not_before": "2025-12-25T05:07:53+00:00",
+      "not_after": "2026-07-11T05:07:53+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "elec-truck.com"
+      },
+      "not_before": "2025-12-25T05:08:11+00:00",
+      "not_after": "2026-07-11T05:08:11+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "qlpcoekb.adaenemarkluxushaeuser.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "usnpgzai.daenemarkangeln-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.somersetwealthstrategies.org"
+      },
+      "not_before": "2025-12-25T05:08:09+00:00",
+      "not_after": "2026-07-11T05:08:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.lunamoon.co"
+      },
+      "not_before": "2025-12-25T05:08:10+00:00",
+      "not_after": "2026-07-11T05:08:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.casacentro.mx"
+      },
+      "not_before": "2025-12-25T05:08:08+00:00",
+      "not_after": "2026-07-11T05:08:08+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "thecolorfulcabinet.org"
+      },
+      "not_before": "2025-12-25T05:08:06+00:00",
+      "not_after": "2026-07-11T05:08:06+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.theredcreative.com"
+      },
+      "not_before": "2025-12-25T05:08:08+00:00",
+      "not_after": "2026-07-11T05:08:08+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ipvzunro.daenmarkunterkuenfte.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "billjonestutor.com"
+      },
+      "not_before": "2025-12-25T05:08:09+00:00",
+      "not_after": "2026-07-11T05:08:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.prtourstravels.in"
+      },
+      "not_before": "2025-12-25T05:08:09+00:00",
+      "not_after": "2026-07-11T05:08:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newyorkonepawnshop.com"
+      },
+      "not_before": "2025-12-25T05:08:11+00:00",
+      "not_after": "2026-07-11T05:08:11+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.bighbash365.in"
+      },
+      "not_before": "2025-12-25T05:08:09+00:00",
+      "not_after": "2026-07-11T05:08:09+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "agunsbvk.tarifcheck-6-monate-kredit.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yaubqgzh.xn--de-dnemarkangelhtten-ezb45c.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jlcmeidb.daenemarkaktivurlaub-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vluzbqdx.ddaenemarkunterkuenfte.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.waveflowpay.food"
+      },
+      "not_before": "2025-12-25T05:08:10+00:00",
+      "not_after": "2026-07-11T05:08:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.skateboardingnationalchampionship.com"
+      },
+      "not_before": "2025-12-25T05:08:09+00:00",
+      "not_after": "2026-07-11T05:08:09+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tomclausbusiness.com"
+      },
+      "not_before": "2025-10-25T12:26:51+00:00",
+      "not_after": "2026-10-25T12:26:51+00:00"
+    },
+    {
+      "ca": "Cisco Systems, Inc. (US)",
+      "issuer": {
+        "cn": "Cisco Meraki CA",
+        "o": "Cisco Systems, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.08f1b3e3672b.devices.meraki.direct",
+        "o": "Meraki LLC",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-07-12T12:28:28+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yamkhrnq.daenemarkfeienanlagen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fhrsoegd.daenemarkangelhuetten-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "5918005f-8bed-4826-a30a-7c71b6217fbe.vpn.chinacloudapi.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-20T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "GeoTrust TLS RSA CA G1",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "owa.wohnhilfe-muenchen.de"
+      },
+      "not_before": "2025-07-29T00:00:00+00:00",
+      "not_after": "2026-07-28T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.genelab.co"
+      },
+      "not_before": "2025-12-25T05:06:16+00:00",
+      "not_after": "2026-07-11T05:06:16+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jpragrofarms.in"
+      },
+      "not_before": "2025-12-25T05:08:13+00:00",
+      "not_after": "2026-07-11T05:08:13+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "neurocentricapproach.org"
+      },
+      "not_before": "2025-12-25T05:08:13+00:00",
+      "not_after": "2026-07-11T05:08:13+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "manmodemagazine.com"
+      },
+      "not_before": "2025-12-25T05:08:14+00:00",
+      "not_after": "2026-07-11T05:08:14+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "adultx.com"
+      },
+      "not_before": "2025-12-25T05:08:13+00:00",
+      "not_after": "2026-07-11T05:08:13+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wiserviser.com"
+      },
+      "not_before": "2025-12-25T05:08:14+00:00",
+      "not_after": "2026-07-11T05:08:14+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nextdayfix.com"
+      },
+      "not_before": "2025-12-25T05:08:15+00:00",
+      "not_after": "2026-07-11T05:08:15+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "4www.tarifcheck-niedrige-zinsen-kredit.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rygblatz.finanzt-check24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.ronanmartinez.shop"
+      },
+      "not_before": "2025-12-25T05:08:13+00:00",
+      "not_after": "2026-07-11T05:08:13+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sduhktiq.daenemrkunterkunft.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hpmtfryl.daenemarkanbieter-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.freedom1lending.com"
+      },
+      "not_before": "2025-12-25T05:08:15+00:00",
+      "not_after": "2026-07-11T05:08:15+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "duxbncsp.kranenkassenvergleich.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.rhodeislandaiassociation.org"
+      },
+      "not_before": "2025-12-25T05:08:13+00:00",
+      "not_after": "2026-07-11T05:08:13+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "realstudentdeals.us"
+      },
+      "not_before": "2025-12-25T05:08:14+00:00",
+      "not_after": "2026-07-11T05:08:14+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ipvzunro.daenmarkunterkuenfte.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yaubqgzh.xn--de-dnemarkangelhtten-ezb45c.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newportbeachsoberlivinghouse.com"
+      },
+      "not_before": "2025-12-25T05:08:14+00:00",
+      "not_after": "2026-07-11T05:08:14+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rezmai.com"
+      },
+      "not_before": "2025-12-25T05:08:17+00:00",
+      "not_after": "2026-07-11T05:08:17+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "space-grass.com"
+      },
+      "not_before": "2025-12-25T05:08:17+00:00",
+      "not_after": "2026-07-11T05:08:17+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hcpsych.org"
+      },
+      "not_before": "2025-12-24T19:51:34+00:00",
+      "not_after": "2026-07-10T19:51:34+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newsmyrnabeachcannabiscompany.com"
+      },
+      "not_before": "2025-12-25T05:08:15+00:00",
+      "not_after": "2026-07-11T05:08:15+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "aprilpinkston.com"
+      },
+      "not_before": "2025-12-25T05:08:17+00:00",
+      "not_after": "2026-07-11T05:08:17+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.freevideolectures.org"
+      },
+      "not_before": "2025-12-25T05:08:18+00:00",
+      "not_after": "2026-07-11T05:08:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "neuco.xyz"
+      },
+      "not_before": "2025-12-25T05:08:17+00:00",
+      "not_after": "2026-07-11T05:08:17+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fhrsoegd.daenemarkangelhuetten-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.rezmai.com"
+      },
+      "not_before": "2025-12-25T05:08:17+00:00",
+      "not_after": "2026-07-11T05:08:17+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yamkhrnq.daenemarkfeienanlagen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kqymwbet.ferienimmobilien-kleinanzeigen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Cisco Systems, Inc. (US)",
+      "issuer": {
+        "cn": "Cisco Meraki CA",
+        "o": "Cisco Systems, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.08f1b3e36701.devices.meraki.direct",
+        "o": "Meraki LLC",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-07-12T12:28:28+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.forgedgltinc.co"
+      },
+      "not_before": "2025-12-25T05:07:55+00:00",
+      "not_after": "2026-07-11T05:07:55+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 04",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "233a0062-5488-45b2-9760-7ea3a7bb237b.vpn.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:58:20+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ucag.com.mx"
+      },
+      "not_before": "2025-12-24T19:49:31+00:00",
+      "not_after": "2026-07-10T19:49:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.phangngapolicecoop.com"
+      },
+      "not_before": "2025-12-25T05:05:58+00:00",
+      "not_after": "2026-07-11T05:05:58+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "enlmzbqp.poortugal.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "utshzqvj.tarifcheck-6-monate-kredit.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.wishnook.shop"
+      },
+      "not_before": "2025-12-24T19:49:20+00:00",
+      "not_after": "2026-07-10T19:49:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.genelab.co"
+      },
+      "not_before": "2025-12-25T05:06:16+00:00",
+      "not_after": "2026-07-11T05:06:16+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "forthekulturellc.com"
+      },
+      "not_before": "2025-12-24T19:51:36+00:00",
+      "not_after": "2026-07-10T19:51:36+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ysmtnvfq.xn--dnemarkluxushus-0kb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "apvkybdw.hsf-klassen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kaetjywc.creditrecheck24.de"
+      },
+      "not_before": "2025-12-24T00:00:00+00:00",
+      "not_after": "2026-12-23T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nmpwbovs.ferienhaus-starup.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vjgcpryd.ferienhaus-starup.de"
+      },
+      "not_before": "2025-12-24T00:00:00+00:00",
+      "not_after": "2026-12-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 08",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mhsm-clc-synthetics.managedhsm.azure.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:54:56+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "omshecld.pogtugal.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "csfvxkaj.xn--komikkostme-1hb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cloud.oatsee.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 08",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cp-mhsm-ilnw-synthetics.managedhsm.azure.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:38:41+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ogbvrtjy.www-typklassen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "strujnova.com"
+      },
+      "not_before": "2025-12-24T19:49:27+00:00",
+      "not_after": "2026-07-10T19:49:27+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kynshczg.daenemarkanglerhaus-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "COMODO CA Limited (GB)",
+      "issuer": {
+        "cn": "COMODO RSA Organization Validation Secure Server CA",
+        "o": "COMODO CA Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "dentistsofmidlothian.com",
+        "o": "PDS Health Technologies",
+        "c": "US"
+      },
+      "not_before": "2025-12-23T00:00:00+00:00",
+      "not_after": "2026-12-23T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mrakgixb.daeneark-unterkuenfte.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ivanhoechurch.online"
+      },
+      "not_before": "2025-10-25T20:36:10+00:00",
+      "not_after": "2026-10-25T20:36:10+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.braddollar.com"
+      },
+      "not_before": "2025-12-24T19:51:23+00:00",
+      "not_after": "2026-07-10T19:51:23+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ymwngjbv.xn--dnemarkanbietr-5hb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "shopmiy.com"
+      },
+      "not_before": "2025-12-25T05:07:54+00:00",
+      "not_after": "2026-07-11T05:07:54+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wmvkrfjd.sthavelsestrandurlaub.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bisntocy.daenemarkunterkuenfte-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mytrainernetwork.com"
+      },
+      "not_before": "2025-12-25T05:03:08+00:00",
+      "not_after": "2026-07-11T05:03:08+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.leoequity.com"
+      },
+      "not_before": "2025-12-25T05:07:21+00:00",
+      "not_after": "2026-07-11T05:07:21+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kdthxemf.aenemarkangelhaeuser.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lbjutqzx.dgirokontocheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kfotqgnr.fiendsurance.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kingdomministrieschattanooga.com"
+      },
+      "not_before": "2025-12-25T05:05:18+00:00",
+      "not_after": "2026-07-11T05:05:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sentieriformativi.org"
+      },
+      "not_before": "2025-12-25T05:05:23+00:00",
+      "not_after": "2026-07-11T05:05:23+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "neonatalnurse1219-lc03-2.shop"
+      },
+      "not_before": "2025-12-25T05:06:17+00:00",
+      "not_after": "2026-07-11T05:06:17+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wiki.tarifcheck-vergleich-hausratversicherung.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nepalm.net"
+      },
+      "not_before": "2025-12-25T05:08:26+00:00",
+      "not_after": "2026-07-11T05:08:26+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "enlmzbqp.poortugal.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "utshzqvj.tarifcheck-6-monate-kredit.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "omshecld.pogtugal.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "apvkybdw.hsf-klassen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "88681644.app"
+      },
+      "not_before": "2025-12-25T05:08:21+00:00",
+      "not_after": "2026-07-11T05:08:21+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cfaysf.org"
+      },
+      "not_before": "2025-12-25T05:08:22+00:00",
+      "not_after": "2026-07-11T05:08:22+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pixsurpro.com"
+      },
+      "not_before": "2025-12-25T05:08:23+00:00",
+      "not_after": "2026-07-11T05:08:23+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ymwngjbv.xn--dnemarkanbietr-5hb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "008904.today"
+      },
+      "not_before": "2025-12-25T05:08:30+00:00",
+      "not_after": "2026-07-11T05:08:30+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.nest3d.xyz"
+      },
+      "not_before": "2025-12-25T05:08:29+00:00",
+      "not_after": "2026-07-11T05:08:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "unlimitedroyal.com"
+      },
+      "not_before": "2025-12-25T05:08:36+00:00",
+      "not_after": "2026-07-11T05:08:36+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.georgettet.com"
+      },
+      "not_before": "2025-12-25T05:08:21+00:00",
+      "not_after": "2026-07-11T05:08:21+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pvigxoac.daenemarkunterkunft-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beachyfoods.com"
+      },
+      "not_before": "2025-12-25T05:08:26+00:00",
+      "not_after": "2026-07-11T05:08:26+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bisntocy.daenemarkunterkuenfte-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.399603.com"
+      },
+      "not_before": "2025-12-25T05:08:32+00:00",
+      "not_after": "2026-07-11T05:08:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.friddysuccess.website"
+      },
+      "not_before": "2025-12-25T05:08:24+00:00",
+      "not_after": "2026-07-11T05:08:24+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fridfy.org"
+      },
+      "not_before": "2025-12-25T05:08:23+00:00",
+      "not_after": "2026-07-11T05:08:23+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.kakaolife.xyz"
+      },
+      "not_before": "2025-12-25T05:08:25+00:00",
+      "not_after": "2026-07-11T05:08:25+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "negronisociety.org"
+      },
+      "not_before": "2025-12-25T05:08:20+00:00",
+      "not_after": "2026-07-11T05:08:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "officegetaway.com"
+      },
+      "not_before": "2025-12-25T05:08:33+00:00",
+      "not_after": "2026-07-11T05:08:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.13-k.com.au"
+      },
+      "not_before": "2025-12-25T05:08:20+00:00",
+      "not_after": "2026-07-11T05:08:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.jasonpriestleyonline.com"
+      },
+      "not_before": "2025-12-25T05:08:24+00:00",
+      "not_after": "2026-07-11T05:08:24+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "csfvxkaj.xn--komikkostme-1hb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "domesticpeacecorps.com"
+      },
+      "not_before": "2025-12-25T05:08:31+00:00",
+      "not_after": "2026-07-11T05:08:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hulataco.com"
+      },
+      "not_before": "2025-12-25T05:08:34+00:00",
+      "not_after": "2026-07-11T05:08:34+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ysmtnvfq.xn--dnemarkluxushus-0kb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ogbvrtjy.www-typklassen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.thailand-flight-packages-sl.today"
+      },
+      "not_before": "2025-12-25T05:08:29+00:00",
+      "not_after": "2026-07-11T05:08:29+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mrakgixb.daeneark-unterkuenfte.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kapitalia.com"
+      },
+      "not_before": "2025-12-25T05:08:31+00:00",
+      "not_after": "2026-07-11T05:08:31+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.rosse.co"
+      },
+      "not_before": "2025-12-25T05:08:36+00:00",
+      "not_after": "2026-07-11T05:08:36+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "supportoxfordshire.co.uk"
+      },
+      "not_before": "2025-12-25T05:08:26+00:00",
+      "not_after": "2026-07-11T05:08:26+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newerapropertiesllc.com"
+      },
+      "not_before": "2025-12-25T05:08:20+00:00",
+      "not_after": "2026-07-11T05:08:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "freewayinsurance.email"
+      },
+      "not_before": "2025-12-25T05:08:34+00:00",
+      "not_after": "2026-07-11T05:08:34+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.luvbugz.co.uk"
+      },
+      "not_before": "2025-12-25T05:08:32+00:00",
+      "not_after": "2026-07-11T05:08:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newwavegroups.com"
+      },
+      "not_before": "2025-12-25T05:08:29+00:00",
+      "not_after": "2026-07-11T05:08:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.railreader.com"
+      },
+      "not_before": "2025-12-25T05:08:23+00:00",
+      "not_after": "2026-07-11T05:08:23+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.munawarfitness.in"
+      },
+      "not_before": "2025-12-25T05:08:22+00:00",
+      "not_after": "2026-07-11T05:08:22+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.infotechnosys.com"
+      },
+      "not_before": "2025-12-25T05:08:33+00:00",
+      "not_after": "2026-07-11T05:08:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.sinostar.co"
+      },
+      "not_before": "2025-12-25T05:08:38+00:00",
+      "not_after": "2026-07-11T05:08:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "loker-bumn.site"
+      },
+      "not_before": "2025-12-25T05:08:33+00:00",
+      "not_after": "2026-07-11T05:08:33+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.687c.com"
+      },
+      "not_before": "2025-12-25T05:08:22+00:00",
+      "not_after": "2026-07-11T05:08:22+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "torratudo.online"
+      },
+      "not_before": "2025-12-25T05:08:24+00:00",
+      "not_after": "2026-07-11T05:08:24+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wmvkrfjd.sthavelsestrandurlaub.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dhiplay.link"
+      },
+      "not_before": "2025-12-25T05:08:32+00:00",
+      "not_after": "2026-07-11T05:08:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tidallabor.com"
+      },
+      "not_before": "2025-12-25T05:08:37+00:00",
+      "not_after": "2026-07-11T05:08:37+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "6www.kfz-versicherung-neue-tarife-tarifcheck.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kdthxemf.aenemarkangelhaeuser.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kqymwbet.ferienimmobilien-kleinanzeigen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sacemploymentlawyers.com"
+      },
+      "not_before": "2025-12-25T05:08:28+00:00",
+      "not_after": "2026-07-11T05:08:28+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "simplesoulstuff.com"
+      },
+      "not_before": "2025-12-25T05:08:35+00:00",
+      "not_after": "2026-07-11T05:08:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "voicerealtorsinnercircle.com"
+      },
+      "not_before": "2025-12-25T05:08:35+00:00",
+      "not_after": "2026-07-11T05:08:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.mybettertax.com"
+      },
+      "not_before": "2025-12-25T05:08:35+00:00",
+      "not_after": "2026-07-11T05:08:35+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cloud.oatsee.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 07",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cp-mhsm-ilnw-synthetics.managedhsm.azure.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:39:16+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lbjutqzx.dgirokontocheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kynshczg.daenemarkanglerhaus-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "transcription.co.za"
+      },
+      "not_before": "2025-12-25T05:08:34+00:00",
+      "not_after": "2026-07-11T05:08:34+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "4www.tarifcheck-niedrige-zinsen-kredit.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "zanewear.com"
+      },
+      "not_before": "2025-12-25T05:08:27+00:00",
+      "not_after": "2026-07-11T05:08:27+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xoerhblp.daenmarkaktivurlaub.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3www.handytarifvergleich-tarifcheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newaustinoffice.com"
+      },
+      "not_before": "2025-12-25T05:08:30+00:00",
+      "not_after": "2026-07-11T05:08:30+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "next-job.net"
+      },
+      "not_before": "2025-12-25T05:08:32+00:00",
+      "not_after": "2026-07-11T05:08:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.abheegreenacres.ai"
+      },
+      "not_before": "2025-12-25T05:08:22+00:00",
+      "not_after": "2026-07-11T05:08:22+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.mibet68.to"
+      },
+      "not_before": "2025-12-25T05:08:18+00:00",
+      "not_after": "2026-07-11T05:08:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.voisbiz.com"
+      },
+      "not_before": "2025-12-25T05:08:29+00:00",
+      "not_after": "2026-07-11T05:08:29+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.vifg5r.vip"
+      },
+      "not_before": "2025-12-25T05:08:25+00:00",
+      "not_after": "2026-07-11T05:08:25+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wiki.tarifcheck-vergleich-hausratversicherung.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newmetropolitan.net"
+      },
+      "not_before": "2025-12-25T05:08:39+00:00",
+      "not_after": "2026-07-11T05:08:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "panoptis.ai"
+      },
+      "not_before": "2025-12-25T05:08:26+00:00",
+      "not_after": "2026-07-11T05:08:26+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.onecruisedeal.ca"
+      },
+      "not_before": "2025-12-25T05:08:40+00:00",
+      "not_after": "2026-07-11T05:08:40+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.ubifusion.com"
+      },
+      "not_before": "2025-12-25T05:08:36+00:00",
+      "not_after": "2026-07-11T05:08:36+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "naturesflavorguy.com"
+      },
+      "not_before": "2025-12-25T05:08:39+00:00",
+      "not_after": "2026-07-11T05:08:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newlife757.com"
+      },
+      "not_before": "2025-12-25T05:08:28+00:00",
+      "not_after": "2026-07-11T05:08:28+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newyorkcitybreastaug.com"
+      },
+      "not_before": "2025-12-25T05:08:40+00:00",
+      "not_after": "2026-07-11T05:08:40+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "burn.hzc.io"
+      },
+      "not_before": "2025-12-25T05:08:39+00:00",
+      "not_after": "2026-07-11T05:08:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "chapadaobebidas.online"
+      },
+      "not_before": "2025-12-25T05:08:36+00:00",
+      "not_after": "2026-07-11T05:08:36+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.vapourfusesurfacing.com"
+      },
+      "not_before": "2025-12-25T05:08:18+00:00",
+      "not_after": "2026-07-11T05:08:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.loker-bumn.site"
+      },
+      "not_before": "2025-12-25T05:08:35+00:00",
+      "not_after": "2026-07-11T05:08:35+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pmy208.xyz"
+      },
+      "not_before": "2025-12-25T05:08:25+00:00",
+      "not_after": "2026-07-11T05:08:25+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newteck-services.com"
+      },
+      "not_before": "2025-12-25T05:08:38+00:00",
+      "not_after": "2026-07-11T05:08:38+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vapourfusesurfacing.com"
+      },
+      "not_before": "2025-12-25T05:08:18+00:00",
+      "not_after": "2026-07-11T05:08:18+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.sweacdrills.com"
+      },
+      "not_before": "2025-12-25T05:08:20+00:00",
+      "not_after": "2026-07-11T05:08:20+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fumerte.homes"
+      },
+      "not_before": "2025-12-25T05:08:39+00:00",
+      "not_after": "2026-07-11T05:08:39+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "naturetree.com"
+      },
+      "not_before": "2025-12-25T05:08:40+00:00",
+      "not_after": "2026-07-11T05:08:40+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.ecoreg.com"
+      },
+      "not_before": "2025-12-25T05:08:31+00:00",
+      "not_after": "2026-07-11T05:08:31+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pktexlmz.daenemarkangelhausg.de"
+      },
+      "not_before": "2025-12-24T00:00:00+00:00",
+      "not_after": "2026-12-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Cisco Systems, Inc. (US)",
+      "issuer": {
+        "cn": "Cisco Meraki CA",
+        "o": "Cisco Systems, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.08f1b3e3666b.devices.meraki.direct",
+        "o": "Meraki LLC",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-07-12T12:28:28+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kfotqgnr.fiendsurance.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "totodesignstudio.com"
+      },
+      "not_before": "2025-12-25T05:08:40+00:00",
+      "not_after": "2026-07-11T05:08:40+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.hariomchikitsalaya.com"
+      },
+      "not_before": "2025-12-25T05:08:42+00:00",
+      "not_after": "2026-07-11T05:08:42+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3www.handytarifvergleich-tarifcheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.biofor.me"
+      },
+      "not_before": "2025-12-25T05:08:42+00:00",
+      "not_after": "2026-07-11T05:08:42+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xoerhblp.daenmarkaktivurlaub.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.iwantsmarthvac.com"
+      },
+      "not_before": "2025-12-25T05:08:41+00:00",
+      "not_after": "2026-07-11T05:08:41+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.kaeserblog.net"
+      },
+      "not_before": "2025-12-25T05:08:42+00:00",
+      "not_after": "2026-07-11T05:08:42+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert SHA2 Secure Server CA",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "0c660077-2a89-4dc2-87ca-bb5ed84f6161.prodbvt.vpn.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-20T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fss90gkd27qea0m-xyo5.com"
+      },
+      "not_before": "2025-12-25T05:08:43+00:00",
+      "not_after": "2026-07-11T05:08:43+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "couchingesoterico.com"
+      },
+      "not_before": "2025-12-25T05:08:40+00:00",
+      "not_after": "2026-07-11T05:08:40+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "6www.kfz-versicherung-neue-tarife-tarifcheck.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jordanleerichardson.net"
+      },
+      "not_before": "2025-12-25T05:08:41+00:00",
+      "not_after": "2026-07-11T05:08:41+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "uniteylk.ortugal.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jhfrbvde.daenemarkangelhaus-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Cisco Systems, Inc. (US)",
+      "issuer": {
+        "cn": "Cisco Meraki CA",
+        "o": "Cisco Systems, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.08f1b3e3672e.devices.meraki.direct",
+        "o": "Meraki LLC",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-07-12T12:28:28+00:00"
+    },
+    {
+      "ca": "Cisco Systems, Inc. (US)",
+      "issuer": {
+        "cn": "Cisco Meraki CA",
+        "o": "Cisco Systems, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.08f1b3e365cc.devices.meraki.direct",
+        "o": "Meraki LLC",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-07-12T12:28:28+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Basic RSA CN CA G2",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f8d1005f-1612-461d-baee-8c98c2994069.vpn.chinacloudapi.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-20T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cidblxzr.ddaenemarkunterkuenfte.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "www.bodhithaimassage.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-25T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pkwtdeqh.daenemarkausfluege-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "angeroverload.net"
+      },
+      "not_before": "2025-12-25T05:07:20+00:00",
+      "not_after": "2026-07-11T05:07:20+00:00"
+    },
+    {
+      "ca": "Cisco Systems, Inc. (US)",
+      "issuer": {
+        "cn": "Cisco Meraki CA",
+        "o": "Cisco Systems, Inc.",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.08f1b3e36716.devices.meraki.direct",
+        "o": "Meraki LLC",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-07-12T12:28:28+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lwebcgyf.urpaubscheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hezgtrnu.kapitallebnsversicherung.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kzyhbofs.sromcheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S00",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "canary.s3.eusc-de-east-1.vpce.amazonaws.eu"
+      },
+      "not_before": "2025-12-25T04:08:41+00:00",
+      "not_after": "2026-12-25T05:08:41+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "nvfzlrqj.kleinanzeigen-straelen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "gazdpeom.stromannietercheck24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "valliontechnologies.com"
+      },
+      "not_before": "2025-12-25T05:07:01+00:00",
+      "not_after": "2026-07-11T05:07:01+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ohrjfdcm.tarifcheck-6-monate-kredit.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wojdgeib.daenemarkaktivurlaub-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "uzrdlbgh.astromtarife.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rldciegz.geldanlagen-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "naqmpzir.xn--stewardesskostme-wzb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tdsczpux.s-klassen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bhkcsaoz.daenemarkangeln-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mxysefwv.daenemarkanbieter-de.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "healthyharvestfarm.online"
+      },
+      "not_before": "2025-12-24T19:52:13+00:00",
+      "not_after": "2026-07-10T19:52:13+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ibvrpfmj.schottenkostuem.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "buysellhoustontx.com"
+      },
+      "not_before": "2025-12-24T19:52:14+00:00",
+      "not_after": "2026-07-10T19:52:14+00:00"
+    },
+    {
+      "ca": "Sectigo Limited (GB)",
+      "issuer": {
+        "cn": "Sectigo Public Server Authentication CA DV R36",
+        "o": "Sectigo Limited",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "casino-playfortunah7.com"
+      },
+      "not_before": "2025-12-24T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "afzpohbl.daenemrkunterkunft.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "eamlxsqj.gdaenemark-luxushaeuser.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rhktydfj.daenemarkangelhaus.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lpjirgbm.finanzt-check24.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "1www.klienanzeiggen.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    }
+  ]
+}

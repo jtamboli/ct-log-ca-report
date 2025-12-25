@@ -9,7 +9,7 @@ import httpx
 from typing import List, Dict, Optional
 
 
-def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0) -> httpx.Response:
+def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0, quiet: bool = False) -> httpx.Response:
     """
     Fetch a URL with retry logic for transient failures.
 
@@ -17,6 +17,7 @@ def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0)
         url: The URL to fetch
         max_retries: Maximum number of retry attempts
         initial_delay: Initial delay in seconds (doubles with each retry)
+        quiet: If True, suppress output
 
     Returns:
         Response object
@@ -36,7 +37,8 @@ def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0)
             # Retry on 429 (Too Many Requests) and 503 (Service Unavailable)
             if e.response.status_code in (429, 503):
                 if attempt < max_retries:
-                    print(f"  {e.response.status_code} error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
+                    if not quiet:
+                        print(f"  {e.response.status_code} error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
                     time.sleep(delay)
                     delay *= 2  # Exponential backoff
                     continue
@@ -46,7 +48,8 @@ def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0)
         except httpx.RequestError as e:
             # Retry on network errors
             if attempt < max_retries:
-                print(f"  Network error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
+                if not quiet:
+                    print(f"  Network error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
                 time.sleep(delay)
                 delay *= 2
                 continue
@@ -82,7 +85,7 @@ def fetch_sth(log_url: str) -> Dict:
     }
 
 
-def parse_merkle_tree_leaf(leaf_input_b64: str) -> Optional[bytes]:
+def parse_merkle_tree_leaf(leaf_input_b64: str, quiet: bool = False) -> Optional[bytes]:
     """
     Parse a MerkleTreeLeaf structure to extract the certificate.
 
@@ -101,6 +104,7 @@ def parse_merkle_tree_leaf(leaf_input_b64: str) -> Optional[bytes]:
 
     Args:
         leaf_input_b64: Base64-encoded MerkleTreeLeaf
+        quiet: If True, suppress output
 
     Returns:
         Certificate bytes (DER-encoded), or None if parsing fails
@@ -114,14 +118,16 @@ def parse_merkle_tree_leaf(leaf_input_b64: str) -> Optional[bytes]:
         version = struct.unpack_from('!B', data, offset)[0]
         offset += 1
         if version != 0:
-            print(f"  Warning: Unexpected version {version}, expected 0")
+            if not quiet:
+                print(f"  Warning: Unexpected version {version}, expected 0")
             return None
 
         # Parse MerkleLeafType (1 byte)
         leaf_type = struct.unpack_from('!B', data, offset)[0]
         offset += 1
         if leaf_type != 0:
-            print(f"  Warning: Unexpected leaf type {leaf_type}, expected 0 (timestamped_entry)")
+            if not quiet:
+                print(f"  Warning: Unexpected leaf type {leaf_type}, expected 0 (timestamped_entry)")
             return None
 
         # Parse timestamp (8 bytes, big-endian)
@@ -156,15 +162,17 @@ def parse_merkle_tree_leaf(leaf_input_b64: str) -> Optional[bytes]:
             return None
 
         else:
-            print(f"  Warning: Unknown entry type {entry_type}")
+            if not quiet:
+                print(f"  Warning: Unknown entry type {entry_type}")
             return None
 
     except Exception as e:
-        print(f"  Error parsing MerkleTreeLeaf: {e}")
+        if not quiet:
+            print(f"  Error parsing MerkleTreeLeaf: {e}")
         return None
 
 
-def parse_extra_data(extra_data_b64: str, entry_type: int) -> Optional[bytes]:
+def parse_extra_data(extra_data_b64: str, entry_type: int, quiet: bool = False) -> Optional[bytes]:
     """
     Parse extra_data to extract certificate for precert entries.
 
@@ -174,6 +182,7 @@ def parse_extra_data(extra_data_b64: str, entry_type: int) -> Optional[bytes]:
     Args:
         extra_data_b64: Base64-encoded extra_data
         entry_type: 0 for x509_entry, 1 for precert_entry
+        quiet: If True, suppress output
 
     Returns:
         Certificate bytes for precert, or None for x509
@@ -202,11 +211,12 @@ def parse_extra_data(extra_data_b64: str, entry_type: int) -> Optional[bytes]:
         return precertificate
 
     except Exception as e:
-        print(f"  Error parsing extra_data: {e}")
+        if not quiet:
+            print(f"  Error parsing extra_data: {e}")
         return None
 
 
-def fetch_entries(log_url: str, start: int, end: int) -> List[bytes]:
+def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> List[bytes]:
     """
     Fetch entries from an RFC 6962 CT log.
 
@@ -214,6 +224,7 @@ def fetch_entries(log_url: str, start: int, end: int) -> List[bytes]:
         log_url: The base URL for the log
         start: Starting index (inclusive)
         end: Ending index (inclusive)
+        quiet: If True, suppress output
 
     Returns:
         List of certificate bytes (DER-encoded)
@@ -223,7 +234,7 @@ def fetch_entries(log_url: str, start: int, end: int) -> List[bytes]:
     entries_url = f"{log_url}/ct/v1/get-entries?start={start}&end={end}"
 
     try:
-        response = fetch_with_retry(entries_url)
+        response = fetch_with_retry(entries_url, quiet=quiet)
         entries_data = response.json()
 
         certificates = []
@@ -234,7 +245,7 @@ def fetch_entries(log_url: str, start: int, end: int) -> List[bytes]:
             extra_data = entry.get("extra_data", "")
 
             # First, try to parse from leaf_input (works for x509_entry)
-            cert_bytes = parse_merkle_tree_leaf(leaf_input)
+            cert_bytes = parse_merkle_tree_leaf(leaf_input, quiet=quiet)
 
             # If that didn't work, try extra_data (for precert_entry)
             if cert_bytes is None and extra_data:
@@ -243,7 +254,7 @@ def fetch_entries(log_url: str, start: int, end: int) -> List[bytes]:
                     data = base64.b64decode(leaf_input)
                     # Skip version (1), leaf_type (1), timestamp (8)
                     entry_type = struct.unpack_from('!H', data, 10)[0]
-                    cert_bytes = parse_extra_data(extra_data, entry_type)
+                    cert_bytes = parse_extra_data(extra_data, entry_type, quiet=quiet)
                 except Exception:
                     pass
 
@@ -255,16 +266,19 @@ def fetch_entries(log_url: str, start: int, end: int) -> List[bytes]:
     except httpx.HTTPStatusError as e:
         # Handle 404 (no entries) and other HTTP errors
         if e.response.status_code == 404:
-            print(f"  No entries found in range {start}-{end}")
+            if not quiet:
+                print(f"  No entries found in range {start}-{end}")
         else:
-            print(f"  HTTP error {e.response.status_code} fetching entries {start}-{end}")
+            if not quiet:
+                print(f"  HTTP error {e.response.status_code} fetching entries {start}-{end}")
         return []
     except Exception as e:
-        print(f"  Error fetching entries {start}-{end}: {e}")
+        if not quiet:
+            print(f"  Error fetching entries {start}-{end}: {e}")
         return []
 
 
-def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_errors: int = 5) -> List[bytes]:
+def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_errors: int = 5, quiet: bool = False) -> List[bytes]:
     """
     Fetch certificates from an RFC 6962 CT log.
 
@@ -274,26 +288,31 @@ def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_e
         log_url: The base URL for the log
         target_count: Target number of certificates to fetch
         max_consecutive_errors: Stop after this many consecutive fetch errors
+        quiet: If True, suppress output
 
     Returns:
         List of certificate bytes (DER-encoded)
     """
-    print(f"Fetching STH from {log_url}...")
+    if not quiet:
+        print(f"Fetching STH from {log_url}...")
 
     try:
         sth = fetch_sth(log_url)
         tree_size = sth["tree_size"]
-        print(f"Tree size: {tree_size:,}")
+        if not quiet:
+            print(f"Tree size: {tree_size:,}")
 
         if tree_size == 0:
-            print("Log is empty (tree_size = 0)")
+            if not quiet:
+                print("Log is empty (tree_size = 0)")
             return []
 
         # Calculate starting index (fetch most recent entries)
         start_index = max(0, tree_size - target_count)
         end_index = tree_size - 1
 
-        print(f"Fetching entries {start_index:,} to {end_index:,}...")
+        if not quiet:
+            print(f"Fetching entries {start_index:,} to {end_index:,}...")
 
         all_certificates = []
         consecutive_errors = 0
@@ -304,17 +323,20 @@ def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_e
             # Calculate chunk end (max 1000 entries per request)
             chunk_end = min(current_start + 999, end_index)
 
-            print(f"  Fetching entries {current_start:,} to {chunk_end:,}...")
+            if not quiet:
+                print(f"  Fetching entries {current_start:,} to {chunk_end:,}...")
 
-            certificates = fetch_entries(log_url, current_start, chunk_end)
+            certificates = fetch_entries(log_url, current_start, chunk_end, quiet=quiet)
 
             if certificates:
                 all_certificates.extend(certificates)
                 consecutive_errors = 0
-                print(f"  Fetched {len(certificates)} certificates (total: {len(all_certificates)})")
+                if not quiet:
+                    print(f"  Fetched {len(certificates)} certificates (total: {len(all_certificates)})")
             else:
                 consecutive_errors += 1
-                print(f"  No certificates in this chunk (consecutive errors: {consecutive_errors})")
+                if not quiet:
+                    print(f"  No certificates in this chunk (consecutive errors: {consecutive_errors})")
 
             # Move to next chunk
             current_start = chunk_end + 1
@@ -324,13 +346,16 @@ def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_e
                 time.sleep(0.5)
 
         if consecutive_errors >= max_consecutive_errors:
-            print(f"Stopped after {max_consecutive_errors} consecutive errors")
+            if not quiet:
+                print(f"Stopped after {max_consecutive_errors} consecutive errors")
 
-        print(f"Total certificates fetched: {len(all_certificates)}")
+        if not quiet:
+            print(f"Total certificates fetched: {len(all_certificates)}")
         return all_certificates
 
     except Exception as e:
-        print(f"Error fetching certificates: {e}")
-        import traceback
-        traceback.print_exc()
+        if not quiet:
+            print(f"Error fetching certificates: {e}")
+            import traceback
+            traceback.print_exc()
         return []

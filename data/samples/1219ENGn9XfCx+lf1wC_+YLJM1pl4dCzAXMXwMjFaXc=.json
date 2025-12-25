@@ -3,38 +3,68 @@
   "operator": "Google",
   "log_id": "1219ENGn9XfCx+lf1wC/+YLJM1pl4dCzAXMXwMjFaXc=",
   "log_type": "rfc6962",
-  "sample_count": 2,
+  "sample_count": 4,
   "ca_counts": {
-    "DigiCert Inc (US)": 2
+    "GoDaddy.com, Inc. (US)": 3,
+    "DigiCert Inc (US)": 1
   },
   "certificates": [
     {
-      "ca": "DigiCert Inc (US)",
+      "ca": "GoDaddy.com, Inc. (US)",
       "issuer": {
-        "cn": "Encryption Everywhere DV TLS CA - G2",
-        "o": "DigiCert Inc",
-        "ou": "www.digicert.com",
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
         "c": "US"
       },
       "subject": {
-        "cn": "hfltiycx.xn--stewardesskostme-wzb.de"
+        "cn": "www.viuty.shop"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2026-12-24T23:59:59+00:00"
+      "not_before": "2025-12-25T05:09:53+00:00",
+      "not_after": "2026-07-11T05:09:53+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "elorian.store"
+      },
+      "not_before": "2025-12-25T05:09:42+00:00",
+      "not_after": "2026-07-11T05:09:42+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "levanttech.in"
+      },
+      "not_before": "2025-12-25T05:10:00+00:00",
+      "not_after": "2026-07-11T05:10:00+00:00"
     },
     {
       "ca": "DigiCert Inc (US)",
       "issuer": {
-        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "cn": "DigiCert Basic RSA CN CA G2",
         "o": "DigiCert Inc",
-        "ou": "www.digicert.com",
         "c": "US"
       },
       "subject": {
-        "cn": "komtwuhg.sthavelsestrandurlaub.de"
+        "cn": "87ae0023-83a4-4264-8b0d-5b717930eb00.vpn.chinacloudapi.cn",
+        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "c": "CN"
       },
       "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2026-12-24T23:59:59+00:00"
+      "not_after": "2026-12-20T23:59:59+00:00"
     }
   ]
 }

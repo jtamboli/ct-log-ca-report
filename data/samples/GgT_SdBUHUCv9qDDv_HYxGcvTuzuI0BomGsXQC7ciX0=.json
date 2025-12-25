@@ -1,0 +1,1992 @@
+{
+  "log_name": "Sectigo 'Sabre2025h2'",
+  "operator": "Sectigo",
+  "log_id": "GgT/SdBUHUCv9qDDv/HYxGcvTuzuI0BomGsXQC7ciX0=",
+  "log_type": "rfc6962",
+  "sample_count": 152,
+  "ca_counts": {
+    "Let's Encrypt (US)": 140,
+    "Google Trust Services (US)": 10,
+    "Certainly (US)": 1,
+    "DigiCert Inc (US)": 1
+  },
+  "certificates": [
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cloudapp.unternehmerberater.info"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.selfcutmirror.com"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.www.www.www.www.demo-ci.rare-dragonfly-40.telebit.io"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "v509u.fx31.top"
+      },
+      "not_before": "2025-09-18T14:25:20+00:00",
+      "not_after": "2025-12-17T14:25:19+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.remote.cabriodak.be"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.app.cambodiahomes.com"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.app.cambridgehousing.com"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "login.www.sylwesterzakopane.pl"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "desktopstudent.unternehmerberater.info"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "escapestravelchoices.gen.no"
+      },
+      "not_before": "2025-09-18T14:25:22+00:00",
+      "not_after": "2025-12-17T14:25:21+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.reichquickstop.com"
+      },
+      "not_before": "2025-09-18T14:23:52+00:00",
+      "not_after": "2025-12-17T15:22:47+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "agenciakaizen.com.br"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mail.photoflexx.com"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww5.intranet.flyaphelion.com"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.secure.bouwaanvragen.com"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cdn.semedia.com"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vdi.unternehmerberater.info"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cozy-cape.shop"
+      },
+      "not_before": "2025-09-18T14:23:53+00:00",
+      "not_after": "2025-12-17T15:22:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "webmail.yaninet.com.tr"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "apps.unternehmerberater.info"
+      },
+      "not_before": "2025-09-18T14:25:23+00:00",
+      "not_after": "2025-12-17T14:25:22+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "arcaagencia15.informamosmensajeargs.com"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ra446mig9.manufaktur-einhorn.de"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ftp.annonces-massages.be"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.aging.landhaus-alte-eichen.de"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "coalitioneyeballs.purru.my"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lnlyuan.com"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.dltransmissions.com"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.gespeducation.com"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "n8n.maxchat.dev"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "admin.www.itelab.eu"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vestapellet.eu"
+      },
+      "not_before": "2025-09-18T14:25:24+00:00",
+      "not_after": "2025-12-17T14:25:23+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.soyluca.me"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "antwerponly.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sitemap.lasdv0r.me"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ajstock.top"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pedidos.montreal.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww25.cpcontacts.revistavandalo.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lump129.prezzip.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hr.elbklick.de"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.zabbix.cashpayloans.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.portal.celebryty.com"
+      },
+      "not_before": "2025-09-18T10:36:10+00:00",
+      "not_after": "2025-12-17T10:36:09+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "q1u.1177cp.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mini1020.5ddd.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww38.pwb3b.1wazej.top"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "boschautoreconditionering.nl"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "test.archive.webauthoring.co.uk"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.068b5a335ddb445da0261e21f5fe95f6.plex.direct"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2222939.com.2222939a5.shop"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mvh24ct.jvahomestaging.com"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "valhallaviking.com"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "05662e2d8cdf4036c359.console.upcell.com.tr"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.daodz.mongodb.net"
+      },
+      "not_before": "2025-09-18T14:23:56+00:00",
+      "not_after": "2025-12-17T14:23:55+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.abadibersama.site"
+      },
+      "not_before": "2025-09-18T14:23:56+00:00",
+      "not_after": "2025-12-17T15:23:51+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "s7p3bt7c9utm0c2i.myfritz.net"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "alex.users.nuernberger-bratwurst.de"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.comforthomecareservices.net"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.wanttobeclothing.com"
+      },
+      "not_before": "2025-09-18T14:25:25+00:00",
+      "not_after": "2025-12-17T14:25:24+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww5.rdp.johnyoungmassage.com"
+      },
+      "not_before": "2025-09-18T14:25:26+00:00",
+      "not_after": "2025-12-17T14:25:25+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "372dc759d4b4e5ac887cc695.keenetic.io"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.peifan.bonniehussey.com"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "555a8c8a06aa7355237c74b8.keenetic.io"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "filmorama.ru"
+      },
+      "not_before": "2025-09-18T14:23:57+00:00",
+      "not_after": "2025-12-17T15:21:41+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ac8ba9522ab107079af1075c2d0806385a3c3.id.ui.direct"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jw.hk5777.com"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "eszkk.hk633.com"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ntop.floatgroup.com"
+      },
+      "not_before": "2025-09-18T14:25:27+00:00",
+      "not_after": "2025-12-17T14:25:26+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d9d24e67a1924f888f8cd29a28e04363.plex.direct"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.ww38.perfectgirlsboobs.com"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d10fd0f5-4286-47f7-b422-57132ea410c7.miedoavolar.eu"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hosting.adventisrhealth.org"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "landings.nastygirls.biz"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "38f8fc0e-5f2b-4a56-a4c1-b75605553876.ongomedia.com"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.sukupmfg.com"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.maf256-technologies.com"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.ww38.backtoschool.com.au"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cool.mjucto.cz"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "login.avajohnson.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bnbod.ledxvhg3ew.xyz"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "solidmed.az"
+      },
+      "not_before": "2025-09-18T14:25:28+00:00",
+      "not_after": "2025-12-17T14:25:27+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "static.digitalkopieren.de"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "softtowear.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "69817313-853e-4b15-b238-034f6fa28475.whoisaaronbloom.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "admin.client.econolight.de"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.board.systems"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "zinwaarts.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "receiver.hakenkreuz.de"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "bbs.xylum.net"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ajax.trafficstops.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.solarpremier.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.airab-admin.edtechdiary.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kaihuamuju.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "164318592.workers.dev"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.trafficriderdownload.com"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.gate.papierschmidt.de"
+      },
+      "not_before": "2025-09-18T14:25:29+00:00",
+      "not_after": "2025-12-17T14:25:28+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "virtualstudent.hakenkreuz.de"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.support.js-services.ca"
+      },
+      "not_before": "2025-09-18T11:35:30+00:00",
+      "not_after": "2025-12-17T11:35:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pr.cash-for-phone-16851.bond"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "iae.pnpx.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kpuiomykxy.git.git.git.gitlab.help.devccaas.oronzosantamato.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "sandbox.roboticodigital.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.aol.8800cp.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "smtpa.tyreeorg.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "autodiscover.activedisplays.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww5.ww5.qualitysprinter.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww38.plant.fikia.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wildcard.284se.com"
+      },
+      "not_before": "2025-09-04T00:26:19+00:00",
+      "not_after": "2025-12-03T00:26:18+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "desktop.hakenkreuz.de"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.fernlessardinc.net"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ww38.zk-archery.org"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dpdpa.naglab.in"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.www.www.www.www.nas.jephy-webmail.com"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "s0.jet.ng"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.nrwfreizeit.de"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.app.candilane.com"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dawe.stoughtonschools.org"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-10-18T14:25:29+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ultragreen.com"
+      },
+      "not_before": "2025-09-18T14:24:01+00:00",
+      "not_after": "2025-12-17T15:23:55+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.nqwzzpz.mongodb.net"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.1874union.com"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "gate.saltimbancos-cats.de"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.lanceya-kager.lawyermedicalmalpractice.net"
+      },
+      "not_before": "2025-09-18T11:35:33+00:00",
+      "not_after": "2025-12-17T11:35:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "teste-login.brasilfone.com.br"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "desktop-070j454.tail8002e.ts.net"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "w3.schnabl.me"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.email.aegypten-spezialist.at"
+      },
+      "not_before": "2025-09-18T14:25:31+00:00",
+      "not_after": "2025-12-17T14:25:30+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.website-1f0b28d7.tmf.kur.mybluehost.me"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "oasede.entspannung.de"
+      },
+      "not_before": "2025-09-12T14:13:20+00:00",
+      "not_after": "2025-12-11T14:13:19+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xykbwxf9pr.dattolocal.net"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.khodiyarci.com"
+      },
+      "not_before": "2025-09-18T14:24:01+00:00",
+      "not_after": "2025-12-17T15:22:50+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.citrix.avivamobilya.com"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ts.nuit.be"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "virtualstudent.grandhotell.no"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "zmail.casinoco.se"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ipv6.386yhj301.top"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "store.australiansper.com"
+      },
+      "not_before": "2025-09-18T14:25:30+00:00",
+      "not_after": "2025-12-17T14:25:29+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "admin.271249.com"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "varahiskitchen.com"
+      },
+      "not_before": "2025-09-18T14:24:02+00:00",
+      "not_after": "2025-12-17T15:23:37+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.rd.sgttgab.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "0c0f1560-d6e2-4b7b-aa93-84ddd499c235.gtd.co.in"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "go.digitalkahuna.ai"
+      },
+      "not_before": "2025-09-18T14:24:01+00:00",
+      "not_after": "2025-12-17T15:21:33+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "apogeeme.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "luis-hit-the-shuttlecock.agebetwho.live"
+      },
+      "not_before": "2025-09-18T00:00:00+00:00",
+      "not_after": "2025-12-16T23:59:59+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mega-offers.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ssl.clairevision.be"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b1ba957d-948c-4a4a-9158-2eb2746a5f48.vandamassociates.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "1fea80a5-bc86-4902-870d-568b490488f0.turismomontagnavicentina.it"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "brbangle.com"
+      },
+      "not_before": "2025-09-18T10:34:47+00:00",
+      "not_after": "2025-12-17T11:34:46+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c6udy.miniminicos.xyz"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ibkrapi-44.nodojicommodities.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E8",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pm.staging.fullstackrevops.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.justlionaround.lol"
+      },
+      "not_before": "2025-09-18T14:25:32+00:00",
+      "not_after": "2025-12-17T14:25:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.virtualapps.primalsky.com"
+      },
+      "not_before": "2025-09-18T14:25:33+00:00",
+      "not_after": "2025-12-17T14:25:32+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mail.elliottclarkhayes.com"
+      },
+      "not_before": "2025-09-18T13:57:44+00:00",
+      "not_after": "2025-12-17T13:57:43+00:00"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "log_name": "Google 'Xenon2026h2' log",
+  "operator": "Google",
+  "log_id": "2AlVO5RPev/IFhlvlE+Fq7D4/F6HVSYPFdEucrtFSxQ=",
+  "log_type": "rfc6962",
+  "sample_count": 9,
+  "ca_counts": {
+    "GoDaddy.com, Inc. (US)": 7,
+    "Microsoft Corporation (US)": 2
+  },
+  "certificates": [
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "petstopet.net"
+      },
+      "not_before": "2025-12-25T05:07:49+00:00",
+      "not_after": "2026-07-11T05:07:49+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 07",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c09d0062-b238-4a4e-9d96-4c299d8a17c0.vpn.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:59:11+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.swaadrath.in"
+      },
+      "not_before": "2025-12-25T05:09:04+00:00",
+      "not_after": "2026-07-11T05:09:04+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "savvy-gamerstudios.com"
+      },
+      "not_before": "2025-12-25T05:08:52+00:00",
+      "not_after": "2026-07-11T05:08:52+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "newbornhomes.net"
+      },
+      "not_before": "2025-12-25T05:08:53+00:00",
+      "not_after": "2026-07-11T05:08:53+00:00"
+    },
+    {
+      "ca": "Microsoft Corporation (US)",
+      "issuer": {
+        "cn": "Microsoft Azure RSA TLS Issuing CA 08",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "f6060075-5f7f-4b92-92fb-1a21628f2041.vpn.azure.com",
+        "o": "Microsoft Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-25T04:59:14+00:00",
+      "not_after": "2026-08-25T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "yakcheez.com"
+      },
+      "not_before": "2025-12-25T05:08:48+00:00",
+      "not_after": "2026-07-11T05:08:48+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "www.futureagiinfo.com"
+      },
+      "not_before": "2025-12-25T05:08:47+00:00",
+      "not_after": "2026-07-11T05:08:47+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "neekobaby.com"
+      },
+      "not_before": "2025-12-25T05:08:50+00:00",
+      "not_after": "2026-07-11T05:08:50+00:00"
+    }
+  ]
+}

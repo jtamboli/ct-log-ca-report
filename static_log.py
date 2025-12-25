@@ -9,7 +9,7 @@ from typing import List, Dict, Tuple, Optional
 from pathlib import Path
 
 
-def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0) -> httpx.Response:
+def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0, quiet: bool = False) -> httpx.Response:
     """
     Fetch a URL with retry logic for transient failures.
 
@@ -17,6 +17,7 @@ def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0)
         url: The URL to fetch
         max_retries: Maximum number of retry attempts
         initial_delay: Initial delay in seconds (doubles with each retry)
+        quiet: If True, suppress output
 
     Returns:
         Response object
@@ -36,7 +37,8 @@ def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0)
             # Retry on 429 (Too Many Requests) and 503 (Service Unavailable)
             if e.response.status_code in (429, 503):
                 if attempt < max_retries:
-                    print(f"  {e.response.status_code} error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
+                    if not quiet:
+                        print(f"  {e.response.status_code} error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
                     time.sleep(delay)
                     delay *= 2  # Exponential backoff
                     continue
@@ -46,7 +48,8 @@ def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0)
         except httpx.RequestError as e:
             # Retry on network errors
             if attempt < max_retries:
-                print(f"  Network error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
+                if not quiet:
+                    print(f"  Network error, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
                 time.sleep(delay)
                 delay *= 2
                 continue
@@ -127,13 +130,14 @@ def encode_tile_path(index: int) -> str:
     return "/".join(segments)
 
 
-def fetch_data_tile(monitoring_url: str, tile_index: int) -> bytes:
+def fetch_data_tile(monitoring_url: str, tile_index: int, quiet: bool = False) -> bytes:
     """
     Fetch a data tile from a static CT log.
 
     Args:
         monitoring_url: The monitoring URL prefix for the log
         tile_index: The tile index to fetch
+        quiet: If True, suppress output
 
     Returns:
         Raw bytes of the data tile
@@ -158,7 +162,8 @@ def fetch_data_tile(monitoring_url: str, tile_index: int) -> bytes:
             # Retry on 429 (Too Many Requests) and 503 (Service Unavailable)
             if e.response.status_code in (429, 503):
                 if attempt < max_retries:
-                    print(f"  {e.response.status_code} error on tile {tile_index}, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
+                    if not quiet:
+                        print(f"  {e.response.status_code} error on tile {tile_index}, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
                     time.sleep(delay)
                     delay *= 2
                     continue
@@ -167,7 +172,8 @@ def fetch_data_tile(monitoring_url: str, tile_index: int) -> bytes:
 
         except httpx.RequestError as e:
             if attempt < max_retries:
-                print(f"  Network error on tile {tile_index}, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
+                if not quiet:
+                    print(f"  Network error on tile {tile_index}, retrying in {delay:.1f}s... (attempt {attempt + 1}/{max_retries})")
                 time.sleep(delay)
                 delay *= 2
                 continue
@@ -176,7 +182,7 @@ def fetch_data_tile(monitoring_url: str, tile_index: int) -> bytes:
     raise Exception(f"Failed to fetch tile {tile_index} after {max_retries} retries")
 
 
-def parse_tileleaf(data: bytes, offset: int = 0) -> Tuple[Optional[bytes], int]:
+def parse_tileleaf(data: bytes, offset: int = 0, quiet: bool = False) -> Tuple[Optional[bytes], int]:
     """
     Parse a single TileLeaf entry from data tile bytes.
 
@@ -206,6 +212,7 @@ def parse_tileleaf(data: bytes, offset: int = 0) -> Tuple[Optional[bytes], int]:
     Args:
         data: Raw tile data bytes
         offset: Starting offset in the data
+        quiet: If True, suppress output
 
     Returns:
         Tuple of (certificate_bytes, new_offset) or (None, offset) if no more entries
@@ -321,17 +328,19 @@ def parse_tileleaf(data: bytes, offset: int = 0) -> Tuple[Optional[bytes], int]:
 
         else:
             # Unknown entry type
-            print(f"  Unknown entry type {entry_type} at offset {start_offset}")
+            if not quiet:
+                print(f"  Unknown entry type {entry_type} at offset {start_offset}")
             return None, start_offset
 
         return cert_data, offset
 
     except Exception as e:
-        print(f"Error parsing TileLeaf at offset {offset}: {e}")
+        if not quiet:
+            print(f"Error parsing TileLeaf at offset {offset}: {e}")
         return None, offset
 
 
-def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consecutive_errors: int = 5) -> List[bytes]:
+def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consecutive_errors: int = 5, quiet: bool = False) -> List[bytes]:
     """
     Fetch certificates from a static CT log until reaching target count.
 
@@ -339,18 +348,22 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
         monitoring_url: The monitoring URL prefix for the log
         target_count: Target number of certificates to fetch (default: 1000)
         max_consecutive_errors: Stop after this many consecutive tile fetch errors
+        quiet: If True, suppress output
 
     Returns:
         List of certificate bytes
     """
-    print(f"Fetching checkpoint from {monitoring_url}")
+    if not quiet:
+        print(f"Fetching checkpoint from {monitoring_url}")
     checkpoint = fetch_checkpoint(monitoring_url)
     tree_size = checkpoint["tree_size"]
-    print(f"  Tree size: {tree_size:,}")
-    print(f"  Target: {target_count:,} certificates")
+    if not quiet:
+        print(f"  Tree size: {tree_size:,}")
+        print(f"  Target: {target_count:,} certificates")
 
     if tree_size == 0:
-        print("  Log is empty (tree_size = 0)")
+        if not quiet:
+            print("  Log is empty (tree_size = 0)")
         return []
 
     # Calculate the last tile index (256 entries per tile)
@@ -365,8 +378,9 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
 
     while len(certificates) < target_count and current_tile >= 0:
         try:
-            print(f"  Fetching tile {current_tile} (path: {encode_tile_path(current_tile)}) [{len(certificates):,}/{target_count:,} certs]")
-            tile_data = fetch_data_tile(monitoring_url, current_tile)
+            if not quiet:
+                print(f"  Fetching tile {current_tile} (path: {encode_tile_path(current_tile)}) [{len(certificates):,}/{target_count:,} certs]")
+            tile_data = fetch_data_tile(monitoring_url, current_tile, quiet=quiet)
             tiles_fetched += 1
             consecutive_errors = 0  # Reset on success
 
@@ -374,18 +388,20 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
             offset = 0
             tile_certs = 0
             while offset < len(tile_data):
-                cert_data, new_offset = parse_tileleaf(tile_data, offset)
+                cert_data, new_offset = parse_tileleaf(tile_data, offset, quiet=quiet)
                 if cert_data is None or new_offset == offset:
                     break
                 certificates.append(cert_data)
                 tile_certs += 1
                 offset = new_offset
 
-            print(f"    Parsed {tile_certs} certificates (total: {len(certificates):,})")
+            if not quiet:
+                print(f"    Parsed {tile_certs} certificates (total: {len(certificates):,})")
 
             # Check if we've reached the target
             if len(certificates) >= target_count:
-                print(f"  Reached target of {target_count:,} certificates!")
+                if not quiet:
+                    print(f"  Reached target of {target_count:,} certificates!")
                 break
 
         except Exception as e:
@@ -395,7 +411,8 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
             # Check for rate limiting (429) - already handled by fetch_data_tile retry
             # but if it still fails after retries, wait longer and try again
             if "429" in error_msg:
-                print(f"  Rate limited on tile {current_tile}, waiting 10s before continuing...")
+                if not quiet:
+                    print(f"  Rate limited on tile {current_tile}, waiting 10s before continuing...")
                 time.sleep(10)
                 consecutive_errors = 0  # Don't count rate limits as consecutive errors
                 continue  # Retry same tile
@@ -404,12 +421,13 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
             if "403" in error_msg or "404" in error_msg:
                 # These are expected for some tiles, just skip
                 pass
-            else:
+            elif not quiet:
                 print(f"  Error fetching tile {current_tile}: {e}")
 
             # Stop if too many consecutive errors (likely no more accessible tiles)
             if consecutive_errors >= max_consecutive_errors:
-                print(f"  Stopping after {consecutive_errors} consecutive errors")
+                if not quiet:
+                    print(f"  Stopping after {consecutive_errors} consecutive errors")
                 break
 
         current_tile -= 1
@@ -417,5 +435,6 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
         # Small delay between tiles to be respectful
         time.sleep(0.2)
 
-    print(f"  Total certificates fetched: {len(certificates):,} (from {tiles_fetched} tiles)")
+    if not quiet:
+        print(f"  Total certificates fetched: {len(certificates):,} (from {tiles_fetched} tiles)")
     return certificates

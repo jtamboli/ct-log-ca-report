@@ -1,0 +1,678 @@
+{
+  "log_name": "DigiCert 'Wyvern2027h1'",
+  "operator": "DigiCert",
+  "log_id": "ABpdGhwtk3W2SFV4+C9xoa5u7zl9KXyK4xV7yt7hoB4=",
+  "log_type": "rfc6962",
+  "sample_count": 51,
+  "ca_counts": {
+    "Amazon (US)": 46,
+    "Actalis S.p.A. (IT)": 1,
+    "GlobalSign nv-sa (BE)": 3,
+    "Asseco Data Systems S.A. (PL)": 1
+  },
+  "certificates": [
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Actalis S.p.A. (IT)",
+      "issuer": {
+        "cn": "Actalis Domain Validation Server CA G3",
+        "o": "Actalis S.p.A.",
+        "c": "IT"
+      },
+      "subject": {
+        "cn": "*.meridianoverde.it"
+      },
+      "not_before": "2025-12-25T04:07:33+00:00",
+      "not_after": "2027-01-25T04:07:32+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R6 AlphaSSL CA 2025",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.futurolev.com"
+      },
+      "not_before": "2025-12-25T04:16:19+00:00",
+      "not_after": "2027-01-26T04:16:18+00:00"
+    },
+    {
+      "ca": "Asseco Data Systems S.A. (PL)",
+      "issuer": {
+        "cn": "Certum DV TLS G2 R39 CA",
+        "o": "Asseco Data Systems S.A.",
+        "c": "PL"
+      },
+      "subject": {
+        "cn": "hnsyco.com"
+      },
+      "not_before": "2025-12-25T05:03:47+00:00",
+      "not_after": "2027-01-24T05:03:46+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R6 AlphaSSL CA 2025",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.spebrazilfatc.com.br"
+      },
+      "not_before": "2025-12-25T04:16:31+00:00",
+      "not_after": "2027-01-26T04:16:30+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d3hm9v8hcgflmc.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d16ye2ippu83sa.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d3vecpwqf6052u.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.dzu9g18iyyj53.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.dzgbjd6bqu9lf.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d22tf8ehduxyqr.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "gamma.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign GCC R6 AlphaSSL CA 2025",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "www.innovak.com.br"
+      },
+      "not_before": "2025-12-25T04:18:22+00:00",
+      "not_after": "2027-01-26T04:18:21+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ap-south-1-r3.724201074455.ifedev3.uk"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "n-ef-ultra.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "eu-west-1-r19.724201074455.ifedev3.uk"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "gamma.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon ECDSA 256 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cfdcv.can.1vzbsx.dev.edge-feature-validation.cloudfront.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d33swhhr52u6fx.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d2uzp63i01w3uk.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d2vdqhlm055wwe.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d3elo1fs9fj5gs.amplifyapp.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    }
+  ]
+}
