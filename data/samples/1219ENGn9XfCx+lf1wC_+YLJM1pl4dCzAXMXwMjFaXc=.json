@@ -1,0 +1,40 @@
+{
+  "log_name": "Google 'Argon2026h2' log",
+  "operator": "Google",
+  "log_id": "1219ENGn9XfCx+lf1wC/+YLJM1pl4dCzAXMXwMjFaXc=",
+  "log_type": "rfc6962",
+  "sample_count": 2,
+  "ca_counts": {
+    "DigiCert Inc (US)": 2
+  },
+  "certificates": [
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hfltiycx.xn--stewardesskostme-wzb.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "komtwuhg.sthavelsestrandurlaub.de"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2026-12-24T23:59:59+00:00"
+    }
+  ]
+}

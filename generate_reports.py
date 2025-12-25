@@ -45,5 +45,17 @@ with open(reverse_report_file, 'w') as f:
     f.write(reverse_report_text)
 print(f"Saved reverse report to {reverse_report_file}")
 
+# Generate and save split report
+print("\n" + "=" * 80)
+print("STATIC VS RFC 6962 SPLIT")
+print("=" * 80)
+split_report_text = report.generate_split_report(log_samples)
+print(split_report_text)
+
+split_report_file = DATA_DIR / "split_report.md"
+with open(split_report_file, 'w') as f:
+    f.write(split_report_text)
+print(f"\nSaved split report to {split_report_file}")
+
 # Save JSON data
 report.save_report_data(log_samples)

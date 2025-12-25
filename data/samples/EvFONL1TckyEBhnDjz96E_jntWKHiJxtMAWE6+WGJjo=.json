@@ -1,0 +1,383 @@
+{
+  "log_name": "Google 'Argon2025h2' log",
+  "operator": "Google",
+  "log_id": "EvFONL1TckyEBhnDjz96E/jntWKHiJxtMAWE6+WGJjo=",
+  "log_type": "rfc6962",
+  "sample_count": 29,
+  "ca_counts": {
+    "GlobalSign nv-sa (BE)": 7,
+    "Google Trust Services (US)": 17,
+    "Let's Encrypt (US)": 1,
+    "DigiCert Inc (US)": 2,
+    "Amazon (US)": 2
+  },
+  "certificates": [
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:48:12+00:00",
+      "not_after": "2025-12-26T00:47:13+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:48:13+00:00",
+      "not_after": "2025-12-26T00:47:14+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:48:13+00:00",
+      "not_after": "2025-12-26T00:47:14+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:48:13+00:00",
+      "not_after": "2025-12-26T00:47:14+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-24T23:48:15+00:00",
+      "not_after": "2025-12-25T23:48:14+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:48:12+00:00",
+      "not_after": "2025-12-26T00:47:13+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-24T23:48:16+00:00",
+      "not_after": "2025-12-25T23:48:15+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2770016680.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:48:18+00:00",
+      "not_after": "2025-12-26T00:44:13+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2109623516.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:48:35+00:00",
+      "not_after": "2025-12-26T00:44:31+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-24T23:49:41+00:00",
+      "not_after": "2025-12-31T15:49:40+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "web.hzlqbh.com"
+      },
+      "not_before": "2025-09-26T00:00:00+00:00",
+      "not_after": "2025-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:48:47+00:00",
+      "not_after": "2025-12-26T00:48:47+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon ECDSA 384 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "expired.eue3m1.demo.eu.gmgaayu.dyingbirds.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2025-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "5c6f907a-49c2-4.prow.ing.gke.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:46:54+00:00",
+      "not_after": "2025-12-26T00:39:46+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cm.hzlqbh.com"
+      },
+      "not_before": "2025-09-26T00:00:00+00:00",
+      "not_after": "2025-12-24T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-af-s1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:47:27+00:00",
+      "not_after": "2025-12-26T00:43:22+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-24T23:46:54+00:00",
+      "not_after": "2025-12-25T23:46:53+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "b1f81da6-d716-4.prow.ing.gke.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:46:54+00:00",
+      "not_after": "2025-12-26T00:39:47+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "20954652.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:46:42+00:00",
+      "not_after": "2025-12-26T00:42:38+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-eu-w12.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:47:00+00:00",
+      "not_after": "2025-12-26T00:42:56+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon ECDSA 384 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "expired.eue3m1.demo.eu.gmgaayu.dyingbirds.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2025-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-24T23:45:05+00:00",
+      "not_after": "2025-12-25T23:45:04+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-au-se1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:47:17+00:00",
+      "not_after": "2025-12-26T00:43:12+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2175319128.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:47:46+00:00",
+      "not_after": "2025-12-26T00:43:42+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-25T00:49:12+00:00",
+      "not_after": "2025-12-26T00:48:28+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-24T23:45:53+00:00",
+      "not_after": "2025-12-25T23:45:52+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-eu-w12.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:47:00+00:00",
+      "not_after": "2025-12-26T00:42:56+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-24T23:44:56+00:00",
+      "not_after": "2025-12-25T23:44:55+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-na-ne1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-24T23:47:54+00:00",
+      "not_after": "2025-12-26T00:43:51+00:00"
+    }
+  ]
+}

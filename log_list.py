@@ -97,8 +97,50 @@ def get_static_logs(log_list: Dict) -> List[Dict]:
                     "description": log.get("description", "Unknown"),
                     "log_id": log.get("log_id"),
                     "monitoring_url": log.get("monitoring_url"),
-                    "state": log_state
+                    "state": log_state,
+                    "log_type": "static"
                 })
 
     print(f"Found {len(static_logs)} static logs")
     return static_logs
+
+
+def get_rfc6962_logs(log_list: Dict) -> List[Dict]:
+    """
+    Extract RFC 6962 (non-static) logs from the log list.
+    Filters for usable, readonly, and qualified logs.
+
+    Args:
+        log_list: The full log list data
+
+    Returns:
+        List of RFC 6962 log entries with URLs
+    """
+    rfc6962_logs = []
+    valid_states = {"usable", "readonly", "qualified"}
+
+    for operator in log_list.get("operators", []):
+        operator_name = operator.get("name", "Unknown")
+
+        for log in operator.get("logs", []):
+            # Check if log is in a valid state
+            log_state = None
+            if "usable" in log.get("state", {}):
+                log_state = "usable"
+            elif "readonly" in log.get("state", {}):
+                log_state = "readonly"
+            elif "qualified" in log.get("state", {}):
+                log_state = "qualified"
+
+            if log_state:
+                rfc6962_logs.append({
+                    "operator": operator_name,
+                    "description": log.get("description", "Unknown"),
+                    "log_id": log.get("log_id"),
+                    "url": log.get("url"),
+                    "state": log_state,
+                    "log_type": "rfc6962"
+                })
+
+    print(f"Found {len(rfc6962_logs)} RFC 6962 logs")
+    return rfc6962_logs

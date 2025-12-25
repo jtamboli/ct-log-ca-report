@@ -28,8 +28,10 @@ def generate_report(log_samples: List[Dict]) -> str:
         operator = sample.get("operator", "Unknown")
         sample_count = sample.get("sample_count", 0)
         ca_counts = sample.get("ca_counts", {})
+        log_type = sample.get("log_type", "static")
+        log_type_label = "Static" if log_type == "static" else "RFC 6962"
 
-        report_lines.append(f"\n## {log_name} ({operator})\n")
+        report_lines.append(f"\n## {log_name} ({operator}) [{log_type_label}]\n")
         report_lines.append(f"Total certificates sampled: {sample_count:,}\n")
 
         if not ca_counts:
@@ -78,6 +80,24 @@ def aggregate_ca_counts(certificates: List[Dict]) -> Dict[str, int]:
     return dict(Counter(ca_names))
 
 
+def get_log_type_label(log_name: str, log_samples: List[Dict]) -> str:
+    """
+    Get the log type label for a given log name.
+
+    Args:
+        log_name: Name of the log
+        log_samples: List of log sample data dicts
+
+    Returns:
+        Log type label ("Static" or "RFC 6962")
+    """
+    for sample in log_samples:
+        if sample.get("log_name") == log_name:
+            log_type = sample.get("log_type", "static")
+            return "Static" if log_type == "static" else "RFC 6962"
+    return "Unknown"
+
+
 def generate_reverse_report(log_samples: List[Dict]) -> str:
     """
     Generate a reverse report showing which CT logs each CA uses.
@@ -123,7 +143,68 @@ def generate_reverse_report(log_samples: List[Dict]) -> str:
 
         for log_name, count in sorted_logs:
             percentage = (count / total_count * 100) if total_count > 0 else 0
-            report_lines.append(f"| {log_name} | {count:,} | {percentage:.1f}% |")
+            log_type_label = get_log_type_label(log_name, log_samples)
+            report_lines.append(f"| {log_name} [{log_type_label}] | {count:,} | {percentage:.1f}% |")
+
+        report_lines.append("")
+
+    return "\n".join(report_lines)
+
+
+def generate_split_report(log_samples: List[Dict]) -> str:
+    """
+    Generate a report showing static vs RFC 6962 split for top 10 CAs.
+
+    Args:
+        log_samples: List of log sample data dicts
+
+    Returns:
+        Markdown report string
+    """
+    # Aggregate CA counts by log type
+    ca_to_log_types = defaultdict(lambda: {
+        "total_count": 0,
+        "static": {"count": 0, "logs": set()},
+        "rfc6962": {"count": 0, "logs": set()}
+    })
+
+    for sample in log_samples:
+        log_name = sample.get("log_name", "Unknown")
+        log_type = sample.get("log_type", "static")
+        ca_counts = sample.get("ca_counts", {})
+
+        for ca_name, count in ca_counts.items():
+            ca_to_log_types[ca_name]["total_count"] += count
+            ca_to_log_types[ca_name][log_type]["count"] += count
+            ca_to_log_types[ca_name][log_type]["logs"].add(log_name)
+
+    # Sort CAs by total count and take top 10
+    sorted_cas = sorted(ca_to_log_types.items(), key=lambda x: x[1]["total_count"], reverse=True)[:10]
+
+    # Generate report
+    report_lines = ["# Top 10 CAs: Static vs RFC 6962 Distribution\n"]
+    report_lines.append(f"_This report shows how the top certificate authorities split their submissions between static (tiled) and RFC 6962 CT logs._\n")
+
+    for rank, (ca_name, data) in enumerate(sorted_cas, 1):
+        total_count = data["total_count"]
+        static_count = data["static"]["count"]
+        static_logs = len(data["static"]["logs"])
+        rfc6962_count = data["rfc6962"]["count"]
+        rfc6962_logs = len(data["rfc6962"]["logs"])
+
+        report_lines.append(f"\n## {rank}. {ca_name}\n")
+        report_lines.append(f"**Total certificates**: {total_count:,}\n")
+
+        report_lines.append("\n| Log Type | Certificates | Percentage | Logs |")
+        report_lines.append("|----------|-------------|------------|------|")
+
+        if static_count > 0:
+            static_percentage = (static_count / total_count * 100) if total_count > 0 else 0
+            report_lines.append(f"| Static   | {static_count:,} | {static_percentage:.1f}% | {static_logs} |")
+
+        if rfc6962_count > 0:
+            rfc6962_percentage = (rfc6962_count / total_count * 100) if total_count > 0 else 0
+            report_lines.append(f"| RFC 6962 | {rfc6962_count:,} | {rfc6962_percentage:.1f}% | {rfc6962_logs} |")
 
         report_lines.append("")
 

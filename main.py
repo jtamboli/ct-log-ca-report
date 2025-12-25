@@ -11,6 +11,7 @@ from typing import List, Dict, Set
 
 import log_list
 import static_log
+import rfc6962_log
 import cert_parser
 import report
 
@@ -49,7 +50,7 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
     Process a single CT log to extract CA information.
 
     Args:
-        log_info: Dict with log metadata (operator, description, monitoring_url, etc.)
+        log_info: Dict with log metadata (operator, description, url/monitoring_url, etc.)
         target_certs: Target number of certificates to fetch (default: 1000)
 
     Returns:
@@ -57,16 +58,22 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
     """
     log_name = log_info.get("description", "Unknown")
     operator = log_info.get("operator", "Unknown")
-    monitoring_url = log_info.get("monitoring_url")
     log_id = log_info.get("log_id", "unknown")
+    log_type = log_info.get("log_type", "static")
 
     print(f"\n{'='*80}")
-    print(f"Processing: {log_name} ({operator})")
+    print(f"Processing: {log_name} ({operator}) [{log_type.upper()}]")
     print(f"{'='*80}")
 
     try:
         # Fetch certificates from the log until reaching target
-        cert_bytes_list = static_log.fetch_certificates(monitoring_url, target_count=target_certs)
+        # Route to appropriate client based on log type
+        if log_type == "rfc6962" or "url" in log_info:
+            log_url = log_info.get("url")
+            cert_bytes_list = rfc6962_log.fetch_certificates(log_url, target_count=target_certs)
+        else:  # static
+            monitoring_url = log_info.get("monitoring_url")
+            cert_bytes_list = static_log.fetch_certificates(monitoring_url, target_count=target_certs)
 
         if not cert_bytes_list:
             print(f"No certificates fetched from {log_name}")
@@ -74,6 +81,7 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
                 "log_name": log_name,
                 "operator": operator,
                 "log_id": log_id,
+                "log_type": log_type,
                 "sample_count": 0,
                 "ca_counts": {},
                 "certificates": []
@@ -106,6 +114,7 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
             "log_name": log_name,
             "operator": operator,
             "log_id": log_id,
+            "log_type": log_type,
             "sample_count": len(certificates_info),
             "ca_counts": ca_counts,
             "certificates": certificates_info
@@ -128,6 +137,7 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
             "log_name": log_name,
             "operator": operator,
             "log_id": log_id,
+            "log_type": log_type,
             "sample_count": 0,
             "ca_counts": {},
             "certificates": [],
@@ -177,8 +187,15 @@ def main():
     print("\nExtracting static logs...")
     static_logs = log_list.get_static_logs(log_list_data)
 
-    if not static_logs:
-        print("No static logs found!")
+    print("\nExtracting RFC 6962 logs...")
+    rfc6962_logs = log_list.get_rfc6962_logs(log_list_data)
+
+    # Combine both log types
+    all_logs = static_logs + rfc6962_logs
+    print(f"\nTotal logs: {len(all_logs)} ({len(static_logs)} static + {len(rfc6962_logs)} RFC 6962)")
+
+    if not all_logs:
+        print("No logs found!")
         return
 
     # Filter logs based on retry options
@@ -188,8 +205,8 @@ def main():
 
         if args.retry:
             # Skip logs we already have data for
-            static_logs = [log for log in static_logs if log.get("log_id") not in processed_ids]
-            print(f"Retrying {len(static_logs)} unprocessed logs")
+            all_logs = [log for log in all_logs if log.get("log_id") not in processed_ids]
+            print(f"Retrying {len(all_logs)} unprocessed logs")
         elif args.retry_failed:
             # Only retry logs with 0 certificates
             failed_ids = set()
@@ -203,22 +220,22 @@ def main():
                 except Exception:
                     continue
 
-            static_logs = [log for log in static_logs if log.get("log_id") in failed_ids]
-            print(f"Retrying {len(static_logs)} failed logs (0 certificates)")
+            all_logs = [log for log in all_logs if log.get("log_id") in failed_ids]
+            print(f"Retrying {len(all_logs)} failed logs (0 certificates)")
 
     # Limit number of logs if requested
     if args.max_logs:
-        static_logs = static_logs[:args.max_logs]
-        print(f"Limited to {len(static_logs)} logs (--max-logs={args.max_logs})")
+        all_logs = all_logs[:args.max_logs]
+        print(f"Limited to {len(all_logs)} logs (--max-logs={args.max_logs})")
 
-    if not static_logs:
+    if not all_logs:
         print("No logs to process!")
         return
 
     # Process each log
     log_samples = []
-    for i, log_info in enumerate(static_logs, 1):
-        print(f"\n[{i}/{len(static_logs)}]")
+    for i, log_info in enumerate(all_logs, 1):
+        print(f"\n[{i}/{len(all_logs)}]")
         sample_data = process_log(log_info, target_certs=args.target_certs)
         log_samples.append(sample_data)
         # Rate limiting between logs to avoid 429 errors
@@ -240,6 +257,14 @@ def main():
     reverse_report_text = report.generate_reverse_report(log_samples)
     print("\n" + reverse_report_text)
 
+    # Generate split report (Static vs RFC 6962)
+    print("\n" + "=" * 80)
+    print("GENERATING SPLIT REPORT (Static vs RFC 6962)")
+    print("=" * 80)
+
+    split_report_text = report.generate_split_report(log_samples)
+    print("\n" + split_report_text)
+
     # Save report data
     report.save_report_data(log_samples)
 
@@ -254,6 +279,12 @@ def main():
     with open(reverse_report_file, 'w') as f:
         f.write(reverse_report_text)
     print(f"Saved reverse report to {reverse_report_file}")
+
+    # Save split report
+    split_report_file = DATA_DIR / "split_report.md"
+    with open(split_report_file, 'w') as f:
+        f.write(split_report_text)
+    print(f"Saved split report to {split_report_file}")
 
 
 if __name__ == "__main__":

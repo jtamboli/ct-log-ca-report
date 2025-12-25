@@ -4,12 +4,15 @@ Analyzes Certificate Transparency logs to determine which Certificate Authoritie
 
 ## Features
 
-- Fetches certificates from static (tiled) CT logs using the Static CT API
+- Fetches certificates from both static (tiled) CT logs and RFC 6962 CT logs
+  - Static CT API for tiled logs (26 logs)
+  - RFC 6962 API for standard CT logs (49 logs)
 - **Robust retry logic**: Automatically retries on 429 (Too Many Requests) and 503 (Service Unavailable) errors with exponential backoff
 - Parses X.509 certificates to extract issuer (CA) information
-- Generates two types of reports:
+- Generates three types of reports:
   1. **CA Breakdown by Log**: Shows which CAs submit to each CT log (with percentages)
   2. **Top 10 CAs Report**: Shows which CT logs each of the top 10 CAs uses (reverse view)
+  3. **Static vs RFC 6962 Split**: Shows how top CAs distribute their submissions between log types
 - Saves all data as JSON for later augmentation or analysis
 - Caches log list and sample data to avoid redundant fetches
 - Rate limiting between log fetches to avoid overwhelming servers
@@ -33,7 +36,7 @@ pip install -r requirements.txt
 
 ### Run Full Analysis
 
-Analyze all static CT logs and generate reports:
+Analyze all CT logs (both static and RFC 6962) and generate reports:
 
 ```bash
 uv run python main.py
@@ -96,6 +99,7 @@ All outputs are saved in the `data/` directory:
 - `data/samples/<log_id>.json` - Per-log certificate samples with CA information
 - `data/report.md` - CA breakdown by log (markdown)
 - `data/reverse_report.md` - Top 10 CAs and which logs they use (markdown)
+- `data/split_report.md` - Top 10 CAs with static vs RFC 6962 distribution (markdown)
 - `data/report.json` - Aggregated data for all logs (JSON)
 
 ## Sample Output
@@ -103,7 +107,7 @@ All outputs are saved in the `data/` directory:
 ### CA Breakdown Report
 
 ```markdown
-## IPng Networks 'Halloumi2026h1'
+## IPng Networks 'Halloumi2026h1' (IPng Networks) [Static]
 
 Total certificates sampled: 86
 
@@ -124,9 +128,21 @@ Total certificates sampled: 86
 
 | CT Log | Certificates | Percentage |
 |--------|-------------|------------|
-| IPng Networks 'Halloumi2026h1' | 72 | 85.7% |
-| IPng Networks 'Gouda2026h1'    | 8  | 9.5%  |
-| Geomys 'Tuscolo2025h2'         | 4  | 4.8%  |
+| IPng Networks 'Halloumi2026h1' [Static] | 72 | 85.7% |
+| IPng Networks 'Gouda2026h1' [Static]    | 8  | 9.5%  |
+| Geomys 'Tuscolo2025h2' [RFC 6962]       | 4  | 4.8%  |
+```
+
+### Split Report (Static vs RFC 6962)
+
+```markdown
+## 1. Let's Encrypt (US)
+**Total certificates**: 5,000
+
+| Log Type | Certificates | Percentage | Logs |
+|----------|-------------|------------|------|
+| Static   | 3,000       | 60.0%      | 15   |
+| RFC 6962 | 2,000       | 40.0%      | 30   |
 ```
 
 ## Architecture
@@ -135,18 +151,20 @@ The tool is organized into modular components:
 
 - `main.py` - Entry point, orchestrates the workflow
 - `log_list.py` - Fetches and parses the CT log list
-- `static_log.py` - Static CT API client for fetching data tiles
+- `static_log.py` - Static CT API client for fetching data tiles from tiled logs
+- `rfc6962_log.py` - RFC 6962 CT API client for fetching entries from standard logs
 - `cert_parser.py` - X.509 certificate parsing and CA extraction
-- `report.py` - Report generation (both normal and reverse)
+- `report.py` - Report generation (CA breakdown, reverse report, and split report)
 - `generate_reports.py` - Standalone report generator from existing data
 
 ## Extensibility
 
-The tool is designed to be extended with RFC 6962 CT log support in the future. The modular architecture allows easy addition of new log types by:
+The tool uses a modular architecture that supports multiple CT log types through a unified interface:
 
-1. Implementing a new client module (similar to `static_log.py`)
-2. Adding a `fetch_certificates()` method with the same interface
-3. Updating `main.py` to call the appropriate client based on log type
+- Each log type has its own client module (`static_log.py`, `rfc6962_log.py`)
+- All clients implement a `fetch_certificates()` method with the same interface
+- `main.py` routes to the appropriate client based on log type
+- New log types can be added by implementing a new client module and updating `main.py`
 
 ## Error Handling
 
@@ -161,17 +179,20 @@ The tool includes robust error handling:
 
 ## Limitations
 
-- Currently only supports static (tiled) CT logs
-- Many logs return 403 Forbidden or 404 Not Found for recent tiles (access restrictions or tiles not yet generated)
-- Samples a limited number of tiles per log (configurable, default is 4 tiles ≈ 1,000 certificates)
+- Many logs return 403 Forbidden or 404 Not Found for recent entries (access restrictions or entries not yet available)
+- Samples a limited number of entries per log (configurable, default is 1,000 certificates)
 - Uses immediate issuer as CA (does not currently walk the full certificate chain to root CA)
 - Time frames may not match across different CT logs, introducing potential bias in cross-log comparisons
 
 ## Technical Notes
 
-### Static CT API Format
+### CT Log API Formats
 
-The tool parses data tiles using the Static CT API format. Key findings during implementation:
+The tool supports two CT log API formats:
+
+#### Static CT API Format
+
+Used for tiled logs. Key findings during implementation:
 
 - **Length fields are 4 bytes**, not 3 bytes as specified in RFC 6962
   - This appears to be a difference in the Static CT API implementation
@@ -196,6 +217,28 @@ The tool parses data tiles using the Static CT API format. Key findings during i
   chain_length (2 bytes)
   chain_data (variable)
   ```
+
+#### RFC 6962 CT API Format
+
+Used for standard CT logs. Key implementation details:
+
+- **JSON responses with base64-encoded certificates**
+  - `/ct/v1/get-sth` - Get Signed Tree Head (tree size)
+  - `/ct/v1/get-entries?start=X&end=Y` - Get entries (max 1000 per request)
+
+- **MerkleTreeLeaf structure** (from RFC 6962 Section 3.4):
+  ```
+  Version (1 byte) - 0x00
+  MerkleLeafType (1 byte) - 0x00 (timestamped_entry)
+  Timestamp (8 bytes, big-endian milliseconds)
+  LogEntryType (2 bytes) - 0x0000 (x509_entry) or 0x0001 (precert_entry)
+  Certificate length (3 bytes, 24-bit big-endian)
+  Certificate data (DER-encoded)
+  ```
+
+- **Entry types**:
+  - x509_entry (0x0000): Certificate is in `leaf_input`
+  - precert_entry (0x0001): Precertificate is in `extra_data`
 
 ## License
 

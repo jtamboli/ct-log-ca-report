@@ -1,0 +1,78 @@
+{
+  "log_name": "Google 'Argon2027h1'",
+  "operator": "Google",
+  "log_id": "1tWNqdAXU/NqSqDHV0kCr+vH3CzTjNn3ZMgMiRkenwI=",
+  "log_type": "rfc6962",
+  "sample_count": 5,
+  "ca_counts": {
+    "Gandi SAS (FR)": 1,
+    "Amazon (US)": 4
+  },
+  "certificates": [
+    {
+      "ca": "Gandi SAS (FR)",
+      "issuer": {
+        "cn": "GandiCert",
+        "o": "Gandi SAS",
+        "c": "FR"
+      },
+      "subject": {
+        "cn": "clinique-flamboyants-sud.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-22T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a372692f.ap-southeast-5.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d08d25cb.mx-central-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2408e74a.ap-northeast-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.armcreateworkflow.aiotk5.c3.kafka-beta.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-25T00:00:00+00:00",
+      "not_after": "2027-01-23T23:59:59+00:00"
+    }
+  ]
+}
