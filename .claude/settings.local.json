@@ -5,7 +5,8 @@
       "Bash(cat:*)",
       "Bash(python3:*)",
       "Bash(tee:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(grep:*)"
     ]
   }
 }
