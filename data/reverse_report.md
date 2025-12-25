@@ -77,8 +77,8 @@ _Note: Time frames may not match across CT logs, so this analysis may have bias.
 | IPng Networks 'Gouda2025h2' [Static] | 6 | 11.1% |
 | Let's Encrypt 'Willow2026h1' [Static] | 5 | 9.3% |
 | IPng Networks 'Gouda2026h1' [Static] | 3 | 5.6% |
-| Google 'Argon2025h2' log [RFC 6962] | 2 | 3.7% |
 | Google 'Argon2026h2' log [RFC 6962] | 2 | 3.7% |
+| Google 'Argon2025h2' log [RFC 6962] | 2 | 3.7% |
 | IPng Networks 'Halloumi2026h1' [Static] | 1 | 1.9% |
 
 
@@ -93,8 +93,8 @@ _Note: Time frames may not match across CT logs, so this analysis may have bias.
 |--------|-------------|------------|
 | Geomys 'Tuscolo2025h2' [Static] | 16 | 41.0% |
 | Let's Encrypt 'Sycamore2026h1' [Static] | 7 | 17.9% |
-| IPng Networks 'Halloumi2025h2' [Static] | 6 | 15.4% |
 | IPng Networks 'Gouda2025h2' [Static] | 6 | 15.4% |
+| IPng Networks 'Halloumi2025h2' [Static] | 6 | 15.4% |
 | Let's Encrypt 'Willow2026h1' [Static] | 2 | 5.1% |
 | Google 'Argon2026h1' log [RFC 6962] | 2 | 5.1% |
 
@@ -109,8 +109,8 @@ _Note: Time frames may not match across CT logs, so this analysis may have bias.
 | CT Log | Certificates | Percentage |
 |--------|-------------|------------|
 | Geomys 'Tuscolo2025h2' [Static] | 20 | 60.6% |
-| IPng Networks 'Halloumi2025h2' [Static] | 6 | 18.2% |
 | IPng Networks 'Gouda2025h2' [Static] | 6 | 18.2% |
+| IPng Networks 'Halloumi2025h2' [Static] | 6 | 18.2% |
 | IPng Networks 'Gouda2026h1' [Static] | 1 | 3.0% |
 
 
@@ -124,8 +124,8 @@ _Note: Time frames may not match across CT logs, so this analysis may have bias.
 | CT Log | Certificates | Percentage |
 |--------|-------------|------------|
 | Geomys 'Tuscolo2025h2' [Static] | 11 | 61.1% |
-| IPng Networks 'Halloumi2025h2' [Static] | 3 | 16.7% |
 | IPng Networks 'Gouda2025h2' [Static] | 3 | 16.7% |
+| IPng Networks 'Halloumi2025h2' [Static] | 3 | 16.7% |
 | Let's Encrypt 'Willow2026h1' [Static] | 1 | 5.6% |
 
 
@@ -140,8 +140,8 @@ _Note: Time frames may not match across CT logs, so this analysis may have bias.
 |--------|-------------|------------|
 | Google 'Argon2025h2' log [RFC 6962] | 7 | 63.6% |
 | Geomys 'Tuscolo2025h2' [Static] | 2 | 18.2% |
-| IPng Networks 'Halloumi2025h2' [Static] | 1 | 9.1% |
 | IPng Networks 'Gouda2025h2' [Static] | 1 | 9.1% |
+| IPng Networks 'Halloumi2025h2' [Static] | 1 | 9.1% |
 
 
 ## 9. Amazon (US)

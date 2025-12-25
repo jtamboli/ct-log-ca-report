@@ -6,12 +6,75 @@ Generate reports from existing sample data.
 import json
 from pathlib import Path
 import report
+import log_list
 
 DATA_DIR = Path(__file__).parent / "data"
 
+
+def get_qualified_log_ids() -> set:
+    """
+    Get the set of log IDs that are currently qualified.
+
+    Returns:
+        Set of log_id strings for all qualified logs
+    """
+    log_list_data = log_list.fetch_log_list()
+    static_logs = log_list.get_static_logs(log_list_data)
+    rfc6962_logs = log_list.get_rfc6962_logs(log_list_data)
+
+    qualified_ids = set()
+    for log in static_logs + rfc6962_logs:
+        log_id = log.get("log_id")
+        if log_id:
+            qualified_ids.add(log_id)
+
+    return qualified_ids
+
+
+def cleanup_stale_samples(samples_dir: Path, qualified_ids: set) -> int:
+    """
+    Delete sample files for logs that are no longer qualified.
+
+    Args:
+        samples_dir: Path to the samples directory
+        qualified_ids: Set of currently qualified log IDs
+
+    Returns:
+        Number of stale sample files deleted
+    """
+    deleted_count = 0
+
+    for sample_file in samples_dir.glob("*.json"):
+        try:
+            with open(sample_file, 'r') as f:
+                sample_data = json.load(f)
+                log_id = sample_data.get("log_id")
+                log_name = sample_data.get("log_name", "Unknown")
+
+                if log_id and log_id not in qualified_ids:
+                    sample_file.unlink()
+                    print(f"Deleted stale sample: {log_name} (no longer qualified)")
+                    deleted_count += 1
+        except Exception as e:
+            print(f"Error processing {sample_file}: {e}")
+
+    return deleted_count
+
+
+# Get current qualified logs and cleanup stale samples
+print("Checking for stale log samples...")
+qualified_ids = get_qualified_log_ids()
+samples_dir = DATA_DIR / "samples"
+
+if samples_dir.exists():
+    deleted = cleanup_stale_samples(samples_dir, qualified_ids)
+    if deleted > 0:
+        print(f"Cleaned up {deleted} stale sample(s)\n")
+    else:
+        print("No stale samples found\n")
+
 # Load all sample files
 log_samples = []
-samples_dir = DATA_DIR / "samples"
 
 for sample_file in samples_dir.glob("*.json"):
     with open(sample_file, 'r') as f:
