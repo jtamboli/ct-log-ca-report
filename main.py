@@ -60,10 +60,27 @@ def process_log(log_info: Dict, target_certs: int = 1000) -> Dict:
     operator = log_info.get("operator", "Unknown")
     log_id = log_info.get("log_id", "unknown")
     log_type = log_info.get("log_type", "static")
+    temporal_interval = log_info.get("temporal_interval")
 
     print(f"\n{'='*80}")
     print(f"Processing: {log_name} ({operator}) [{log_type.upper()}]")
     print(f"{'='*80}")
+
+    # Check if log can have any certificates based on temporal interval
+    can_have_certs, reason = log_list.log_can_have_certificates(temporal_interval)
+    if not can_have_certs:
+        print(f"Skipping: {reason}")
+        return {
+            "log_name": log_name,
+            "operator": operator,
+            "log_id": log_id,
+            "log_type": log_type,
+            "sample_count": 0,
+            "ca_counts": {},
+            "certificates": [],
+            "skipped": True,
+            "skip_reason": reason
+        }
 
     try:
         # Fetch certificates from the log until reaching target

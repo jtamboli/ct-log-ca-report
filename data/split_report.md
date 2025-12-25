@@ -3,108 +3,101 @@
 _This report shows how the top certificate authorities split their submissions between static (tiled) and RFC 6962 CT logs._
 
 
-## 1. Let's Encrypt (US)
+## 1. GoDaddy.com, Inc. (US)
 
-**Total certificates**: 831
-
-
-| Log Type | Certificates | Percentage | Logs |
-|----------|-------------|------------|------|
-| Static   | 813 | 97.8% | 7 |
-| RFC 6962 | 18 | 2.2% | 2 |
-
-
-## 2. Google Trust Services (US)
-
-**Total certificates**: 702
+**Total certificates**: 238
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 678 | 96.6% | 7 |
-| RFC 6962 | 24 | 3.4% | 2 |
+| Static   | 238 | 100.0% | 3 |
 
 
-## 3. ZeroSSL (AT)
+## 2. Let's Encrypt (US)
 
-**Total certificates**: 136
-
-
-| Log Type | Certificates | Percentage | Logs |
-|----------|-------------|------------|------|
-| Static   | 135 | 99.3% | 7 |
-| RFC 6962 | 1 | 0.7% | 1 |
-
-
-## 4. DigiCert Inc (US)
-
-**Total certificates**: 54
+**Total certificates**: 209
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 50 | 92.6% | 7 |
-| RFC 6962 | 4 | 7.4% | 2 |
+| Static   | 209 | 100.0% | 2 |
 
 
-## 5. GoDaddy.com, Inc. (US)
+## 3. Microsoft Corporation (US)
 
-**Total certificates**: 39
-
-
-| Log Type | Certificates | Percentage | Logs |
-|----------|-------------|------------|------|
-| Static   | 37 | 94.9% | 5 |
-| RFC 6962 | 2 | 5.1% | 1 |
-
-
-## 6. TrustAsia Technologies, Inc. (CN)
-
-**Total certificates**: 33
+**Total certificates**: 97
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 33 | 100.0% | 4 |
+| Static   | 97 | 100.0% | 3 |
 
 
-## 7. Sectigo Limited (GB)
+## 4. Sectigo Limited (GB)
 
-**Total certificates**: 18
-
-
-| Log Type | Certificates | Percentage | Logs |
-|----------|-------------|------------|------|
-| Static   | 18 | 100.0% | 4 |
-
-
-## 8. GlobalSign nv-sa (BE)
-
-**Total certificates**: 11
+**Total certificates**: 68
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 4 | 36.4% | 3 |
-| RFC 6962 | 7 | 63.6% | 1 |
+| Static   | 68 | 100.0% | 1 |
 
 
-## 9. Amazon (US)
+## 5. Google Trust Services (US)
 
-**Total certificates**: 9
+**Total certificates**: 44
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 3 | 33.3% | 1 |
-| RFC 6962 | 6 | 66.7% | 2 |
+| Static   | 44 | 100.0% | 2 |
 
 
-## 10. Microsoft Corporation (US)
+## 6. DigiCert Inc (US)
+
+**Total certificates**: 42
+
+
+| Log Type | Certificates | Percentage | Logs |
+|----------|-------------|------------|------|
+| Static   | 42 | 100.0% | 3 |
+
+
+## 7. ZeroSSL (AT)
+
+**Total certificates**: 26
+
+
+| Log Type | Certificates | Percentage | Logs |
+|----------|-------------|------------|------|
+| Static   | 26 | 100.0% | 2 |
+
+
+## 8. Google UK Ltd. (GB)
 
 **Total certificates**: 8
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 8 | 100.0% | 4 |
+| Static   | 8 | 100.0% | 1 |
+
+
+## 9. Starfield Technologies, Inc. (US)
+
+**Total certificates**: 7
+
+
+| Log Type | Certificates | Percentage | Logs |
+|----------|-------------|------------|------|
+| Static   | 7 | 100.0% | 1 |
+
+
+## 10. TrustAsia Technologies, Inc. (CN)
+
+**Total certificates**: 3
+
+
+| Log Type | Certificates | Percentage | Logs |
+|----------|-------------|------------|------|
+| Static   | 3 | 100.0% | 1 |

@@ -95,7 +95,10 @@ def fetch_checkpoint(monitoring_url: str) -> Dict:
 def encode_tile_path(index: int) -> str:
     """
     Encode a tile index into the 3-digit path format.
-    E.g., index 1234067 -> "x001/x234/067"
+    E.g., index 0 -> "000"
+          index 999 -> "999"
+          index 1000 -> "x001/000"
+          index 1234067 -> "x001/x234/067"
 
     Args:
         index: The tile index
@@ -106,10 +109,12 @@ def encode_tile_path(index: int) -> str:
     if index < 0:
         raise ValueError(f"Tile index must be non-negative: {index}")
 
-    # Convert to string and pad with zeros
-    index_str = str(index).zfill(9)  # Pad to at least 9 digits
+    # Convert to string and pad to make length divisible by 3
+    index_str = str(index)
+    pad_len = (3 - len(index_str) % 3) % 3
+    index_str = index_str.zfill(len(index_str) + pad_len)
 
-    # Split into 3-digit segments
+    # Split into 3-digit segments from left to right
     segments = []
     for i in range(0, len(index_str), 3):
         segment = index_str[i:i+3]
@@ -343,6 +348,10 @@ def fetch_certificates(monitoring_url: str, target_count: int = 1000, max_consec
     tree_size = checkpoint["tree_size"]
     print(f"  Tree size: {tree_size:,}")
     print(f"  Target: {target_count:,} certificates")
+
+    if tree_size == 0:
+        print("  Log is empty (tree_size = 0)")
+        return []
 
     # Calculate the last tile index (256 entries per tile)
     last_tile_index = (tree_size - 1) // 256

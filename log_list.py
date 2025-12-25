@@ -4,9 +4,85 @@ Fetch and parse the Certificate Transparency log list from Google.
 
 import json
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 import httpx
+
+
+# CA/Browser Forum certificate lifetime schedule (per April 2025 ballot)
+# https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days
+CERT_LIFETIME_SCHEDULE = [
+    # (effective_date, max_lifetime_days)
+    (datetime(2029, 3, 15, tzinfo=timezone.utc), 47),
+    (datetime(2027, 3, 15, tzinfo=timezone.utc), 100),
+    (datetime(2026, 3, 15, tzinfo=timezone.utc), 200),
+    (datetime(1970, 1, 1, tzinfo=timezone.utc), 398),  # Default/current
+]
+
+
+def get_max_cert_lifetime_days(as_of: Optional[datetime] = None) -> int:
+    """
+    Get the maximum certificate lifetime in days based on the current date.
+
+    The CA/Browser Forum voted to progressively reduce certificate lifetimes:
+    - Until March 15, 2026: 398 days
+    - March 15, 2026: 200 days
+    - March 15, 2027: 100 days
+    - March 15, 2029: 47 days
+
+    Args:
+        as_of: Date to check (defaults to now)
+
+    Returns:
+        Maximum certificate lifetime in days
+    """
+    if as_of is None:
+        as_of = datetime.now(timezone.utc)
+
+    for effective_date, max_days in CERT_LIFETIME_SCHEDULE:
+        if as_of >= effective_date:
+            return max_days
+
+    return 398  # Fallback
+
+
+def log_can_have_certificates(temporal_interval: Optional[Dict], as_of: Optional[datetime] = None) -> tuple[bool, Optional[str]]:
+    """
+    Check if a log could have any certificates based on its temporal interval.
+
+    A log accepts certificates with notAfter dates within its temporal_interval.
+    If today + max_cert_lifetime < temporal_interval.start_inclusive, no
+    certificates issued today (or earlier) could be in that log.
+
+    Args:
+        temporal_interval: Dict with start_inclusive and end_exclusive dates
+        as_of: Date to check (defaults to now)
+
+    Returns:
+        Tuple of (can_have_certs, reason_if_not)
+    """
+    if temporal_interval is None:
+        return True, None
+
+    start_inclusive = temporal_interval.get("start_inclusive")
+    if not start_inclusive:
+        return True, None
+
+    if as_of is None:
+        as_of = datetime.now(timezone.utc)
+
+    # Parse the start date
+    start_date = datetime.fromisoformat(start_inclusive.replace("Z", "+00:00"))
+
+    # Calculate the latest possible notAfter for certificates issued today
+    max_lifetime = get_max_cert_lifetime_days(as_of)
+    latest_not_after = as_of + timedelta(days=max_lifetime)
+
+    if latest_not_after < start_date:
+        return False, f"log accepts certs with notAfter >= {start_inclusive[:10]}, but max notAfter today is {latest_not_after.strftime('%Y-%m-%d')} ({max_lifetime} day lifetime)"
+
+    return True, None
 
 
 LOG_LIST_URL = "https://www.gstatic.com/ct/log_list/v3/log_list.json"
@@ -98,7 +174,8 @@ def get_static_logs(log_list: Dict) -> List[Dict]:
                     "log_id": log.get("log_id"),
                     "monitoring_url": log.get("monitoring_url"),
                     "state": log_state,
-                    "log_type": "static"
+                    "log_type": "static",
+                    "temporal_interval": log.get("temporal_interval")
                 })
 
     print(f"Found {len(static_logs)} static logs")
@@ -139,7 +216,8 @@ def get_rfc6962_logs(log_list: Dict) -> List[Dict]:
                     "log_id": log.get("log_id"),
                     "url": log.get("url"),
                     "state": log_state,
-                    "log_type": "rfc6962"
+                    "log_type": "rfc6962",
+                    "temporal_interval": log.get("temporal_interval")
                 })
 
     print(f"Found {len(rfc6962_logs)} RFC 6962 logs")
