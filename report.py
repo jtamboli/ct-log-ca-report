@@ -4,11 +4,110 @@ Generate reports from collected certificate data.
 
 import json
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from collections import Counter, defaultdict
+from datetime import datetime
 
 
 DATA_DIR = Path(__file__).parent / "data"
+
+
+def _calc_lifetime_days(not_before: str, not_after: str) -> int | None:
+    """Calculate certificate lifetime in days from validity period strings."""
+    try:
+        nb = datetime.fromisoformat(not_before.replace('+00:00', ''))
+        na = datetime.fromisoformat(not_after.replace('+00:00', ''))
+        return (na - nb).days
+    except (ValueError, TypeError):
+        return None
+
+
+def _analyze_extra_submissions() -> Dict[str, Dict[str, int]]:
+    """
+    Analyze which CAs submit certificates to more logs than required.
+
+    Chrome's CT policy requires:
+    - 2 SCTs for certificates with lifetime <= 180 days
+    - 3 SCTs for certificates with lifetime > 180 days
+
+    By correlating certificates across logs (using composite key of issuer CN,
+    subject CN, not_before, not_after), we can determine when a CA submits
+    to more logs than required.
+
+    Returns:
+        Dict mapping CA name to stats dict with keys:
+        - total: total certs appearing in 2+ logs
+        - required_only: certs with exactly the required number of logs
+        - with_extras: certs with more logs than required
+    """
+    samples_dir = DATA_DIR / "samples"
+    if not samples_dir.exists():
+        return {}
+
+    # Load all certificates from all logs, tracking which logs each cert appears in
+    cert_info: Dict[Tuple, Dict] = {}
+
+    for sample_file in samples_dir.glob("*.json"):
+        try:
+            with open(sample_file) as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            continue
+
+        log_id = data.get("log_id", "")
+        log_type = data.get("log_type", "static")
+
+        for cert in data.get("certificates", []):
+            issuer_cn = cert.get("issuer", {}).get("cn", "")
+            subject_cn = cert.get("subject", {}).get("cn", "")
+            not_before = cert.get("not_before", "")
+            not_after = cert.get("not_after", "")
+            ca = cert.get("ca", "")
+
+            key = (issuer_cn, subject_cn, not_before, not_after)
+
+            if key not in cert_info:
+                cert_info[key] = {
+                    "ca": ca,
+                    "not_before": not_before,
+                    "not_after": not_after,
+                    "static_logs": set(),
+                    "rfc6962_logs": set()
+                }
+
+            if log_type == "static":
+                cert_info[key]["static_logs"].add(log_id)
+            else:
+                cert_info[key]["rfc6962_logs"].add(log_id)
+
+    # Analyze each CA's submission patterns
+    ca_stats: Dict[str, Dict[str, int]] = defaultdict(
+        lambda: {"total": 0, "required_only": 0, "with_extras": 0}
+    )
+
+    for key, info in cert_info.items():
+        n_static = len(info["static_logs"])
+        n_rfc = len(info["rfc6962_logs"])
+        total_logs = n_static + n_rfc
+
+        # Only analyze certs appearing in 2+ logs (where we can observe correlation)
+        if total_logs < 2:
+            continue
+
+        lifetime = _calc_lifetime_days(info["not_before"], info["not_after"])
+        if lifetime is None:
+            continue
+
+        ca = info["ca"]
+        required = 3 if lifetime > 180 else 2
+
+        ca_stats[ca]["total"] += 1
+        if total_logs > required:
+            ca_stats[ca]["with_extras"] += 1
+        else:
+            ca_stats[ca]["required_only"] += 1
+
+    return dict(ca_stats)
 
 
 def generate_report(log_samples: List[Dict]) -> str:
@@ -157,7 +256,8 @@ def generate_reverse_report(log_samples: List[Dict]) -> str:
 
 def generate_split_report(log_samples: List[Dict]) -> str:
     """
-    Generate a report showing static vs RFC 6962 split for top 10 CAs.
+    Generate a report showing static vs RFC 6962 split for top 10 CAs,
+    including analysis of extra log submissions.
 
     Args:
         log_samples: List of log sample data dicts
@@ -185,9 +285,12 @@ def generate_split_report(log_samples: List[Dict]) -> str:
     # Sort CAs by total count and take top 10
     sorted_cas = sorted(ca_to_log_types.items(), key=lambda x: x[1]["total_count"], reverse=True)[:10]
 
+    # Get extra submission analysis
+    extra_stats = _analyze_extra_submissions()
+
     # Generate report
     report_lines = ["# Top 10 CAs: Static vs RFC 6962 Distribution\n"]
-    report_lines.append(f"_This report shows how the top certificate authorities split their submissions between static (tiled) and RFC 6962 CT logs._\n")
+    report_lines.append("_This report shows how the top certificate authorities split their submissions between static (tiled) and RFC 6962 CT logs._\n")
 
     for rank, (ca_name, data) in enumerate(sorted_cas, 1):
         total_count = data["total_count"]
@@ -211,5 +314,38 @@ def generate_split_report(log_samples: List[Dict]) -> str:
             report_lines.append(f"| RFC 6962 | {rfc6962_count:,} | {rfc6962_percentage:.1f}% | {rfc6962_logs} |")
 
         report_lines.append("")
+
+    # Add extra submissions section
+    report_lines.append("\n---\n")
+    report_lines.append("# Extra Log Submissions Analysis\n")
+    report_lines.append("_Chrome requires 2 SCTs for certs ≤180 days, 3 SCTs for >180 days. ")
+    report_lines.append("This analysis identifies CAs that submit to more logs than required._\n")
+    report_lines.append("\n_Based on certificates appearing in 2+ logs in our sample (cross-log correlation)._\n")
+
+    if extra_stats:
+        # Sort by total correlated certs
+        sorted_extras = sorted(
+            extra_stats.items(),
+            key=lambda x: x[1]["total"],
+            reverse=True
+        )[:15]  # Top 15 CAs with enough data
+
+        report_lines.append("\n| CA | Correlated Certs | Required Only | With Extras | Extra % |")
+        report_lines.append("|---|---|---|---|---|")
+
+        for ca_name, stats in sorted_extras:
+            if stats["total"] < 10:  # Skip CAs with too few samples
+                continue
+            total = stats["total"]
+            required_only = stats["required_only"]
+            with_extras = stats["with_extras"]
+            extra_pct = (with_extras / total * 100) if total > 0 else 0
+            report_lines.append(
+                f"| {ca_name} | {total:,} | {required_only:,} | {with_extras:,} | {extra_pct:.1f}% |"
+            )
+
+        report_lines.append("")
+    else:
+        report_lines.append("\n_No cross-log correlation data available._\n")
 
     return "\n".join(report_lines)

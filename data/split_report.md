@@ -111,3 +111,32 @@ _This report shows how the top certificate authorities split their submissions b
 |----------|-------------|------------|------|
 | Static   | 69 | 14.0% | 16 |
 | RFC 6962 | 424 | 86.0% | 22 |
+
+
+---
+
+# Extra Log Submissions Analysis
+
+_Chrome requires 2 SCTs for certs ≤180 days, 3 SCTs for >180 days. 
+This analysis identifies CAs that submit to more logs than required._
+
+
+_Based on certificates appearing in 2+ logs in our sample (cross-log correlation)._
+
+
+| CA | Correlated Certs | Required Only | With Extras | Extra % |
+|---|---|---|---|---|
+| GoDaddy.com, Inc. (US) | 1,666 | 823 | 843 | 50.6% |
+| Let's Encrypt (US) | 1,513 | 1,263 | 250 | 16.5% |
+| Amazon (US) | 1,301 | 346 | 955 | 73.4% |
+| Google Trust Services (US) | 1,218 | 398 | 820 | 67.3% |
+| Microsoft Corporation (US) | 608 | 588 | 20 | 3.3% |
+| DigiCert Inc (US) | 268 | 127 | 141 | 52.6% |
+| IdenTrust (US) | 171 | 88 | 83 | 48.5% |
+| ZeroSSL (AT) | 144 | 104 | 40 | 27.8% |
+| Sectigo Limited (GB) | 119 | 73 | 46 | 38.7% |
+| GlobalSign nv-sa (BE) | 68 | 35 | 33 | 48.5% |
+| Amazon (DE) | 47 | 41 | 6 | 12.8% |
+| DigiCert, Inc. (US) | 24 | 23 | 1 | 4.2% |
+| TrustAsia Technologies, Inc. (CN) | 14 | 7 | 7 | 50.0% |
+| Starfield Technologies, Inc. (US) | 10 | 8 | 2 | 20.0% |
