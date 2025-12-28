@@ -3,68 +3,166 @@
   "operator": "Google",
   "log_id": "1219ENGn9XfCx+lf1wC/+YLJM1pl4dCzAXMXwMjFaXc=",
   "log_type": "rfc6962",
-  "sample_count": 4,
+  "sample_count": 11,
   "ca_counts": {
-    "GoDaddy.com, Inc. (US)": 3,
-    "DigiCert Inc (US)": 1
+    "DigiCert Inc (US)": 9,
+    "GoDaddy.com, Inc. (US)": 2
   },
   "certificates": [
     {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.viuty.shop"
-      },
-      "not_before": "2025-12-25T05:09:53+00:00",
-      "not_after": "2026-07-11T05:09:53+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "elorian.store"
-      },
-      "not_before": "2025-12-25T05:09:42+00:00",
-      "not_after": "2026-07-11T05:09:42+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "levanttech.in"
-      },
-      "not_before": "2025-12-25T05:10:00+00:00",
-      "not_after": "2026-07-11T05:10:00+00:00"
-    },
-    {
       "ca": "DigiCert Inc (US)",
       "issuer": {
-        "cn": "DigiCert Basic RSA CN CA G2",
+        "cn": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
         "o": "DigiCert Inc",
         "c": "US"
       },
       "subject": {
-        "cn": "87ae0023-83a4-4264-8b0d-5b717930eb00.vpn.chinacloudapi.cn",
-        "o": "Shanghai Blue Cloud Technology Co., Ltd.",
-        "c": "CN"
+        "cn": "wavnet.prodbvt.cloudapp.net",
+        "o": "Microsoft Corporation",
+        "c": "US"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2026-12-20T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-22T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tigvzqur.krankenkassend.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mutfbhcs.daenemarkhotelde.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "smwbdoyq.daenmarkaktivurlaub.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "axsmeds.com"
+      },
+      "not_before": "2025-12-27T12:36:07+00:00",
+      "not_after": "2026-07-13T12:36:07+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "qulzskor.sdaenemarkangelhuette.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hbtjlexv.daenemarkangleraus.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cbswaxuz.dnemarkunterkunft.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kznihlcj.xn--dnemark-ferienanlagen-51b.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fortheculture.in"
+      },
+      "not_before": "2025-12-27T12:36:11+00:00",
+      "not_after": "2026-07-13T12:36:11+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hvcxbfym.wwwdaenemarkanglerhaus.de"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2026-12-26T23:59:59+00:00"
     }
   ]
 }

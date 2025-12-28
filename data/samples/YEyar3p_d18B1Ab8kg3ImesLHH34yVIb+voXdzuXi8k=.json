@@ -3,27 +3,469 @@
   "operator": "Sectigo",
   "log_id": "YEyar3p/d18B1Ab8kg3ImesLHH34yVIb+voXdzuXi8k=",
   "log_type": "rfc6962",
-  "sample_count": 218,
+  "sample_count": 141,
   "ca_counts": {
-    "Amazon (US)": 197,
-    "GoDaddy.com, Inc. (US)": 7,
-    "DigiCert Inc (US)": 2,
-    "GlobalSign nv-sa (BE)": 4,
-    "Sectigo Limited (GB)": 8
+    "IdenTrust (US)": 9,
+    "Amazon (US)": 128,
+    "GoDaddy.com, Inc. (US)": 4
   },
   "certificates": [
     {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "981888bbd536.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:26+00:00",
+      "not_after": "2027-01-01T12:33:26+00:00"
+    },
+    {
       "ca": "Amazon (US)",
       "issuer": {
-        "cn": "Amazon ECDSA 384 M04",
+        "cn": "Amazon RSA 2048 M01",
         "o": "Amazon",
         "c": "US"
       },
       "subject": {
-        "cn": "*.infralib.entigo.io"
+        "cn": "v3hhcu45nrvwbnfbjxqgw2mmwu.eu-central-2.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "te-3df35bff6fec43a9a49c05da79b85c66.ecs.eu-central-2.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.rmcanarytetrisdis.u5mosd.c1.kafka-beta.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "s3.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "iesend4lemt7nprmfc4hvavqi4.us-east-1.es-staging.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "149f431cab36.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:27+00:00",
+      "not_after": "2027-01-01T12:33:27+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.eu-west-2.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "s3.me-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryb521cdcdcfc6.qb5kgr.c4.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "683a1e34be93.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:28+00:00",
+      "not_after": "2027-01-01T12:33:28+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "te-324f0f0efbf1432c80e83a405e84628f.ecs.eu-central-2.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3djko73aqyug35zbjtzncljyge.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.ap-southeast-7.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "c36b5ae5.ap-southeast-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "573646002536341716.94003.radius.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:28+00:00",
+      "not_after": "2027-01-01T12:33:28+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "hjtxizoa74llfjxkoytoxy7rsm.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d2mxdsqleuwzg6.amplifyapp.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "72rdgraq6gpx6zxcb5qkal4gtm.me-south-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "h5hcnc6z24pfcvhldiumxg3nlu.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryc5a64b0483a5.z0gjl4.c4.kafka.eu-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "149f4317e99c.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:29+00:00",
+      "not_after": "2027-01-01T12:33:29+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canarya5559b744a59.4u5ntt.c3.kafka.mx-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ld66qbwgziskamd2w7fatklgza.ap-southeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.cfnlaunchpadcanar.qfy598.c2.kafka.ap-southeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d32mi1gflbatvm.amplifyapp.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "s3.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3dbd6bf2.sa-east-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0c011b498b9e6cd86.ava.ap-southeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d50qk1nnphbyp.amplifyapp.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "beta.lambda-lite.aws.dev"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d1zdbcs99ded9v.amplifyapp.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.cn-north-1.vpce.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "GoDaddy.com, Inc. (US)",
@@ -34,10 +476,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "discovernewlooks.com"
+        "cn": "katrinalamar.com"
       },
-      "not_before": "2025-12-25T03:29:22+00:00",
-      "not_after": "2027-01-23T08:22:42+00:00"
+      "not_before": "2025-12-27T12:34:32+00:00",
+      "not_after": "2027-01-26T01:08:06+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -47,36 +489,24 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d38r4mrct3ci02.amplifyapp.com"
+        "cn": "p2jrfc6bhzpgtx7y2ncsrcew7q.af-south-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
-      "ca": "Amazon (US)",
+      "ca": "GoDaddy.com, Inc. (US)",
       "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
         "c": "US"
       },
       "subject": {
-        "cn": "*.gcsr1766638672cel.ot41sy.c1.kafka.ap-northeast-3.amazonaws.com"
+        "cn": "pay.homewardboundpropertyinspections.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "s3.ap-southeast-1.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T12:34:32+00:00",
+      "not_after": "2027-01-25T08:00:13+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -86,10 +516,24 @@
         "c": "US"
       },
       "subject": {
-        "cn": "memx78mdw3h39.mrap.accesspoint.s3-global.amazonaws.com"
+        "cn": "7dgvrfuyxy367p3lzzy5etxzai.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pay.waltermagazinephoto.com"
+      },
+      "not_before": "2025-12-27T12:34:33+00:00",
+      "not_after": "2027-01-25T15:37:19+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -99,24 +543,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.xmfcjho.shop"
+        "cn": "vai-02203b3126b58aba8.ava.us-east-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "DigiCert Inc (US)",
-      "issuer": {
-        "cn": "Encryption Everywhere DV TLS CA - G2",
-        "o": "DigiCert Inc",
-        "ou": "www.digicert.com",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "scac.info"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -126,37 +556,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "mybatman247.com"
+        "cn": "huw33vl53cle42tn3cfa4ix2cy.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.cfnlaunchpadcanar.bkcywr.c3.kafka.ap-northeast-3.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "DigiCert Inc (US)",
-      "issuer": {
-        "cn": "Encryption Everywhere DV TLS CA - G2",
-        "o": "DigiCert Inc",
-        "ou": "www.digicert.com",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "stumpf.cz"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -166,101 +569,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.hudcu.shop"
+        "cn": "*.cfncanaryclusterfortet.1fxgcw.c4.kafka.eu-west-2.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2bfn9hbc53i.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GlobalSign nv-sa (BE)",
-      "issuer": {
-        "cn": "GlobalSign GCC R6 AlphaSSL CA 2025",
-        "o": "GlobalSign nv-sa",
-        "c": "BE"
-      },
-      "subject": {
-        "cn": "online.haspo.co.jp"
-      },
-      "not_before": "2025-12-25T03:30:11+00:00",
-      "not_after": "2027-01-26T03:30:10+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dxws9umnq4n38.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.vcdshgfsd.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "xryyz5ob3ng4m3n5ulcuussjz4.eu-west-1.es.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "canary.s3.ap-east-1.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "leader.s3.ap-northeast-3.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -272,8 +584,190 @@
       "subject": {
         "cn": "449f8ee6.us-east-1.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "dsdols6oblngq7r6bp25bioxxa.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.eu-west-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "msc1tnenpgm89.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mm8y4u9cc1dhj.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d7wknychaolmr.amplifyapp.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "m5rrnz9mye4r5.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mmk9x1p5tfjy4.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "g57k2r5d44kryaeoyv3rgtv2iq.us-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mc3uungnn4kti.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -285,34 +779,22 @@
       "subject": {
         "cn": "beta.lambda-lite.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
-      "ca": "Amazon (US)",
+      "ca": "GoDaddy.com, Inc. (US)",
       "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
         "c": "US"
       },
       "subject": {
-        "cn": "canary.s3.eu-west-3.vpce.amazonaws.com"
+        "cn": "grace4kids.org"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "s3.af-south-1.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T12:32:23+00:00",
+      "not_after": "2027-01-28T12:32:23+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -322,23 +804,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "8921d36c.eu-central-1.acm-tests.cloudformation.aws.dev"
+        "cn": "wmitf7r4xunrjjxaafwjctemqu.us-east-1.es-staging.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "ffd00ad7.ap-southeast-4.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -348,10 +817,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "mu9ght1ja86nz.mrap.accesspoint.s3-global.amazonaws.com"
+        "cn": "ng-088de252805b419a9c87bbfb97308198.ecs.ap-northeast-3.on.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -361,10 +830,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "e7f4cbe8.ap-south-2.acm-tests.cloudformation.aws.dev"
+        "cn": "m9zmb9azq9xyo.mrap.accesspoint.s3-global.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -374,75 +843,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "leader.s3.us-east-1.vpce.amazonaws.com"
+        "cn": "beta.lambda-lite.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "f1db453a.us-east-2.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.cfnlaunchpadcanary.9sikom.c4.kafka.us-gov-west-1.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "c921a226.eu-west-2.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -452,10 +856,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "*.canary24f62b9d4baa.50jovz.c3.kafka.eu-north-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -465,192 +869,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.cbgvdsjf.shop"
+        "cn": "te-66174b79cb5a4c20bf36d792c6c16a9d.ecs.ap-northeast-3.on.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "canary.s3.ap-southeast-3.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "swaaleprenovatiemontage.nl"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3ne5qz6kgfua8.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "378f75f4.ca-west-1.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon ECDSA 384 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "dailyreports.ds.degica.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.jdhfsjkf.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon ECDSA 384 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "ix.api.ds.degica.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "leader.s3.eu-south-2.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d25f2y9jn1cg7.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d15zwtt2wetle6.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "swaaleprenovatiemontage.nl"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1kfwyidbjw6wo.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2sie9rw1spefk.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d4ckxwth6zgad.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -662,8 +884,8 @@
       "subject": {
         "cn": "9c7c51ef.eu-south-2.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -673,10 +895,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d2nlo7wcvedxr4.amplifyapp.com"
+        "cn": "wakh4dscuzxla45vixgbclfjge.ap-southeast-2.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -686,24 +908,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "te-80fa95251a554bbe95856a59de116cbf.ecs.ap-southeast-4.on.aws"
+        "cn": "7a645af7.ap-northeast-3.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "eml-recordings.com"
-      },
-      "not_before": "2025-12-25T03:34:39+00:00",
-      "not_after": "2027-01-23T11:20:29+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -713,36 +921,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d1psvl7htc89b8.amplifyapp.com"
+        "cn": "*.canarya47885015b5e.e8qfrs.c4.kafka.me-central-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.ummahkidslibrary.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.fjghdjfg.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -752,49 +934,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "*.canaryb19ef047f86c.em6649.c4.kafka.ap-south-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.djpfwi2w3jx5q.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -804,10 +947,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "te-3a8c5a7d75e04159b2930d5e7b2e7aeb.ecs.ap-southeast-2.on.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -817,10 +960,36 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "*.d25j0qc8h3tb99.amplifyapp.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary5d6577a813a7.ygpci3.c4.kafka.me-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "te-0c1f7f8d067c4a06a25939126496f0ae.ecs.ap-southeast-2.on.aws"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -830,10 +999,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "te-02d2f7465f4d403da01bee46ee0c27a0.ecs.ap-northeast-2.on.aws"
+        "cn": "vai-0aacee48f694de9c2.ava.us-west-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -843,23 +1012,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "06975dc5de2d0ff88.proxy.nfw.us-east-2.amazonaws.com"
+        "cn": "wkv3xj7bmqjmso3ts6nykqu24m.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "evergreen-dev.ezdb.jp"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -869,36 +1025,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.hzezzz4623f17iw5v9nlgyl0kokv9m26.us-west-2.amazongamelift.com"
+        "cn": "*.d2g7a60istq967.amplifyapp.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "d7e92d83.ca-central-1.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2li4bhkzb6qo3.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -910,8 +1040,34 @@
       "subject": {
         "cn": "lambda-lite.global.on.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wu2eumieebj3nbnlhbp463kbgu.us-east-1.es-staging.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fzlribdyxz5izm7c2trlvr7kcm.ap-northeast-3.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -921,741 +1077,26 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.dfsahdfk.shop"
+        "cn": "ranuc3nosukkvmkava6hd2gvmq.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
-      "ca": "Amazon (US)",
+      "ca": "IdenTrust (US)",
       "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
+        "cn": "00841e8a355b.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
         "c": "US"
       },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "te-ca5971c43a5545b5ae5189cf5a814d03.ecs.ap-northeast-2.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GlobalSign nv-sa (BE)",
-      "issuer": {
-        "cn": "GlobalSign GCC R6 AlphaSSL CA 2025",
-        "o": "GlobalSign nv-sa",
-        "c": "BE"
-      },
-      "subject": {
-        "cn": "www.lestournesols-tosho.shop"
-      },
-      "not_before": "2025-12-25T03:30:23+00:00",
-      "not_after": "2027-01-26T03:30:22+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "c93edb62.us-west-1.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "ph-law.nl"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "sb7ufu6m5efndfbdizxlznh2le.ap-southeast-1.es.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.asiairtjoni.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dwkew03qrly9m.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "canary.s3.us-gov-east-1.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.bdhfjak.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.moneiva.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2pjuu0quqk39n.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "ph-law.nl"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "mt5393hzuw4m7.mrap.accesspoint.s3-global.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "singlezonetest.portal.goartemis.ai"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "mg53trp1xn4b4.mrap.accesspoint.s3-global.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "m6h8ctrmp54ki.mrap.accesspoint.s3-global.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "bakelabpro.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "henry-yang.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "2408e74a.ap-northeast-1.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "pyfbqwds3g52p3zretyske426u.ap-southeast-2.es.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.hnieorujib.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d26d57cxbo7491.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.canaryf3b598f64a4.1v1iji.c1.kafka.ap-southeast-2.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1m4nz9h3a3hh5.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "app.dev-airliza.pionero.io"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d21bz28dvrthbz.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1q0rq5v4x9yje.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3fqztm5d7sb21.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1ukshu4mzqrgt.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2z45gr45e71wf.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.cfncanaryclusterf.3vcgi1.c2.kafka.ap-southeast-4.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1l7jbasi56vt8.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1i4oskxlm9m12.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d21czy5xzy2zrq.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2e8qz3a9vou8c.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.dshfjksfd.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "pay.arkistics.com"
-      },
-      "not_before": "2025-12-25T05:08:25+00:00",
-      "not_after": "2027-01-23T16:08:27+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "s3.ap-east-2.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dhlg7hlbpqrdc.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.oqejkajsa.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "drdavilaoftalmologia.com"
-      },
-      "not_before": "2025-12-25T05:08:26+00:00",
-      "not_after": "2027-01-23T22:06:42+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1mgmprpuk4lie.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1pfxfgl2xsau2.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "pay.pleasanthospitalityllc.com"
-      },
-      "not_before": "2025-12-25T05:08:27+00:00",
-      "not_after": "2027-01-23T19:06:00+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "66970aab.ap-southeast-7.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2v4m3rf6xw0m8.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "mh6t8qnqzcnea.mrap.accesspoint.s3-global.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3u8caj9ntjkn.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3tj1dllj7ndsj.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "my-pro-guide-production-static.s3.myproguide.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-22T23:59:59+00:00"
+      "not_before": "2025-12-27T12:34:39+00:00",
+      "not_after": "2027-01-01T12:33:39+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1667,8 +1108,8 @@
       "subject": {
         "cn": "beta.lambda-lite.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1678,10 +1119,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.db678541ftswm.amplifyapp.com"
+        "cn": "i2ekfh67ol4cigwfie62gqags4.ca-west-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1691,10 +1132,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.gcsr1766638677.6vx7p2.c3.kafka.cn-northwest-1.amazonaws.com.cn"
+        "cn": "s3.us-east-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1704,10 +1145,23 @@
         "c": "US"
       },
       "subject": {
-        "cn": "canary.s3.ca-central-1.vpce.amazonaws.com"
+        "cn": "beta.lambda-lite.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rmnkalj6237megcyec7efnmj2i.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1717,49 +1171,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "canary.s3.eu-central-1.vpce.amazonaws.com"
+        "cn": "093e0e086c66f7ab9.proxy.nfw.us-east-2.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "canary.s3.ap-southeast-1.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.omfcjho.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1769,10 +1184,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.bwiruhijvs.shop"
+        "cn": "*.canarya8c9e6deb36f.zn20y7.c4.kafka.eu-south-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1782,24 +1197,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "s3.ap-southeast-6.amazonaws.com"
+        "cn": "*.my.connect.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "pay.operationgivebacknow.org"
-      },
-      "not_before": "2025-12-25T03:40:56+00:00",
-      "not_after": "2027-01-23T08:56:47+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1809,10 +1210,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "63afe8cf.ap-northeast-2.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1822,10 +1223,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.rldfjsahka.shop"
+        "cn": "te-c9664a3ac3a34ae286ee51b2b4af12d3.ecs.ap-southeast-2.on.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1835,36 +1236,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.dnioboiya.shop"
+        "cn": "d7aiytsen5tllsuo2pkklr7dge.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.df1x07wcdleck.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "kfp.kolify.one"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1874,63 +1249,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.hmfcjho.shop"
+        "cn": "*.canary52687e22fdd3.riy36s.c3.kafka.il-central-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GoDaddy.com, Inc. (US)",
-      "issuer": {
-        "cn": "Go Daddy Secure Certificate Authority - G2",
-        "o": "GoDaddy.com, Inc.",
-        "ou": "http://certs.godaddy.com/repository/",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "freelife.church"
-      },
-      "not_before": "2025-12-25T05:08:30+00:00",
-      "not_after": "2027-01-23T23:32:37+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "te-59c7de222d2a4b9ca3e5f2685bd3d8fd.ecs.ap-northeast-2.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3sh1rr91psm0o.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1940,10 +1262,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d2lfzwe1ai4qyj.amplifyapp.com"
+        "cn": "2t4elakcdd4rhw622yi6vc7boa.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1953,10 +1275,49 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d138afmzjqtb7f.amplifyapp.com"
+        "cn": "ed69ff19.eu-south-1.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "j5un3xyzcq26oyccxcd4gu75oa.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xcrbfht3eekw7tlyt76mwvkqqa.me-central-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "560d1bfe.ap-southeast-3.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1968,8 +1329,60 @@
       "subject": {
         "cn": "s3.us-east-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "azyoxb7ao5uv4zyaw5q5zrmzla.eu-west-3.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e22t6iiai7zqzoxz4b7o2fhcd4.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kl4buacfltm6af7m5jw24bxsca.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.eu-south-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1979,10 +1392,26 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d2hvodly5suzcn.amplifyapp.com"
+        "cn": "vai-000bddb569a0a8422.ava.us-east-2.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "a8469d6aa46b.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:42+00:00",
+      "not_after": "2027-01-01T12:33:42+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -1992,10 +1421,49 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "s3.mx-central-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e7kryl6jaxz57dqqg6gpp5ml5u.ap-southeast-4.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary1aaa6be8d2c.zlhafx.c4.kafka.ap-southeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "jstvi2gp7ed7k4em3iulkbkwqi.mx-central-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2005,10 +1473,26 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.dfo07pj2h1qbb.amplifyapp.com"
+        "cn": "u6hs5tqu3q3bzilo7mioasu2lu.eu-west-2.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e0cbbc36873c.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:34:45+00:00",
+      "not_after": "2027-01-01T12:33:45+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2018,10 +1502,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d3gn56zelb5n3j.amplifyapp.com"
+        "cn": "s3.me-central-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2031,10 +1515,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "mccnrnhz3fspy.mrap.accesspoint.s3-global.amazonaws.com"
+        "cn": "bwgved5dfih4ptyrtcbjkc47xy.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2044,49 +1528,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "mxzsxgbwii5uy.mrap.accesspoint.s3-global.amazonaws.com"
+        "cn": "e7f4cbe8.ap-south-2.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "pmcmanagers.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dm5o18zvpupdp.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2096,10 +1541,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.cfnlaunchpadcanarytest.tyqvwe.c2.kafka.ap-east-2.amazonaws.com"
+        "cn": "*.canary21af0792.s0fary.c3.kafka.cn-northwest-1.amazonaws.com.cn"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2109,10 +1554,23 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.dpesri9ltlymg.amplifyapp.com"
+        "cn": "5ax3kmo7w47hz5csrihmdynm4i.us-gov-west-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cufiovmzxsptfouu2meuxxkpfy.us-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2122,75 +1580,127 @@
         "c": "US"
       },
       "subject": {
-        "cn": "te-d8cfc8668e1e44dca95ba51aaa1d573e.ecs.ap-southeast-7.on.aws"
+        "cn": "wb7xib6rb5sb6bkpz5mrdhbvgq.ap-south-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dnd01tgq2crck.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "englishatelier.cv"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1np80bj7ttssj.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GlobalSign nv-sa (BE)",
-      "issuer": {
-        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
-        "o": "GlobalSign nv-sa",
-        "c": "BE"
-      },
-      "subject": {
-        "cn": "www.clubfirstyoung.ru"
-      },
-      "not_before": "2025-12-25T03:42:57+00:00",
-      "not_after": "2027-01-26T03:42:56+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
       "issuer": {
         "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "6bvssbfpkg4zf2m35lauq3cbma.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rblqvpftyzckcaohwgooq4x7zu.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "5t37t2lnaqlxy2ihdiutyx2ls4.us-east-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "member.s3.us-west-2.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.us-east-2.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.d2dn4tiq54engg.amplifyapp.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
         "o": "Amazon",
         "c": "US"
       },
       "subject": {
         "cn": "3f15af20.ap-east-1.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "uskpazyibrdjbs2ampcgyoqvei.ap-northeast-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "horyd27ffztmticxq5r2fkkn3u.eu-central-1.es.amazonaws.com"
+      },
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2200,36 +1710,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "eu-west-1-r18.724201074455.ifedev3.uk"
+        "cn": "*.my.connect.aws"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1d29mut9y68au.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dvwpbafaagisx.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2239,36 +1723,26 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.dd256v4qeklu5.amplifyapp.com"
+        "cn": "bendavuxx4yntifv74b66v4eby.eu-west-2.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
-      "ca": "Amazon (US)",
+      "ca": "IdenTrust (US)",
       "issuer": {
-        "cn": "Amazon ECDSA 384 M04",
-        "o": "Amazon",
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
         "c": "US"
       },
       "subject": {
-        "cn": "*.ext-net-route53-private.infralib.entigo.io"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
+        "cn": "149f431a0902.devices.meraki.direct",
+        "o": "Cisco Systems Inc.",
         "c": "US"
       },
-      "subject": {
-        "cn": "*.d380nfn5rnrt7i.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T12:34:49+00:00",
+      "not_after": "2027-01-01T12:33:49+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2278,10 +1752,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d1c9b4vprixt2h.amplifyapp.com"
+        "cn": "wwjznoqvqj334figw3vyyjwoli.eu-west-2.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2291,62 +1765,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "admin.shigoto-meshi.com"
+        "cn": "*.crossaccountplcanaryf.iujm3b.c24.kafka.us-east-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.db80haklojhi0.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.emfcjho.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1tiw0jhiig9ve.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "sportslivetoday.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2356,10 +1778,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "s3.us-east-1.amazonaws.com"
+        "cn": "*.canary7b00a6dcb049.j3a0s7.c4.kafka.us-gov-west-1.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2369,10 +1791,23 @@
         "c": "US"
       },
       "subject": {
-        "cn": "sy-5e1d36a2979145b6a73e8c2fcecf972f.ecs.eu-north-1.on.aws"
+        "cn": "lzvmudqe4oosjcrxv6awp2ia24.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M05",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "crdaeaayqlmqzyfiryscbkiyaubc.fis.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-27T11:34:42+00:00",
+      "not_after": "2027-01-26T12:34:42+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2382,10 +1817,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d2mz3cj1llfb4j.amplifyapp.com"
+        "cn": "3ebkzawff6nlziwfmcuyifanoa.ap-northeast-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2395,10 +1830,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d2zr1rw8li1k4j.amplifyapp.com"
+        "cn": "*.d1k5fvv2d1vewu.amplifyapp.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2408,23 +1843,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "14bac4e7.eu-central-2.acm-tests.cloudformation.aws.dev"
+        "cn": "*.canarye17d59c4e8e2.jixpth.c3.kafka.us-west-2.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d28w9aqpoocpv4.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2434,23 +1856,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "www.qmfcjho.shop"
+        "cn": "mr-file-connector-192.api.auxosandbox.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.bcjvhdjf.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -2460,400 +1869,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.d33v1d85o71v3j.amplifyapp.com"
+        "cn": "canary.s3.sa-east-1.vpce.amazonaws.com"
       },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "GlobalSign nv-sa (BE)",
-      "issuer": {
-        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
-        "o": "GlobalSign nv-sa",
-        "c": "BE"
-      },
-      "subject": {
-        "cn": "www.firstracing.ru"
-      },
-      "not_before": "2025-12-25T05:08:32+00:00",
-      "not_after": "2027-01-26T05:08:31+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "mp64fmfwd5rhb.mrap.accesspoint.s3-global.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "ng-741f0a286bf54911add7b8ab02a0dfa6.ecs.eu-central-2.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dalpjj2v2sikk.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "okaiawk5wj5tdgbfpvcv4yexbq.eu-south-1.es.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d7fpv7to4jxq6.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "canary.s3.us-west-1.vpce.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1jmbhw06co4ao.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3kvzrmlyqdaz1.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.lmfcjho.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon ECDSA 384 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.ext-net-route53.infralib.entigo.io"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "service.s3.manba.cc"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "messeundstadthalle.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3mdqz75gsyk0t.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d36987spy0dpj7.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "e168e8c1.us-west-2.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d3jtsf7pvi9syc.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d30bsl9j064ny2.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "api.80bf8c80.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "beaterclothing.nl"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "messeundstadthalle.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.rmfcjho.shop"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.dwe9p7zxwet4h.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d1ohdgm5ecl8un.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Sectigo Limited (GB)",
-      "issuer": {
-        "cn": "Sectigo Public Server Authentication CA DV R36",
-        "o": "Sectigo Limited",
-        "c": "GB"
-      },
-      "subject": {
-        "cn": "beaterclothing.nl"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-15T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "ktecmdoc.click"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "m6fpbzsnrzu54.mrap.accesspoint.s3-global.amazonaws.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.d2mmw4ljrm7o8b.amplifyapp.com"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "f3473fb0.eu-west-1.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-25T00:00:00+00:00",
-      "not_after": "2027-01-23T23:59:59+00:00"
+      "not_before": "2025-12-27T00:00:00+00:00",
+      "not_after": "2027-01-25T23:59:59+00:00"
     }
   ]
 }

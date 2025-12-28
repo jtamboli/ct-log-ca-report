@@ -3,28 +3,99 @@
   "operator": "DigiCert",
   "log_id": "pELFBklgYVSPD9TqnPt6LSZFTYepfy/fRVn2J086hFQ=",
   "log_type": "rfc6962",
-  "sample_count": 32,
+  "sample_count": 126,
   "ca_counts": {
+    "Google Trust Services (US)": 84,
+    "Certainly (US)": 5,
+    "IdenTrust (US)": 3,
+    "home.pl S.A. (PL)": 1,
+    "GlobalSign nv-sa (BE)": 18,
+    "Amazon (DE)": 4,
+    "Let's Encrypt (US)": 6,
     "DigiCert Inc (US)": 2,
-    "Google Trust Services (US)": 25,
-    "GlobalSign nv-sa (BE)": 3,
-    "Let's Encrypt (US)": 1,
-    "Amazon (DE)": 1
+    "Amazon (US)": 3
   },
   "certificates": [
     {
-      "ca": "DigiCert Inc (US)",
+      "ca": "Google Trust Services (US)",
       "issuer": {
-        "cn": "Encryption Everywhere DV TLS CA - G2",
-        "o": "DigiCert Inc",
-        "ou": "www.digicert.com",
+        "cn": "WR3",
+        "o": "Google Trust Services",
         "c": "US"
       },
       "subject": {
-        "cn": "prd.tsmhub.cn"
+        "cn": "rxlbdnstf-domain-as-s1.ccm-rxlb-dns-tf.certsbridge.com"
       },
-      "not_before": "2025-09-28T00:00:00+00:00",
-      "not_after": "2025-12-26T23:59:59+00:00"
+      "not_before": "2025-12-27T11:06:58+00:00",
+      "not_after": "2025-12-28T12:02:53+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ue5g.russellvilleschools.net"
+      },
+      "not_before": "2025-12-07T11:59:13+00:00",
+      "not_after": "2026-01-06T11:59:12+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "21176.discos.orbis.tomtom.com",
+        "o": "TomTom International B.V.",
+        "c": "NL"
+      },
+      "not_before": "2025-12-27T12:07:00+00:00",
+      "not_after": "2026-01-03T12:06:00+00:00"
+    },
+    {
+      "ca": "home.pl S.A. (PL)",
+      "issuer": {
+        "cn": "Certyfikat SSL",
+        "o": "home.pl S.A.",
+        "c": "PL"
+      },
+      "subject": {
+        "cn": "britas-krajowe.pl"
+      },
+      "not_before": "2024-12-04T14:02:15+00:00",
+      "not_after": "2026-01-03T00:00:00+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pineforest.pcssd.org"
+      },
+      "not_before": "2025-12-07T11:59:14+00:00",
+      "not_after": "2026-01-06T11:59:13+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "spco.sputnam.k12.in.us"
+      },
+      "not_before": "2025-12-07T11:59:13+00:00",
+      "not_after": "2026-01-06T11:59:12+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -34,290 +105,62 @@
         "c": "US"
       },
       "subject": {
-        "cn": "d1.1326730319-cep.cb-gclb-test-prod.certsbridge.com"
+        "cn": "2216622701.ccm-rxlb-dns.certsbridge.com"
       },
-      "not_before": "2025-12-25T03:38:47+00:00",
-      "not_after": "2025-12-26T04:31:09+00:00"
+      "not_before": "2025-12-27T11:06:42+00:00",
+      "not_after": "2025-12-28T12:02:37+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rles.smithfield-ps.org"
+      },
+      "not_before": "2025-12-07T11:59:08+00:00",
+      "not_after": "2026-01-06T11:59:07+00:00"
+    },
+    {
+      "ca": "Certainly (US)",
+      "issuer": {
+        "cn": "Certainly Intermediate R1",
+        "o": "Certainly",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tr.lackawannaschools.org"
+      },
+      "not_before": "2025-12-07T11:59:14+00:00",
+      "not_after": "2026-01-06T11:59:13+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
       "issuer": {
-        "cn": "WR3",
+        "cn": "WR1",
         "o": "Google Trust Services",
         "c": "US"
       },
       "subject": {
-        "cn": "100408983.ccm-rxlb-dns.certsbridge.com"
+        "cn": "homeassistant.home.net.men.ci"
       },
-      "not_before": "2025-12-25T03:38:51+00:00",
-      "not_after": "2025-12-26T04:34:47+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845aba35008de6.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:26+00:00",
-      "not_after": "2025-12-26T04:32:22+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845aba26f2663a.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:31+00:00",
-      "not_after": "2025-12-26T04:32:26+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845aba6de7ac71.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:32+00:00",
-      "not_after": "2025-12-26T04:32:28+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab964559ad2.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:25+00:00",
-      "not_after": "2025-12-26T04:32:21+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab959d5cc35.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:34+00:00",
-      "not_after": "2025-12-26T04:32:29+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845aba495f7fad.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:37+00:00",
-      "not_after": "2025-12-26T04:32:33+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "rxlbdnstf-domain-as-e1.ccm-rxlb-dns-tf.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:56+00:00",
-      "not_after": "2025-12-26T04:32:52+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "rxlbdnstf-domain-as-se2.ccm-rxlb-dns-tf.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:37:11+00:00",
-      "not_after": "2025-12-26T04:33:06+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab959d44975.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:36:59+00:00",
-      "not_after": "2025-12-26T04:32:54+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845aba55fa9d8d.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:37:12+00:00",
-      "not_after": "2025-12-26T04:33:06+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab95d7a75d4.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:37:09+00:00",
-      "not_after": "2025-12-26T04:33:03+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "1030727022.ccm-rxlb-dns.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:37:30+00:00",
-      "not_after": "2025-12-26T04:33:27+00:00"
+      "not_before": "2025-12-27T11:03:28+00:00",
+      "not_after": "2026-01-06T00:03:20+00:00"
     },
     {
       "ca": "GlobalSign nv-sa (BE)",
       "issuer": {
-        "cn": "GlobalSign Atlas R3 OV TLS CA 2025 Q4",
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
         "o": "GlobalSign nv-sa",
         "c": "BE"
       },
       "subject": {
-        "cn": "parfrwebtest.ipc.com",
-        "o": "IPC SYSTEMS, INC.",
-        "c": "US"
+        "cn": "imperva.com"
       },
-      "not_before": "2025-12-25T04:37:26+00:00",
-      "not_after": "2025-12-28T04:00:00+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {},
-      "not_before": "2025-12-25T03:34:01+00:00",
-      "not_after": "2025-12-26T03:34:00+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {},
-      "not_before": "2025-12-25T03:35:14+00:00",
-      "not_after": "2025-12-26T03:35:13+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab959d2894e.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:37:01+00:00",
-      "not_after": "2025-12-26T04:32:56+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab959d163fb.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:37:17+00:00",
-      "not_after": "2025-12-26T04:33:09+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {},
-      "not_before": "2025-12-25T03:37:14+00:00",
-      "not_after": "2025-12-26T03:37:13+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "basic-check.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:37:15+00:00",
-      "not_after": "2025-12-26T03:37:14+00:00"
-    },
-    {
-      "ca": "Let's Encrypt (US)",
-      "issuer": {
-        "cn": "E8",
-        "o": "Let's Encrypt",
-        "c": "US"
-      },
-      "subject": {},
-      "not_before": "2025-12-25T03:38:26+00:00",
-      "not_after": "2025-12-31T19:38:25+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "18845ab959d7dd17.ccm-prod.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:38:53+00:00",
-      "not_after": "2025-12-26T04:34:40+00:00"
+      "not_before": "2025-12-27T12:07:10+00:00",
+      "not_after": "2025-12-28T12:06:24+00:00"
     },
     {
       "ca": "Amazon (DE)",
@@ -327,10 +170,45 @@
         "c": "DE"
       },
       "subject": {
-        "cn": "eokyoudnqlckkqypuaidx.ffs.thf.loadtest.prod.sadbirds.aws.a2z.eu"
+        "cn": "tqntyfzjsbptgevmbyxcmpgxp.fis.thf.test.prod.sadbirds.aws.a2z.eu"
       },
-      "not_before": "2025-12-25T03:38:35+00:00",
-      "not_after": "2026-01-01T04:38:35+00:00"
+      "not_before": "2025-12-27T11:06:58+00:00",
+      "not_after": "2026-01-03T12:06:58+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:08:47+00:00",
+      "not_after": "2026-01-03T03:08:46+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:07:20+00:00",
+      "not_after": "2025-12-28T12:07:20+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R13",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:08:20+00:00",
+      "not_after": "2026-01-03T03:08:19+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -339,49 +217,35 @@
         "o": "Google Trust Services",
         "c": "US"
       },
-      "subject": {},
-      "not_before": "2025-12-25T03:36:55+00:00",
-      "not_after": "2025-12-26T03:36:54+00:00"
+      "subject": {
+        "cn": "nas.home.net.men.ci"
+      },
+      "not_before": "2025-12-27T11:03:28+00:00",
+      "not_after": "2026-01-06T00:03:22+00:00"
     },
     {
       "ca": "GlobalSign nv-sa (BE)",
       "issuer": {
-        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
         "o": "GlobalSign nv-sa",
         "c": "BE"
       },
       "subject": {
-        "cn": "www.offermann.jp"
+        "cn": "imperva.com"
       },
-      "not_before": "2024-12-04T03:44:28+00:00",
-      "not_after": "2026-01-05T03:44:27+00:00"
+      "not_before": "2025-12-27T12:07:46+00:00",
+      "not_after": "2025-12-28T12:07:10+00:00"
     },
     {
-      "ca": "GlobalSign nv-sa (BE)",
+      "ca": "Let's Encrypt (US)",
       "issuer": {
-        "cn": "GlobalSign GCC R3 DV TLS CA 2020",
-        "o": "GlobalSign nv-sa",
-        "c": "BE"
-      },
-      "subject": {
-        "cn": "www.proteca.jp"
-      },
-      "not_before": "2024-12-04T03:44:38+00:00",
-      "not_after": "2026-01-05T03:44:37+00:00"
-    },
-    {
-      "ca": "DigiCert Inc (US)",
-      "issuer": {
-        "cn": "Encryption Everywhere DV TLS CA - G2",
-        "o": "DigiCert Inc",
-        "ou": "www.digicert.com",
+        "cn": "E8",
+        "o": "Let's Encrypt",
         "c": "US"
       },
-      "subject": {
-        "cn": "ejplay.com.cn"
-      },
-      "not_before": "2025-09-30T00:00:00+00:00",
-      "not_after": "2025-12-28T23:59:59+00:00"
+      "subject": {},
+      "not_before": "2025-12-27T11:09:15+00:00",
+      "not_after": "2026-01-03T03:09:14+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -390,22 +254,24 @@
         "o": "Google Trust Services",
         "c": "US"
       },
-      "subject": {},
-      "not_before": "2025-12-25T03:36:15+00:00",
-      "not_after": "2025-12-26T03:36:14+00:00"
+      "subject": {
+        "cn": "only.ipv4.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
       "issuer": {
-        "cn": "WR3",
+        "cn": "WR1",
         "o": "Google Trust Services",
         "c": "US"
       },
       "subject": {
-        "cn": "18845aba31e93157.ccm-prod.certsbridge.com"
+        "cn": "xn--s28h.http-01.production.haplorrhini.com"
       },
-      "not_before": "2025-12-25T03:39:00+00:00",
-      "not_after": "2025-12-26T04:34:46+00:00"
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -417,8 +283,1327 @@
       "subject": {
         "cn": "basic-check.http-01.production.haplorrhini.com"
       },
-      "not_before": "2025-12-25T03:39:14+00:00",
-      "not_after": "2025-12-26T03:39:13+00:00"
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--tild-8u5a.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "test1.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR2",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE2",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--tild-8u5a.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rollover.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--s28h.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "AE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "http-01.sxg.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR5",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ecdsa-sha384.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2985723762-gclb-alpn.ccm-probers-prod.certsbridge.com"
+      },
+      "not_before": "2025-12-27T09:53:19+00:00",
+      "not_after": "2025-12-28T10:43:50+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-eu-w10.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-27T11:08:00+00:00",
+      "not_after": "2025-12-28T12:03:56+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vlbhycxkdutcurcjpaya.gtr.gw.gke.certsbridge.com"
+      },
+      "not_before": "2025-12-27T10:14:08+00:00",
+      "not_after": "2025-12-28T11:04:19+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:06:12+00:00",
+      "not_after": "2025-12-28T11:06:11+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:06:26+00:00",
+      "not_after": "2025-12-28T11:06:25+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:04:37+00:00",
+      "not_after": "2025-12-28T11:04:36+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:04:38+00:00",
+      "not_after": "2025-12-28T11:04:37+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:06:26+00:00",
+      "not_after": "2025-12-28T11:06:25+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:05:50+00:00",
+      "not_after": "2025-12-28T11:05:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:06:34+00:00",
+      "not_after": "2025-12-28T11:06:33+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xihufengcai.cn"
+      },
+      "not_before": "2025-09-29T00:00:00+00:00",
+      "not_after": "2025-12-27T23:59:59+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:15+00:00",
+      "not_after": "2025-12-28T12:07:39+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:16+00:00",
+      "not_after": "2025-12-28T12:07:39+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:15+00:00",
+      "not_after": "2025-12-28T12:07:39+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-af-s1.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-27T10:07:34+00:00",
+      "not_after": "2025-12-28T11:03:29+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "247762674.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-27T10:08:25+00:00",
+      "not_after": "2025-12-28T11:04:21+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-eu-w4.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-27T10:09:08+00:00",
+      "not_after": "2025-12-28T11:05:03+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "Encryption Everywhere DV TLS CA - G2",
+        "o": "DigiCert Inc",
+        "ou": "www.digicert.com",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cdn.xihufengcai.cn"
+      },
+      "not_before": "2025-10-03T00:00:00+00:00",
+      "not_after": "2025-12-31T23:59:59+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:40+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:41+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:40+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:41+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:41+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:41+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:41+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:20+00:00",
+      "not_after": "2025-12-28T12:07:41+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:08:22+00:00",
+      "not_after": "2025-12-28T12:07:42+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "37962.discos.orbis.tomtom.com",
+        "o": "TomTom International B.V.",
+        "c": "NL"
+      },
+      "not_before": "2025-12-27T12:08:30+00:00",
+      "not_after": "2026-01-03T12:07:30+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rxlbdnstf-domain-eu-w8.ccm-rxlb-dns-tf.certsbridge.com"
+      },
+      "not_before": "2025-12-27T11:06:52+00:00",
+      "not_after": "2025-12-28T12:02:48+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "R12",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:09:56+00:00",
+      "not_after": "2026-01-03T03:09:55+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T10:45:25+00:00",
+      "not_after": "2025-12-28T11:34:15+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "foo.eab.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rollover.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:08:01+00:00",
+      "not_after": "2025-12-28T11:08:00+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--tild-8u5a.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--s28h.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:08:33+00:00",
+      "not_after": "2025-12-28T11:08:32+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S00",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "pbliujbschfumaqvxqhdn.ffs.thf.loadtest.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-27T11:08:40+00:00",
+      "not_after": "2026-01-03T12:08:40+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:05:05+00:00",
+      "not_after": "2025-12-28T11:05:04+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR2",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ecdsa-sha384.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "xn--tild-8u5a.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:22+00:00",
+      "not_after": "2025-12-28T11:07:21+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:35+00:00",
+      "not_after": "2025-12-28T11:07:34+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR2",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:05:52+00:00",
+      "not_after": "2025-12-28T11:05:51+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:41+00:00",
+      "not_after": "2025-12-28T11:07:40+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE5",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "rollover.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WE4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:22+00:00",
+      "not_after": "2025-12-28T11:07:21+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:37+00:00",
+      "not_after": "2025-12-28T11:07:36+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "foo.eab.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "only.ipv4.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "only.ipv6.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "test1.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:09:10+00:00",
+      "not_after": "2025-12-28T12:08:21+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:09:10+00:00",
+      "not_after": "2025-12-28T12:08:11+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S00",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "qohmjgnljpugsbsakxkskythj.fis.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-27T11:07:58+00:00",
+      "not_after": "2026-01-03T12:07:58+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:10:49+00:00",
+      "not_after": "2026-01-03T03:10:48+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M05",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lhrxszchqaisamrnafqkahelnead.fis.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-27T11:09:23+00:00",
+      "not_after": "2026-01-03T12:09:23+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:09:36+00:00",
+      "not_after": "2025-12-28T11:09:35+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M05",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pwujzdbqkpolyltvelsiwvrmbdoz.ffs.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-27T11:09:34+00:00",
+      "not_after": "2026-01-03T12:09:34+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S00",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "vswcpraqnazfsktfcfqktrltq.ffs.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-27T11:09:36+00:00",
+      "not_after": "2026-01-03T12:09:36+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "2502818708-gclb-dns.ccm-probers-prod.certsbridge.com"
+      },
+      "not_before": "2025-12-27T11:09:49+00:00",
+      "not_after": "2025-12-28T12:00:00+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M06",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "kqcqzaqzxesdldbxuelbrshlaxqa.fis.pdx.test.prod.sadbirds.aws.dev"
+      },
+      "not_before": "2025-12-27T11:09:42+00:00",
+      "not_after": "2026-01-03T12:09:42+00:00"
+    },
+    {
+      "ca": "GlobalSign nv-sa (BE)",
+      "issuer": {
+        "cn": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "o": "GlobalSign nv-sa",
+        "c": "BE"
+      },
+      "subject": {
+        "cn": "imperva.com"
+      },
+      "not_before": "2025-12-27T12:09:55+00:00",
+      "not_after": "2025-12-28T12:09:10+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:49+00:00",
+      "not_after": "2025-12-28T11:07:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Let's Encrypt (US)",
+      "issuer": {
+        "cn": "E7",
+        "o": "Let's Encrypt",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:10:49+00:00",
+      "not_after": "2026-01-03T03:10:48+00:00"
+    },
+    {
+      "ca": "IdenTrust (US)",
+      "issuer": {
+        "cn": "HydrantID Server CA O1",
+        "o": "IdenTrust",
+        "ou": "HydrantID Trusted Certificate Service",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ewc3kr5d.cm.hyid.co",
+        "o": "Avalanche Cloud Corporation",
+        "c": "US"
+      },
+      "not_before": "2025-12-27T12:10:03+00:00",
+      "not_after": "2025-12-28T12:09:03+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T12:09:57+00:00",
+      "not_after": "2025-12-29T00:09:56+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:07:50+00:00",
+      "not_after": "2025-12-28T11:07:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d0.1458127362-cep.cb-gclb-test-prod.certsbridge.com"
+      },
+      "not_before": "2025-12-27T11:09:54+00:00",
+      "not_after": "2025-12-28T12:01:36+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T11:08:48+00:00",
+      "not_after": "2025-12-28T11:08:47+00:00"
     }
   ]
 }

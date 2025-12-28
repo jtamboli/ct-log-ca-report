@@ -3,10 +3,12 @@
   "operator": "TrustAsia",
   "log_id": "KCyL3YEP+QkSCs4W1uDsIBvqgqOkrxnZ7/tZ6D/cQmg=",
   "log_type": "rfc6962",
-  "sample_count": 21,
+  "sample_count": 29,
   "ca_counts": {
-    "Google Trust Services (US)": 20,
-    "ZeroSSL (AT)": 1
+    "Google Trust Services (US)": 19,
+    "GoDaddy.com, Inc. (US)": 1,
+    "Google UK Ltd. (GB)": 1,
+    "ZeroSSL (AT)": 8
   },
   "certificates": [
     {
@@ -16,113 +18,9 @@
         "o": "Google Trust Services",
         "c": "US"
       },
-      "subject": {
-        "cn": "rxlbdnstf-domain-na-ne1.ccm-rxlb-dns-tf.certsbridge.com"
-      },
-      "not_before": "2025-12-25T03:33:01+00:00",
-      "not_after": "2025-12-26T04:28:57+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "basic-check.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:20+00:00",
-      "not_after": "2025-12-26T03:33:19+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "xn--s28h.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "xn--s28h.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
       "subject": {},
-      "not_before": "2025-12-25T03:33:32+00:00",
-      "not_after": "2025-12-26T03:33:31+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR4",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR4",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR2",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "only.ipv4.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
+      "not_before": "2025-12-27T10:48:52+00:00",
+      "not_after": "2025-12-28T10:48:51+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -132,8 +30,8 @@
         "c": "US"
       },
       "subject": {},
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
+      "not_before": "2025-12-27T10:49:54+00:00",
+      "not_after": "2025-12-28T10:49:53+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -143,10 +41,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "2579918459.ccm-rxlb-dns.certsbridge.com"
+        "cn": "rxlbdnstf-domain-as-ne2.ccm-rxlb-dns-tf.certsbridge.com"
       },
-      "not_before": "2025-12-25T03:33:44+00:00",
-      "not_after": "2025-12-26T04:29:40+00:00"
+      "not_before": "2025-12-27T10:50:51+00:00",
+      "not_after": "2025-12-28T11:46:47+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -156,47 +54,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "rollover.http-01.production.haplorrhini.com"
+        "cn": "rxlbdnstf-domain-me-w1.ccm-rxlb-dns-tf.certsbridge.com"
       },
-      "not_before": "2025-12-25T03:33:20+00:00",
-      "not_after": "2025-12-26T03:33:19+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {},
-      "not_before": "2025-12-25T03:33:27+00:00",
-      "not_after": "2025-12-26T03:33:26+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR5",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "basic-check.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR3",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "basic-check.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:27+00:00",
-      "not_after": "2025-12-26T03:33:26+00:00"
+      "not_before": "2025-12-27T10:48:53+00:00",
+      "not_after": "2025-12-28T11:44:49+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -206,34 +67,8 @@
         "c": "US"
       },
       "subject": {},
-      "not_before": "2025-12-25T03:33:49+00:00",
-      "not_after": "2025-12-26T03:33:48+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WE1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "basic-check.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:20+00:00",
-      "not_after": "2025-12-26T03:33:19+00:00"
-    },
-    {
-      "ca": "Google Trust Services (US)",
-      "issuer": {
-        "cn": "WR1",
-        "o": "Google Trust Services",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "ecdsa-sha384.http-01.production.haplorrhini.com"
-      },
-      "not_before": "2025-12-25T03:33:20+00:00",
-      "not_after": "2025-12-26T03:33:19+00:00"
+      "not_before": "2025-12-27T10:48:03+00:00",
+      "not_after": "2025-12-28T10:48:02+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
@@ -245,21 +80,52 @@
       "subject": {
         "cn": "basic-check.http-01.production.haplorrhini.com"
       },
-      "not_before": "2025-12-25T03:33:33+00:00",
-      "not_after": "2025-12-26T03:33:32+00:00"
+      "not_before": "2025-12-27T10:49:46+00:00",
+      "not_after": "2025-12-28T10:49:45+00:00"
     },
     {
       "ca": "Google Trust Services (US)",
       "issuer": {
-        "cn": "WR1",
+        "cn": "WR3",
         "o": "Google Trust Services",
         "c": "US"
       },
       "subject": {
-        "cn": "xn--s28h.http-01.production.haplorrhini.com"
+        "cn": "1463714992.ccm-rxlb-dns.certsbridge.com"
       },
-      "not_before": "2025-12-25T03:33:19+00:00",
-      "not_after": "2025-12-26T03:33:18+00:00"
+      "not_before": "2025-12-27T10:50:35+00:00",
+      "not_after": "2025-12-28T11:46:32+00:00"
+    },
+    {
+      "ca": "GoDaddy.com, Inc. (US)",
+      "issuer": {
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "thearai.com"
+      },
+      "not_before": "2025-12-27T11:51:09+00:00",
+      "not_after": "2025-12-28T17:13:33+00:00"
+    },
+    {
+      "ca": "Google UK Ltd. (GB)",
+      "issuer": {
+        "cn": "Merge Delay Intermediate 1",
+        "o": "Google UK Ltd.",
+        "ou": "Certificate Transparency",
+        "c": "GB"
+      },
+      "subject": {
+        "cn": "flowers-to-the-world.com",
+        "o": "Google",
+        "ou": "Certificate Transparency",
+        "c": "GB"
+      },
+      "not_before": "2025-12-27T03:31:33+00:00",
+      "not_after": "2025-12-28T03:31:33+00:00"
     },
     {
       "ca": "ZeroSSL (AT)",
@@ -269,10 +135,251 @@
         "c": "AT"
       },
       "subject": {
-        "cn": "*.th9.fun"
+        "cn": "diekfz61.de"
       },
-      "not_before": "2025-09-30T00:00:00+00:00",
-      "not_after": "2025-12-29T23:59:59+00:00"
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "taupitz-bewerbungen.de"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "aa-logistics-fachkraft-lagerlogistik.de"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "safe-sander.de"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "trainee.mediengruppebay.de"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "www.prozesstechniker.karriere-kohrener-landmolkerei.de"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "www.start-energiehaus-blechinger.de"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "ZeroSSL (AT)",
+      "issuer": {
+        "cn": "ZeroSSL RSA Domain Secure Site CA",
+        "o": "ZeroSSL",
+        "c": "AT"
+      },
+      "subject": {
+        "cn": "sulser-paketdienst.ch"
+      },
+      "not_before": "2025-10-01T00:00:00+00:00",
+      "not_after": "2025-12-30T23:59:59+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:50:30+00:00",
+      "not_after": "2025-12-28T10:50:29+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T10:48:50+00:00",
+      "not_after": "2025-12-28T10:48:49+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:50:49+00:00",
+      "not_after": "2025-12-28T10:50:48+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:50:59+00:00",
+      "not_after": "2025-12-28T10:50:58+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:50:13+00:00",
+      "not_after": "2025-12-28T10:50:12+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T10:50:32+00:00",
+      "not_after": "2025-12-28T10:50:31+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR4",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {},
+      "not_before": "2025-12-27T11:52:26+00:00",
+      "not_after": "2025-12-28T23:52:25+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:52:24+00:00",
+      "not_after": "2025-12-28T10:52:23+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "1752419155.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-27T10:52:13+00:00",
+      "not_after": "2025-12-28T11:48:08+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "274475407.ccm-rxlb-dns.certsbridge.com"
+      },
+      "not_before": "2025-12-27T10:50:25+00:00",
+      "not_after": "2025-12-28T11:46:20+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR1",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:50:56+00:00",
+      "not_after": "2025-12-28T10:50:55+00:00"
+    },
+    {
+      "ca": "Google Trust Services (US)",
+      "issuer": {
+        "cn": "WR3",
+        "o": "Google Trust Services",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "basic-check.http-01.production.haplorrhini.com"
+      },
+      "not_before": "2025-12-27T10:51:00+00:00",
+      "not_after": "2025-12-28T10:50:59+00:00"
     }
   ]
 }
