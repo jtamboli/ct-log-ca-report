@@ -1,0 +1,3 @@
+[submodule "C2SP"]
+	path = C2SP
+	url = git@github.com:C2SP/C2SP.git
