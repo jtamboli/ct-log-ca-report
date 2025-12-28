@@ -6,7 +6,7 @@ import base64
 import struct
 import time
 import httpx
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 
 
 def fetch_with_retry(url: str, max_retries: int = 3, initial_delay: float = 1.0, quiet: bool = False) -> httpx.Response:
@@ -216,7 +216,7 @@ def parse_extra_data(extra_data_b64: str, entry_type: int, quiet: bool = False) 
         return None
 
 
-def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> List[bytes]:
+def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> Tuple[List[bytes], int]:
     """
     Fetch entries from an RFC 6962 CT log.
 
@@ -227,7 +227,9 @@ def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> Li
         quiet: If True, suppress output
 
     Returns:
-        List of certificate bytes (DER-encoded)
+        Tuple of (certificates list, entries_returned count)
+        - certificates: List of certificate bytes (DER-encoded)
+        - entries_returned: Number of entries the server returned (may be less than requested)
     """
     # Remove trailing slash from log_url if present
     log_url = log_url.rstrip('/')
@@ -239,6 +241,7 @@ def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> Li
 
         certificates = []
         entries = entries_data.get("entries", [])
+        entries_returned = len(entries)
 
         for entry in entries:
             leaf_input = entry.get("leaf_input", "")
@@ -261,7 +264,7 @@ def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> Li
             if cert_bytes:
                 certificates.append(cert_bytes)
 
-        return certificates
+        return certificates, entries_returned
 
     except httpx.HTTPStatusError as e:
         # Handle 404 (no entries) and other HTTP errors
@@ -271,23 +274,24 @@ def fetch_entries(log_url: str, start: int, end: int, quiet: bool = False) -> Li
         else:
             if not quiet:
                 print(f"  HTTP error {e.response.status_code} fetching entries {start}-{end}")
-        return []
+        return [], 0
     except Exception as e:
         if not quiet:
             print(f"  Error fetching entries {start}-{end}: {e}")
-        return []
+        return [], 0
 
 
-def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_errors: int = 5, quiet: bool = False) -> List[bytes]:
+def fetch_certificates(log_url: str, target_count: int = 1000, max_requests: int = 8, quiet: bool = False) -> List[bytes]:
     """
     Fetch certificates from an RFC 6962 CT log.
 
-    Fetches the most recent certificates up to target_count.
+    Fetches the most recent certificates up to target_count, while limiting
+    the number of API requests to be respectful to log operators.
 
     Args:
         log_url: The base URL for the log
         target_count: Target number of certificates to fetch
-        max_consecutive_errors: Stop after this many consecutive fetch errors
+        max_requests: Maximum number of API requests to make (default: 8)
         quiet: If True, suppress output
 
     Returns:
@@ -315,42 +319,44 @@ def fetch_certificates(log_url: str, target_count: int = 1000, max_consecutive_e
             print(f"Fetching entries {start_index:,} to {end_index:,}...")
 
         all_certificates = []
-        consecutive_errors = 0
         current_start = start_index
+        requests_made = 0
 
-        # Fetch in chunks of 1000 (RFC 6962 limit)
-        while current_start <= end_index and consecutive_errors < max_consecutive_errors:
+        # Fetch entries, respecting max_requests limit
+        while current_start <= end_index and requests_made < max_requests and len(all_certificates) < target_count:
             # Calculate chunk end (max 1000 entries per request)
             chunk_end = min(current_start + 999, end_index)
 
             if not quiet:
-                print(f"  Fetching entries {current_start:,} to {chunk_end:,}...")
+                print(f"  Request {requests_made + 1}/{max_requests}: entries {current_start:,} to {chunk_end:,}...")
 
-            certificates = fetch_entries(log_url, current_start, chunk_end, quiet=quiet)
+            certificates, entries_returned = fetch_entries(log_url, current_start, chunk_end, quiet=quiet)
+            requests_made += 1
 
             if certificates:
                 all_certificates.extend(certificates)
-                consecutive_errors = 0
                 if not quiet:
-                    print(f"  Fetched {len(certificates)} certificates (total: {len(all_certificates)})")
-            else:
-                consecutive_errors += 1
-                if not quiet:
-                    print(f"  No certificates in this chunk (consecutive errors: {consecutive_errors})")
+                    print(f"    Got {len(certificates)} certs from {entries_returned} entries (total: {len(all_certificates)})")
 
-            # Move to next chunk
-            current_start = chunk_end + 1
+            # Advance by actual entries returned, not requested chunk size
+            # Some logs limit how many entries they return per request
+            if entries_returned > 0:
+                current_start += entries_returned
+            else:
+                # No entries returned - move past this chunk to avoid infinite loop
+                current_start = chunk_end + 1
 
             # Small delay to avoid rate limiting
-            if current_start <= end_index:
+            if current_start <= end_index and requests_made < max_requests:
                 time.sleep(0.5)
 
-        if consecutive_errors >= max_consecutive_errors:
-            if not quiet:
-                print(f"Stopped after {max_consecutive_errors} consecutive errors")
-
         if not quiet:
+            if len(all_certificates) >= target_count:
+                print(f"Reached target of {target_count} certificates")
+            elif requests_made >= max_requests:
+                print(f"Reached max requests limit ({max_requests})")
             print(f"Total certificates fetched: {len(all_certificates)}")
+
         return all_certificates
 
     except Exception as e:

@@ -3,9 +3,12 @@
   "operator": "Google",
   "log_id": "RMK9DOkUDmSlyUoBkwpaobs1lw4A7hEWiWgqHETXtWY=",
   "log_type": "rfc6962",
-  "sample_count": 22,
+  "sample_count": 243,
   "ca_counts": {
-    "Amazon (US)": 22
+    "Amazon (US)": 240,
+    "GoDaddy.com, Inc. (US)": 1,
+    "DigiCert Inc (US)": 1,
+    "Amazon (DE)": 1
   },
   "certificates": [
     {
@@ -16,10 +19,23 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.ewzquhcwaqbed7e9nmeertvc8k1it.ca-central-1.amazongamelift.com"
+        "cn": "lambda-lite.global.on.aws"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d305cbf4.il-central-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -31,112 +47,22 @@
       "subject": {
         "cn": "lambda-lite.global.on.aws"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
-      "ca": "Amazon (US)",
+      "ca": "GoDaddy.com, Inc. (US)",
       "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
+        "cn": "Go Daddy Secure Certificate Authority - G2",
+        "o": "GoDaddy.com, Inc.",
+        "ou": "http://certs.godaddy.com/repository/",
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "www.kdhmhb.org"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "378f75f4.ca-west-1.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "y3idicbawgcwhcop5hbenubore.us-west-2.es.amazonaws.com"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "c921a226.eu-west-2.acm-tests.cloudformation.aws.dev"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "te-575e6ed6a68a45898b5179759fc8868a.ecs.ap-east-2.on.aws"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon ECDSA 256 M04",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "cfdcv.can.1vzbsx.dev.edge-feature-validation.cloudfront.aws.dev"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "te-7b2ce12ae0a74182b91ea88480aa5e3d.ecs.ap-east-2.on.aws"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T16:10:57+00:00",
+      "not_after": "2027-01-29T16:10:57+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -148,8 +74,8 @@
       "subject": {
         "cn": "d7e92d83.ca-central-1.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -159,10 +85,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "lambda-lite.global.on.aws"
+        "cn": "kvjfxpawacmh5cutj3ppfr6r4y.ca-central-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -172,49 +98,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.privatelinkcanary3215.i5duza.c19.kafka.us-east-1.amazonaws.com"
+        "cn": "bsywmd5drqilutyrk74rkinjea.ca-central-1.es.amazonaws.com"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "www.tyhjkl.shop"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "lambda-lite.global.on.aws"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
-    },
-    {
-      "ca": "Amazon (US)",
-      "issuer": {
-        "cn": "Amazon RSA 2048 M01",
-        "o": "Amazon",
-        "c": "US"
-      },
-      "subject": {
-        "cn": "*.iw7lne3ej60d30f7ecdbwzg42044dlg2.sa-east-1.amazongamelift.com"
-      },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -224,10 +111,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "witjtpdoxitluu5skctikq7kxm.ap-southeast-4.es.amazonaws.com"
+        "cn": "d91b8454.eu-north-1.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -237,10 +124,10 @@
         "c": "US"
       },
       "subject": {
-        "cn": "*.rmcanarydpb25da872d9b.6o8uw9.c1.kafka.me-south-1.amazonaws.com"
+        "cn": "9c7c51ef.eu-south-2.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -250,10 +137,1271 @@
         "c": "US"
       },
       "subject": {
-        "cn": "0545db19d12adc8c2.proxy.nfw.us-east-2.amazonaws.com"
+        "cn": "*.privatelinkcanary.3uu1ox.c3.kafka.ap-southeast-5.amazonaws.com"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary6b9aa8.qoggxj.c3.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mw9ssq1prdoh8.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountpl.7v0bbm.c2.kafka.cn-northwest-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.publicaccessandopenmon.qg2mzy.c1.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary404a5.gaumlx.c4.kafka.ap-southeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary1f174b.ktally.c3.kafka.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryab77ea8e844e.8sjc8o.c3.kafka.sa-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canarycee09d61eec9.hkibw7.c2.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.publicaccessandopenmon.ncnugo.c1.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary38b2eadf6.2jkdd4.c3.kafka.me-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountpl.wz5ehk.c3.kafka.cn-northwest-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.publicaccessandopenmon.dkl5sf.c1.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary27cb4.aihsk7.c2.kafka.ap-southeast-7.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanaryd.74k6wy.c3.kafka.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary4992.gt0g99.c3.kafka.eu-south-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary3a28ba7b0c6.qfi6ey.c3.kafka.ap-southeast-5.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary9.5v4b3k.c3.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary7a6a1.56vijm.c3.kafka.ca-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary4300b981b27.adnpr3.c4.kafka.ap-northeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary0c.c410ae.c3.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary86.iyujxz.c3.kafka.mx-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.jylkln.c2.kafka.ap-northeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canarya216027ec138.ua42m3.c1.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary335d1d235f.r5w3cc.c2.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canarybff1410f765.xr5wgm.c2.kafka.ap-southeast-7.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanaryb0.7c2aym.c3.kafka.me-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountpl.hpre5a.c4.kafka.cn-northwest-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary0eaaeb3343f0.y1kb8h.c4.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary317532e545.nh1thb.c4.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary20f9e323a551.ckuh6l.c3.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary08c1dd8300f9.3vh5b8.c3.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary8db0.buhaub.c4.kafka.eu-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcana.ql8kju.c4.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.prometheuslongrunni.dx60kf.c1.kafka.il-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary53dcd5b0613a.krwj04.c4.kafka.ap-south-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.eiydwx.c2.kafka.ap-southeast-6.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarya7ef.zzt8mu.c3.kafka.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarye4222.ulaxid.c3.kafka.eu-west-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryb5ea232134.mzf8v6.c2.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary07905.zusgwb.c3.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary0afb3.grjl18.c4.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarye537e.lyn79k.c3.kafka.ap-southeast-5.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.jn1b9q.c3.kafka.ap-southeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanar.oh110r.c2.kafka.eu-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary902d5.ht394i.c3.kafka.ap-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarye1bb7.wg3pyu.c2.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryfccd196c37.h0i7dq.c2.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary0d3827f5c2.40iosb.c3.kafka.eu-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.tuns73.c4.kafka.ap-northeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryabf49271d97c.0tjjlg.c4.kafka.ap-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcana.2z1y9b.c3.kafka.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary28d34ded27af.ljx232.c2.kafka.il-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanaryb2.aamext.c4.kafka.us-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary00.vviplj.c4.kafka.eu-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarya27b5.du5zn4.c4.kafka.ap-northeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary0.wc0mz2.c4.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanar.5ffrpw.c3.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary9b064f8f88a0.hrxvqz.c3.kafka.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarydbef.qev82k.c3.kafka.ap-south-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary22.kr57j6.c3.kafka.us-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryb647048df05.7a1bea.c2.kafka.ap-southeast-6.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary961b7400937.i0g2rv.c2.kafka.ap-northeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary6f3dddb03a.9yow1w.c3.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.toie4f.c2.kafka.ap-southeast-7.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryd45487e.tuol1s.c3.kafka.mx-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary97c43.ox0uto.c3.kafka.ap-southeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary2f485db85bf9.i8kg56.c3.kafka.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarycc05c.pihgah.c4.kafka.ap-southeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanar.wjdaif.c4.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryc25bec521592.eliwv4.c2.kafka.eu-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryd87bd385554c.9fdi7v.c4.kafka.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary8.kmphsp.c3.kafka.eu-south-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarye9b42.5i5shk.c2.kafka-beta.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanaryd8.mo6uc0.c3.kafka.ca-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanaryf1ef7.p3c8j5.c4.kafka.us-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary8.10ucol.c4.kafka.ap-south-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.74jczq.c2.kafka.ap-southeast-5.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.htlly5.c2.kafka.ap-southeast-7.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary222f6dd68b10.hxpu8p.c3.kafka.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.rydpz7.c4.kafka.ap-northeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canarybf838ef8ac7d.7johaa.c2.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary67b364b3bd4d.lyv382.c3.kafka.ca-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryc9e8596409d9.hg66s3.c3.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary80ecd55.dt72ed.c3.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary3.3m95p5.c4.kafka.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccount.mfwj02.c2.kafka-gamma.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarye4964135d.u5ntjr.c4.kafka.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary65.x1klc9.c2.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary6d.6fcqh5.c3.kafka.ap-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary5f42.7senms.c3.kafka.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.mtlscanary22a589f.8axkjd.c1.kafka.ap-southeast-6.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarya0d23.iuqz7m.c2.kafka.ap-southeast-5.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcana.ok5kqj.c2.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanar.0u2wrs.c4.kafka.ca-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarya796c0.sfcrq0.c2.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarydf265a27ae.5oiweb.c3.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary1a94cc.5y0zbf.c4.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -265,8 +1413,8 @@
       "subject": {
         "cn": "28526e1d.me-central-1.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
@@ -276,23 +1424,1754 @@
         "c": "US"
       },
       "subject": {
-        "cn": "zqpzlnlonzrjqtzeoiygfrcqxa.ap-southeast-2.es.amazonaws.com"
+        "cn": "*.crossaccountplcanary94.p336bv.c3.kafka.us-west-2.amazonaws.com"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     },
     {
       "ca": "Amazon (US)",
       "issuer": {
         "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "canary.s3.us-east-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryc30c087f5ed8.e4e41j.c3.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.my.gamma.global.nonprod.connect.aws.a2z.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "14bac4e7.eu-central-2.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "63afe8cf.ap-northeast-2.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary0aa737585451.hfgl3w.c3.kafka.eu-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0fbfc810e5bdb37b4.ava.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary219e9.cmwl2t.c3.kafka.eu-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanarya7.vfc8ko.c4.kafka.ap-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "tb4tjbhbooj3gtyzszrve6is3q.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanarya4.lcm6jh.c3.kafka.ap-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "e168e8c1.us-west-2.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "pevpoc.jhontamayo.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-09c763b7fda3721d7.ava.eu-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary67d4d8e8eb6e.iqb574.c4.kafka.us-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ng-ca78c4bd428e450e990fb0c9c13292ea.ecs.ap-south-2.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.4c17rn.c4.kafka.ap-southeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-006d3d334185e0ccf.ava.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0fd1346fbeb016261.ava.sa-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "n2zmmscoqajshrkii3bcarswm4.us-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary941af4123c.xx67eq.c4.kafka.ap-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary35d18d4.6q63ov.c3.kafka.me-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "member.s3.eu-north-1.vpce.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryf3ea108dc.o5x0nj.c2.kafka.eu-south-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary08a104251acd.t1z4js.c2.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ffqpxxs6zrl5bsmwwe2c6o6l7i.cn-northwest-1.es.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary2328bb0.fjf456.c2.kafka.eu-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryf05cbe5a3019.lnphan.c3.kafka.mx-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanaryb8ae3.49f9sg.c2.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0e6bfee4a4c1dbefb.ava.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary5e.rwwa1z.c3.kafka.sa-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.wh7xd.eu-west-1.appstudio.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "i4u7tdjqmzbyxn2mbkghkeredm.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-09db22d4ace4fc717.ava.ca-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.w6yytl.c4.kafka.ap-southeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary9572db8551c.hdcclz.c3.kafka.ap-southeast-7.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary4acbf1a44c3.w2w54t.c1.kafka.ap-northeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary18.ynpi95.c3.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary89190.2pvoiq.c3.kafka.sa-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "DigiCert Inc (US)",
+      "issuer": {
+        "cn": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "o": "DigiCert Inc",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.arrowmaker.com",
+        "o": "Wintec Arrowmaker, Inc.",
+        "c": "US"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-10T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcana.s8m6b4.c4.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.innd6g.c3.kafka.ap-southeast-7.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary9c.leucfq.c4.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary25776516e420.p1g31v.c3.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary0f.1qdyv5.c3.kafka.cn-northwest-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarya6b01.vt9tro.c3.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary2e041.x2i2be.c3.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary4.pgfji2.c2.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary70afad8fd86f.2rvbs8.c3.kafka.il-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.tzfmj0.c2.kafka.ap-northeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryd1d8458.uxxdih.c1.kafka.me-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryf87a8c2fb543.twf89r.c3.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarybc052.uyik4a.c4.kafka.ap-southeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary17248ca5e0.o6w257.c3.kafka.ap-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary36560.gtfg52.c2.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary9.a6aigl.c3.kafka.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "66970aab.ap-southeast-7.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "7a645af7.ap-northeast-3.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-04915f109718a9d82.ava.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryf96bd9bbad2a.a6ojyc.c3.kafka.us-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon ECDSA 256 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "cfdcv.can.f6aef6.edge-feature-validation.cloudfront.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canarybcf63a4a3900.0qxh29.c2.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "0cc10af1b26873a22.proxy.nfw.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lfhopqayhup2k2w6e2x2te5x7i.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary8c05.kv3x0i.c4.kafka.me-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0bc07ce3414873d83.ava.ap-northeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryd853b3074a8b.45s8tg.c3.kafka.ap-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "lambda-lite.global.on.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ed69ff19.eu-south-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0cffd3dad99baf8c6.ava.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "icextv4jtzjtr44ow4mjzj2z5u.ap-southeast-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary65040b375.nlhdn0.c3.kafka.eu-north-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary13706c17bebb.1211xq.c2.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary9.ehfoss.c3.kafka.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.x7hpku.c4.kafka.ap-southeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary1b.gs85eh.c3.kafka.us-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkc.9j0a50.c2.kafka-gamma.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary9e3237f0c0.5whg98.c3.kafka.sa-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryad50cfc4ae3b.4jbpw6.c4.kafka.cn-north-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary00eceb9b6.bvuj6c.c3.kafka.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.5d7zra.c4.kafka.ap-southeast-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary94d1b025b8fd.g7gqf5.c4.kafka.ca-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary16f1508f71.sdgm46.c3.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanaryd.sh61ze.c4.kafka.af-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary8.bh29zh.c3.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryeff38395963f.3kzgio.c4.kafka.me-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
         "o": "Amazon",
         "c": "US"
       },
       "subject": {
         "cn": "c4d302d9.ap-southeast-2.acm-tests.cloudformation.aws.dev"
       },
-      "not_before": "2025-12-27T00:00:00+00:00",
-      "not_after": "2027-01-25T23:59:59+00:00"
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.my.gamma.global.nonprod.connect.aws.a2z.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary32.l6n23g.c3.kafka.eu-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanarydfc2926.mfgsur.c3.kafka.il-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary.yog9lv.c2.kafka.ap-southeast-6.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary98ddb1ed205.kmv14q.c4.kafka.ap-southeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanar.cwnhdw.c1.kafka-gamma.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "vai-0c4e75522856aab7d.ava.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "378f75f4.ca-west-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanary93.i5oge1.c2.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.publicaccessandop.14zp2s.c1.kafka.ap-southeast-5.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "duv6fezizv5xs3xva4ne2s2r6q.us-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "siqfa.eu-west-1.appstudio.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3819b61a.me-south-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.gcsr1766938110cell1do.zkalau.c1.kafka.ap-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "wh7xd.eu-west-1.appstudio.aws"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "ef7zdaigs5mgw7dzhucbjgj52a.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "fs3ximdmxzd6anyaryhaavhopi.eu-west-2.es.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "d08d25cb.mx-central-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryb50e0752c6.xdxg14.c3.kafka.us-west-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary1083b.ty0ujm.c2.kafka.ap-northeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary9cf3c30.q3qfk4.c4.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary0784b8d.er6lc8.c4.kafka.ca-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.mtlscanary0a5fa5864.xc6yvh.c1.kafka.mx-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary57360.epge9w.c4.kafka.us-east-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarya7.oxicok.c3.kafka.il-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary4b2dec.mqh2gv.c2.kafka-gamma.us-gov-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canary1be3cb1f3834.1c3ehm.c4.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.ton88m.c4.kafka.ap-southeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.canaryd0d0ee151b12.6g8ned.c4.kafka.eu-west-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcan.ghaftl.c2.kafka.ap-southeast-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "mbc63q3umrh4o.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary5dc98.4b4zm3.c2.kafka.ap-northeast-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcana.b9juaq.c3.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanaryad2a908.5kxiln.c3.kafka.eu-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.configcanary3d28cb6bf.tqgbak.c4.kafka.me-south-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary4e.ybwp8f.c4.kafka.ca-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.crossaccountplcanar.jh3nyg.c3.kafka.il-central-1.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcan.7x33p9.c3.kafka.cn-northwest-1.amazonaws.com.cn"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "3dbd6bf2.sa-east-1.acm-tests.cloudformation.aws.dev"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (DE)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 EU S00",
+        "o": "Amazon",
+        "c": "DE"
+      },
+      "subject": {
+        "cn": "zntjfsflfrybeiypgxxgnttft.fis.thf.test.prod.sadbirds.aws.a2z.eu"
+      },
+      "not_before": "2025-12-28T15:16:30+00:00",
+      "not_after": "2027-01-27T16:16:30+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M01",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanary47.auxkzy.c4.kafka.eu-central-2.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
+    },
+    {
+      "ca": "Amazon (US)",
+      "issuer": {
+        "cn": "Amazon RSA 2048 M04",
+        "o": "Amazon",
+        "c": "US"
+      },
+      "subject": {
+        "cn": "*.privatelinkcanarycf198.q1125c.c4.kafka.eu-west-3.amazonaws.com"
+      },
+      "not_before": "2025-12-28T00:00:00+00:00",
+      "not_after": "2027-01-26T23:59:59+00:00"
     }
   ]
 }
