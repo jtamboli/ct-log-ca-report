@@ -31,6 +31,10 @@ def generate_report(log_samples: List[Dict]) -> str:
         log_type = sample.get("log_type", "static")
         log_type_label = "Static" if log_type == "static" else "RFC 6962"
 
+        # Skip static logs with no certificates
+        if log_type == "static" and sample_count == 0:
+            continue
+
         report_lines.append(f"\n## {log_name} ({operator}) [{log_type_label}]\n")
         report_lines.append(f"Total certificates sampled: {sample_count:,}\n")
 
