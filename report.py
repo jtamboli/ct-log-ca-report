@@ -10,6 +10,7 @@ from datetime import datetime
 
 
 DATA_DIR = Path(__file__).parent / "data"
+REPORTS_DIR = Path(__file__).parent / "reports"
 
 
 def _calc_lifetime_days(not_before: str, not_after: str) -> int | None:
@@ -163,7 +164,8 @@ def save_report_data(log_samples: List[Dict]) -> None:
     Args:
         log_samples: List of log sample data dicts
     """
-    report_file = DATA_DIR / "report.json"
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    report_file = REPORTS_DIR / "report.json"
     with open(report_file, 'w') as f:
         json.dump(log_samples, f, indent=2)
     print(f"\nSaved report data to {report_file}")

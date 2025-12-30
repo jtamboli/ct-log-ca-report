@@ -20,6 +20,7 @@ import report
 
 
 DATA_DIR = Path(__file__).parent / "data"
+REPORTS_DIR = Path(__file__).parent / "reports"
 
 
 def get_processed_log_ids() -> Set[str]:
@@ -384,19 +385,20 @@ def main():
     report.save_report_data(log_samples)
 
     # Save report as markdown file
-    report_file = DATA_DIR / "report.md"
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    report_file = REPORTS_DIR / "report.md"
     with open(report_file, 'w') as f:
         f.write(report_text)
     print(f"\nSaved markdown report to {report_file}")
 
     # Save reverse report
-    reverse_report_file = DATA_DIR / "reverse_report.md"
+    reverse_report_file = REPORTS_DIR / "reverse_report.md"
     with open(reverse_report_file, 'w') as f:
         f.write(reverse_report_text)
     print(f"Saved reverse report to {reverse_report_file}")
 
     # Save split report
-    split_report_file = DATA_DIR / "split_report.md"
+    split_report_file = REPORTS_DIR / "split_report.md"
     with open(split_report_file, 'w') as f:
         f.write(split_report_text)
     print(f"Saved split report to {split_report_file}")
