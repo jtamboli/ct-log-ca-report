@@ -123,17 +123,43 @@ def generate_report(log_samples: List[Dict]) -> str:
     """
     report_lines = ["# Certificate Transparency Log CA Report\n"]
 
+    # Filter samples with certificates
+    valid_samples = []
     for sample in log_samples:
+        log_type = sample.get("log_type", "static")
+        sample_count = sample.get("sample_count", 0)
+        # Skip static logs with no certificates
+        if log_type == "static" and sample_count == 0:
+            continue
+        valid_samples.append(sample)
+
+    # Generate summary table sorted by certificate count
+    report_lines.append("## Summary\n")
+    report_lines.append("Logs sorted by total certificates sampled:\n")
+    report_lines.append("\n| CT Log | Operator | Type | Certificates |")
+    report_lines.append("|--------|----------|------|-------------|")
+
+    # Sort by sample count descending for summary
+    sorted_by_count = sorted(valid_samples, key=lambda x: x.get("sample_count", 0), reverse=True)
+    for sample in sorted_by_count:
+        log_name = sample.get("log_name", "Unknown")
+        operator = sample.get("operator", "Unknown")
+        sample_count = sample.get("sample_count", 0)
+        log_type = sample.get("log_type", "static")
+        log_type_label = "Static" if log_type == "static" else "RFC 6962"
+        report_lines.append(f"| {log_name} | {operator} | {log_type_label} | {sample_count:,} |")
+
+    report_lines.append("\n---\n")
+
+    # Generate detailed sections sorted alphabetically by log name
+    sorted_alphabetically = sorted(valid_samples, key=lambda x: x.get("log_name", "Unknown"))
+    for sample in sorted_alphabetically:
         log_name = sample.get("log_name", "Unknown")
         operator = sample.get("operator", "Unknown")
         sample_count = sample.get("sample_count", 0)
         ca_counts = sample.get("ca_counts", {})
         log_type = sample.get("log_type", "static")
         log_type_label = "Static" if log_type == "static" else "RFC 6962"
-
-        # Skip static logs with no certificates
-        if log_type == "static" and sample_count == 0:
-            continue
 
         report_lines.append(f"\n## {log_name} ({operator}) [{log_type_label}]\n")
         report_lines.append(f"Total certificates sampled: {sample_count:,}\n")
@@ -142,7 +168,7 @@ def generate_report(log_samples: List[Dict]) -> str:
             report_lines.append("No certificates analyzed.\n")
             continue
 
-        # Sort by count descending
+        # Sort CAs by count descending
         sorted_cas = sorted(ca_counts.items(), key=lambda x: x[1], reverse=True)
 
         report_lines.append("\n| Certificate Authority | Count | Percentage |")
@@ -232,16 +258,31 @@ def generate_reverse_report(log_samples: List[Dict]) -> str:
     report_lines = ["# Top 10 Certificate Authorities by CT Log Usage\n"]
     report_lines.append(f"_Note: Time frames may not match across CT logs, so this analysis may have bias._\n")
 
+    # Generate summary table sorted by total count
+    report_lines.append("\n## Summary\n")
+    report_lines.append("Top 10 CAs by total certificates across all logs:\n")
+    report_lines.append("\n| Rank | Certificate Authority | Total Certificates | Logs |")
+    report_lines.append("|------|----------------------|-------------------|------|")
+
     for rank, (ca_name, data) in enumerate(sorted_cas, 1):
+        total_count = data["total_count"]
+        num_logs = len(data["logs"])
+        report_lines.append(f"| {rank} | {ca_name} | {total_count:,} | {num_logs} |")
+
+    report_lines.append("\n---\n")
+
+    # Generate detailed sections sorted alphabetically by CA name
+    sorted_alphabetically = sorted(sorted_cas, key=lambda x: x[0])
+    for ca_name, data in sorted_alphabetically:
         total_count = data["total_count"]
         logs = data["logs"]
 
-        report_lines.append(f"\n## {rank}. {ca_name}\n")
+        report_lines.append(f"\n## {ca_name}\n")
         report_lines.append(f"**Total certificates**: {total_count:,}\n")
         report_lines.append(f"**Appears in {len(logs)} log(s)**\n")
 
-        # Sort logs by count
-        sorted_logs = sorted(logs.items(), key=lambda x: x[1], reverse=True)
+        # Sort logs alphabetically for stable ordering
+        sorted_logs = sorted(logs.items(), key=lambda x: x[0])
 
         report_lines.append("\n| CT Log | Certificates | Percentage |")
         report_lines.append("|--------|-------------|------------|")
@@ -294,14 +335,30 @@ def generate_split_report(log_samples: List[Dict]) -> str:
     report_lines = ["# Top 10 CAs: Static vs RFC 6962 Distribution\n"]
     report_lines.append("_This report shows how the top certificate authorities split their submissions between static (tiled) and RFC 6962 CT logs._\n")
 
+    # Generate summary table sorted by total count
+    report_lines.append("\n## Summary\n")
+    report_lines.append("Top 10 CAs by total certificates:\n")
+    report_lines.append("\n| Rank | Certificate Authority | Total | Static | RFC 6962 |")
+    report_lines.append("|------|----------------------|-------|--------|----------|")
+
     for rank, (ca_name, data) in enumerate(sorted_cas, 1):
+        total_count = data["total_count"]
+        static_count = data["static"]["count"]
+        rfc6962_count = data["rfc6962"]["count"]
+        report_lines.append(f"| {rank} | {ca_name} | {total_count:,} | {static_count:,} | {rfc6962_count:,} |")
+
+    report_lines.append("\n---\n")
+
+    # Generate detailed sections sorted alphabetically by CA name
+    sorted_alphabetically = sorted(sorted_cas, key=lambda x: x[0])
+    for ca_name, data in sorted_alphabetically:
         total_count = data["total_count"]
         static_count = data["static"]["count"]
         static_logs = len(data["static"]["logs"])
         rfc6962_count = data["rfc6962"]["count"]
         rfc6962_logs = len(data["rfc6962"]["logs"])
 
-        report_lines.append(f"\n## {rank}. {ca_name}\n")
+        report_lines.append(f"\n## {ca_name}\n")
         report_lines.append(f"**Total certificates**: {total_count:,}\n")
 
         report_lines.append("\n| Log Type | Certificates | Percentage | Logs |")
