@@ -9,7 +9,8 @@
       "Bash(grep:*)",
       "Bash(curl:*)",
       "Bash(jj git push:*)",
-      "Bash(jj bookmark create:*)"
+      "Bash(jj bookmark create:*)",
+      "Bash(jj bookmark set:*)"
     ]
   }
 }
