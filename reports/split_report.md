@@ -10,128 +10,128 @@ Top 10 CAs by total certificates:
 
 | Rank | Certificate Authority | Total | Static | RFC 6962 |
 |------|----------------------|-------|--------|----------|
-| 1 | GoDaddy.com, Inc. (US) | 9,894 | 4,501 | 5,393 |
-| 2 | Amazon (US) | 9,101 | 3,981 | 5,120 |
-| 3 | Let's Encrypt (US) | 8,808 | 4,063 | 4,745 |
-| 4 | Google Trust Services (US) | 5,880 | 1,909 | 3,971 |
-| 5 | GlobalSign nv-sa (BE) | 4,409 | 1,445 | 2,964 |
-| 6 | Sectigo Limited (GB) | 3,123 | 1,895 | 1,228 |
-| 7 | Microsoft Corporation (US) | 2,891 | 721 | 2,170 |
-| 8 | DigiCert Inc (US) | 2,408 | 1,437 | 971 |
-| 9 | IdenTrust (US) | 808 | 261 | 547 |
-| 10 | ZeroSSL (AT) | 509 | 228 | 281 |
+| 1 | Let's Encrypt (US) | 10,203 | 4,137 | 6,066 |
+| 2 | Amazon (US) | 9,243 | 3,958 | 5,285 |
+| 3 | GoDaddy.com, Inc. (US) | 9,191 | 3,799 | 5,392 |
+| 4 | Google Trust Services (US) | 6,211 | 2,046 | 4,165 |
+| 5 | GlobalSign nv-sa (BE) | 4,243 | 1,441 | 2,802 |
+| 6 | Microsoft Corporation (US) | 2,947 | 711 | 2,236 |
+| 7 | Sectigo Limited (GB) | 2,271 | 1,669 | 602 |
+| 8 | DigiCert Inc (US) | 2,251 | 1,183 | 1,068 |
+| 9 | IdenTrust (US) | 829 | 251 | 578 |
+| 10 | ZeroSSL (AT) | 414 | 250 | 164 |
 
 ---
 
 
 ## Amazon (US)
 
-**Total certificates**: 9,101
+**Total certificates**: 9,243
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 3,981 | 43.7% | 13 |
-| RFC 6962 | 5,120 | 56.3% | 21 |
+| Static   | 3,958 | 42.8% | 11 |
+| RFC 6962 | 5,285 | 57.2% | 24 |
 
 
 ## DigiCert Inc (US)
 
-**Total certificates**: 2,408
+**Total certificates**: 2,251
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 1,437 | 59.7% | 20 |
-| RFC 6962 | 971 | 40.3% | 32 |
+| Static   | 1,183 | 52.6% | 19 |
+| RFC 6962 | 1,068 | 47.4% | 32 |
 
 
 ## GlobalSign nv-sa (BE)
 
-**Total certificates**: 4,409
+**Total certificates**: 4,243
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 1,445 | 32.8% | 14 |
-| RFC 6962 | 2,964 | 67.2% | 23 |
+| Static   | 1,441 | 34.0% | 10 |
+| RFC 6962 | 2,802 | 66.0% | 19 |
 
 
 ## GoDaddy.com, Inc. (US)
 
-**Total certificates**: 9,894
+**Total certificates**: 9,191
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 4,501 | 45.5% | 18 |
-| RFC 6962 | 5,393 | 54.5% | 27 |
+| Static   | 3,799 | 41.3% | 19 |
+| RFC 6962 | 5,392 | 58.7% | 28 |
 
 
 ## Google Trust Services (US)
 
-**Total certificates**: 5,880
+**Total certificates**: 6,211
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 1,909 | 32.5% | 10 |
-| RFC 6962 | 3,971 | 67.5% | 18 |
+| Static   | 2,046 | 32.9% | 10 |
+| RFC 6962 | 4,165 | 67.1% | 18 |
 
 
 ## IdenTrust (US)
 
-**Total certificates**: 808
+**Total certificates**: 829
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 261 | 32.3% | 2 |
-| RFC 6962 | 547 | 67.7% | 10 |
+| Static   | 251 | 30.3% | 2 |
+| RFC 6962 | 578 | 69.7% | 10 |
 
 
 ## Let's Encrypt (US)
 
-**Total certificates**: 8,808
+**Total certificates**: 10,203
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 4,063 | 46.1% | 9 |
-| RFC 6962 | 4,745 | 53.9% | 17 |
+| Static   | 4,137 | 40.5% | 9 |
+| RFC 6962 | 6,066 | 59.5% | 15 |
 
 
 ## Microsoft Corporation (US)
 
-**Total certificates**: 2,891
+**Total certificates**: 2,947
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 721 | 24.9% | 13 |
-| RFC 6962 | 2,170 | 75.1% | 20 |
+| Static   | 711 | 24.1% | 15 |
+| RFC 6962 | 2,236 | 75.9% | 20 |
 
 
 ## Sectigo Limited (GB)
 
-**Total certificates**: 3,123
+**Total certificates**: 2,271
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 1,895 | 60.7% | 18 |
-| RFC 6962 | 1,228 | 39.3% | 26 |
+| Static   | 1,669 | 73.5% | 16 |
+| RFC 6962 | 602 | 26.5% | 26 |
 
 
 ## ZeroSSL (AT)
 
-**Total certificates**: 509
+**Total certificates**: 414
 
 
 | Log Type | Certificates | Percentage | Logs |
 |----------|-------------|------------|------|
-| Static   | 228 | 44.8% | 8 |
-| RFC 6962 | 281 | 55.2% | 15 |
+| Static   | 250 | 60.4% | 7 |
+| RFC 6962 | 164 | 39.6% | 12 |
 
 
 ---
@@ -147,18 +147,18 @@ _Based on certificates appearing in 2+ logs in our sample (cross-log correlation
 
 | CA | Correlated Certs | Required Only | With Extras | Extra % |
 |---|---|---|---|---|
-| GoDaddy.com, Inc. (US) | 2,392 | 1,869 | 523 | 21.9% |
-| Amazon (US) | 1,641 | 1,010 | 631 | 38.5% |
-| Google Trust Services (US) | 664 | 362 | 302 | 45.5% |
-| Let's Encrypt (US) | 605 | 549 | 56 | 9.3% |
-| GlobalSign nv-sa (BE) | 461 | 240 | 221 | 47.9% |
-| Microsoft Corporation (US) | 370 | 361 | 9 | 2.4% |
-| DigiCert Inc (US) | 316 | 247 | 69 | 21.8% |
-| Sectigo Limited (GB) | 240 | 216 | 24 | 10.0% |
-| IdenTrust (US) | 188 | 125 | 63 | 33.5% |
-| DigiCert, Inc. (US) | 22 | 21 | 1 | 4.5% |
-| Apple Inc. (US) | 17 | 10 | 7 | 41.2% |
-| Amazon (DE) | 16 | 13 | 3 | 18.8% |
-| TrustAsia Technologies, Inc. (CN) | 16 | 12 | 4 | 25.0% |
-| ZeroSSL (AT) | 15 | 13 | 2 | 13.3% |
-| Actalis S.p.A. (IT) | 11 | 8 | 3 | 27.3% |
+| GoDaddy.com, Inc. (US) | 1,952 | 1,376 | 576 | 29.5% |
+| Amazon (US) | 1,522 | 664 | 858 | 56.4% |
+| Let's Encrypt (US) | 1,035 | 865 | 170 | 16.4% |
+| Google Trust Services (US) | 727 | 361 | 366 | 50.3% |
+| GlobalSign nv-sa (BE) | 490 | 226 | 264 | 53.9% |
+| DigiCert Inc (US) | 290 | 218 | 72 | 24.8% |
+| Microsoft Corporation (US) | 273 | 258 | 15 | 5.5% |
+| IdenTrust (US) | 201 | 124 | 77 | 38.3% |
+| Sectigo Limited (GB) | 158 | 119 | 39 | 24.7% |
+| DigiCert, Inc. (US) | 23 | 22 | 1 | 4.3% |
+| Apple Inc. (US) | 17 | 9 | 8 | 47.1% |
+| Cisco Systems, Inc. (US) | 14 | 7 | 7 | 50.0% |
+| TrustAsia Technologies, Inc. (CN) | 14 | 12 | 2 | 14.3% |
+| Amazon (DE) | 12 | 10 | 2 | 16.7% |
+| ZeroSSL (AT) | 10 | 9 | 1 | 10.0% |
